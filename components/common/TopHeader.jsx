@@ -27,7 +27,7 @@ const TopHeader = () => {
     <p className='text-[#cf2e2e]'><IoCall/></p>
     <p className='text-[14px] tracking-wide font-bold'>+916367810052</p>
  </div>
- <div className='flex justify-center items-center gap-2'>
+ <div className='hidden lg:flex justify-center items-center gap-2'>
     <p className='text-[#cf2e2e]'><IoMailOutline/></p>
     <p className='text-[14px] tracking-wide font-bold'>ashutosharma50@gmail.com</p>
  </div>

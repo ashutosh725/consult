@@ -3,9 +3,9 @@ import React from 'react'
 
 const Offer = () => {
   return (
-    <div className='py-20'>
+    <div className={`bg-[url('/home-five-curve-banner.png')] bg-cover bg-center py-20`}>
    <div className='container mx-auto'>
-    <div className='grid lg:grid-cols-6 place-content-center place-items-start'>
+    <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-6 place-content-center place-items-start'>
         <div className='flex  p-4 flex-col justify-center items-center gap-3'>
          <div>
 <Image src={'/1-2.png'} width={50} height={50} objectFit='cover'/>

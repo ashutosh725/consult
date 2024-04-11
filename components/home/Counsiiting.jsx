@@ -7,12 +7,12 @@ import C3 from "../../public/3-1.png"
 import Image from 'next/image'
 const Counsiiting = () => {
   return (
-    <div className='bg-red-100 py-20'>
+    <div className={`bg-[url('/financial-technology-37.png')] bg-cover py-20`}>
       <div className='container mx-auto'>
         <div className='grid place-content-center place-items-start lg:grid-cols-3'>
             <div className='flex flex-col justify-center items-center gap-5'>
                 <div>
-                    <Image src={C1} className='w-full h-full object-cover'/>
+                    <Image src={C1} className='w-full h-full object-cover rounded-lg'/>
                 </div>
                 <h5 className='text-[18px] font-bold text-center'>MBBS ADMISSION SUPPORT
 </h5>
@@ -23,7 +23,7 @@ const Counsiiting = () => {
             </div>
             <div className='flex flex-col justify-center items-center gap-5'>
                 <div>
-                    <Image src={C2} className='w-full h-full object-cover'/>
+                    <Image src={C2} className='w-full h-full object-cover rounded-lg'/>
                 </div>
                 <h5 className='text-[18px] font-bold text-center'>ADMISSION IN ABROAD
 
@@ -37,7 +37,7 @@ const Counsiiting = () => {
             </div>
             <div className='flex flex-col justify-center items-center gap-5'>
                 <div>
-                    <Image src={C3} className='w-full h-full object-cover'/>
+                    <Image src={C3} className='w-full h-full object-cover rounded-lg'/>
                 </div>
                 <h5 className='text-[18px] font-bold text-center'>MBBS COUNSELLING GUIDANCE
 

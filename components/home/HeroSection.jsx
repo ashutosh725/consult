@@ -16,6 +16,7 @@ const HeroSection = () => {
         slidesToScroll: 1,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 2000,
+        arrows: false,
       };
   return (
     <div className='mx-auto '>
