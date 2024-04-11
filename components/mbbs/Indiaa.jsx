@@ -1,12 +1,18 @@
+"use client"
+import { useRouter } from 'next/navigation';
 import React from 'react'
 
 const Indiaa = () => {
+  const router = useRouter();
+  const handlebtn12 = ()=>{
+    router.push('/contact')
+  }
   return (
     <div className={`bg-[url('/Untitled-design-27.png')]  bg-cover bg-center py-20`}>
       <div className='container mx-auto'>
 <div className='flex flex-col justify-center items-center gap-3'>
 <h3 className='lg:text-[60px] text-[#333333]  text-[30px] font-bold'>MBBS in India</h3>
-<button className='bg-black text-white text-[16px] rounded-full px-6 py-3'>{`Yes, I Want to Admission !`}</button>
+<button onClick={handlebtn12} className='bg-black text-white text-[16px] rounded-full px-6 py-3'>{`Yes, I Want to Admission !`}</button>
 </div>
 <div className='bg-white rounded-lg mt-8'>
     <div className='flex bg-gray-100 flex-wrap justify-start items-center'>

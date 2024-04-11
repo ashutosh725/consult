@@ -8,7 +8,7 @@ const Offer = () => {
     <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-6 place-content-center place-items-start'>
         <div className='flex  p-4 flex-col justify-center items-center gap-3'>
          <div>
-<Image src={'/1-2.png'} width={50} height={50} objectFit='cover'/>
+<Image src={'/1-2.png'} alt='' width={50} height={50} objectFit='cover'/>
          </div>
          <h3 className='text-[18px] font-bold text-center'>Personalized Career Planning
 </h3>
@@ -18,7 +18,7 @@ const Offer = () => {
         </div>
         <div className='flex   p-4  flex-col justify-center items-center gap-3'>
          <div>
-<Image src={'/2-2.png'} width={50} height={50} objectFit='cover'/>
+<Image src={'/2-2.png'} alt='' width={50} height={50} objectFit='cover'/>
          </div>
          <h3 className='text-[18px] font-bold text-center'>Expert Mentorship & Coaching
 
@@ -31,7 +31,7 @@ const Offer = () => {
         </div>
         <div className='flex   p-4  flex-col justify-center items-center gap-3'>
          <div>
-<Image src={'/6.png'} width={50} height={50} objectFit='cover'/>
+<Image src={'/6.png'} alt='' width={50} height={50} objectFit='cover'/>
          </div>
          <h3 className='text-[18px] font-bold text-center'>Affordable Budget
 
@@ -47,7 +47,7 @@ const Offer = () => {
         </div>
         <div className='flex   p-4  flex-col justify-center items-center gap-3'>
          <div>
-<Image src={'/7.png'} width={50} height={50} objectFit='cover'/>
+<Image src={'/7.png'} alt='' width={50} height={50} objectFit='cover'/>
          </div>
          <h3 className='text-[18px] font-bold text-center'>Extensive Network Connections
 
@@ -66,7 +66,7 @@ const Offer = () => {
         </div>
         <div className='flex   p-4  flex-col justify-center items-center gap-3'>
          <div>
-<Image src={'/5.png'} width={50} height={50} objectFit='cover'/>
+<Image src={'/5.png'} alt='' width={50} height={50} objectFit='cover'/>
          </div>
          <h3 className='text-[18px] font-bold text-center'>100% Assurance
 
@@ -88,7 +88,7 @@ const Offer = () => {
         </div>
         <div className='flex   p-4  flex-col justify-center items-center gap-3'>
          <div>
-<Image src={'/4-1.png'} width={50} height={50} objectFit='cover'/>
+<Image src={'/4-1.png'} alt='' width={50} height={50} objectFit='cover'/>
          </div>
          <h3 className='text-[18px] font-bold text-center'>Ongoing Career Support
 

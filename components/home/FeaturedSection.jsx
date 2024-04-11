@@ -1,9 +1,14 @@
-import React from 'react'
+"use client"
+import { useRouter } from 'next/navigation'
 import Lg from '../../public/lg.png'
 import Mg from '../../public/mg.png'
 import Pg from '../../public/pg.png'
 import Image from 'next/image'
 const FeaturedSection = () => {
+  const router = useRouter();
+  const handlebtn7 = ()=>{
+    router.push('/contact')
+  }
   return (
     <div className={`bg-[url('/about-bg.jpg')] bg-cover pb-20 pt-5`}>
     <div className='container mx-auto'>
@@ -41,7 +46,7 @@ const FeaturedSection = () => {
          </div>
         </div>
         <p className='text-[20px] font-bold text-center mb-8 pt-16'>EXPERIENCE OUR WORLD-CLASS MBBS ADMISSION GUIDANCE AND COMPREHENSIVE SUPPORT FOR PURSUING AFFORDABLE MBBS EDUCATION ABROAD. EXPLORE THE OPPORTUNITY TO STUDY MBBS ABROAD WITH OUR COST-EFFECTIVE PACKAGES.</p>
-        <button className='bg-[#8300E9] text-[16px] font-medium tracking-wide text-white rounded-full py-3 px-6'>CALL BACK REQUEST</button>
+        <button onClick={handlebtn7} className='bg-[#8300E9] text-[16px] font-medium tracking-wide text-white rounded-full py-3 px-6'>CALL BACK REQUEST</button>
        </div>
     </div>
     </div>

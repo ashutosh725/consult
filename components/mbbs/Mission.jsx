@@ -1,7 +1,12 @@
-import React from 'react'
+"use client"
+import { useRouter } from 'next/navigation';
 import Cv from '../../public/cv.png'
 import Image from "next/image";
 const Mission = () => {
+  const router = useRouter();
+  const handlebtn13 = ()=>{
+    router.push('/contact')
+  }
   return (
     <div className={`bg-[url('/family-doctor-031.png')] bg-cover  bg-center  py-20`}>
       <div className='container mx-auto'>
@@ -19,7 +24,7 @@ const Mission = () => {
 
 </p>
 <div>
-<button className='bg-[#2e987d] rounded-full tracking-wide px-9 py-3 text-white text-[16px] font-medium'>JOIN WITH US</button>
+<button onClick={handlebtn13} className='bg-[#2e987d] rounded-full tracking-wide px-9 py-3 text-white text-[16px] font-medium'>JOIN WITH US</button>
 </div>
 </div>
 </div>

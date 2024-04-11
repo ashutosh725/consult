@@ -22,16 +22,16 @@ const HeroSection = () => {
     <div className='mx-auto '>
           <Slider {...settings}>
           <div>
-        <Image src={Slide1} className='w-full h-full object-cover'/>
+        <Image src={Slide1} alt="" className='w-full h-full object-cover'/>
       </div>
       <div>
-        <Image src={Slide2} className='w-full h-full object-cover'/>
+        <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
       </div>
       <div>
-        <Image src={Slide3} className='w-full h-full object-cover'/>
+        <Image src={Slide3} alt="" className='w-full h-full object-cover'/>
       </div>
       <div>
-        <Image src={Slide4} className='w-full h-full object-cover'/>
+        <Image src={Slide4} alt="" className='w-full h-full object-cover'/>
       </div>
           </Slider>
      
