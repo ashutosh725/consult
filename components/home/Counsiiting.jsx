@@ -13,9 +13,9 @@ const Counsiiting = () => {
     router.push('/contact')
   }
   return (
-    <div className={`bg-[url('/financial-technology-37.png')] bg-cover py-20`}>
+    <div className={`bg-[url('/financial-technology-37.png')] bg-cover lg:py-20 py-10`}>
       <div className='container mx-auto'>
-        <div className='grid place-content-center place-items-start lg:grid-cols-3'>
+        <div className='grid place-content-center w-full place-items-start gap-5 lg:grid-cols-3'>
             <div className='flex flex-col justify-center items-center gap-5'>
                 <div>
                     <Image src={C1} alt="" className='w-full h-full object-cover rounded-lg'/>

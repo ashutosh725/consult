@@ -1,10 +1,26 @@
+"use client"
+import React, { useState } from 'react';
 import Image from "next/image";
-import React from "react";
+
 import { GiHamburgerMenu } from "react-icons/gi";
 import Logo1 from "../../public/CAREER-GUARDIAN-INDIA-LOGO.png";
 import Link from "next/link";
+import MobileNav from './Mobilenav';
 
 const MainHeader = () => {
+  const [activeLink, setActiveLink] = useState('/');
+  const [isMobileNavOpen, setMobileNavOpen] = useState(false);
+  const toggleMobileNav = () => {
+    setMobileNavOpen(!isMobileNavOpen);
+  };
+
+  const closeMobileNav = () => {
+    setMobileNavOpen(false);
+  };
+
+  const handleSetActiveLink = (link) => {
+    setActiveLink(link);
+  };
   return (
     <div className="border-b-2 border-b-black">
       <div className="container mx-auto">
@@ -16,7 +32,7 @@ const MainHeader = () => {
               className=" w-32 h-18 object-cover"
             />
           </div>
-          <ul className="flex justify-center items-center gap-6">
+          <ul className="flex justify-center items-center lg:gap-6 md:gap-2">
             <li>
               <Link
                 href={"/"}
@@ -146,18 +162,19 @@ const MainHeader = () => {
           <div className="flex justify-center items-center gap-3">
             <div className="">
               <Link
-                href={"/contact"}
+                href={"/neet-result-2023"}
                 className="hover:text-primary  border hover:bg-transparent hover:border-primary border-white bg-primary text-white duration-500 transition-all font-bold shadow-md rounded-full lg:text-[14px] text-[12px] px-6 py-3 text-center flex justify-center uppercase items-start "
               >
-                neet result 2024
+                neet result 2023
               </Link>
             </div>
-            <div className="lg:hidden flex">
+            <div className="lg:hidden flex" onClick={toggleMobileNav}>
               <GiHamburgerMenu className="text-[28px] cursor-pointer" />
             </div>
           </div>
         </div>
       </div>
+      {isMobileNavOpen && <MobileNav onLinkClick={closeMobileNav}/>}
     </div>
   );
 };

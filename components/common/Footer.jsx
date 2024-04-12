@@ -16,7 +16,7 @@ const Footer = () => {
     <ul className='flex flex-col justify-center items-start gap-3'>
         <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs'}>MBBS</Link></li>
         <li><Link className='hover:text-primary hover:scale-75' href={'/md-ms-in-india'}>MD/MS</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/sps-fcps'}>CPS/FCPS</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/cps-fcps'}>CPS/FCPS</Link></li>
         <li><Link className='hover:text-primary hover:scale-75' href={'/contact'}>Contact US</Link></li>
     </ul>
     <ul className='flex flex-col justify-center items-start gap-3'>
