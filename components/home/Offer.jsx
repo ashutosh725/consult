@@ -37,7 +37,7 @@ const Offer = () => {
 
 
 </h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>At Career Guardian India, we offer affordable budget options for our comprehensive career consultancy services.
+         <p className='text-[14px] font-medium tracking-wide text-center'>At Nscx Education India, we offer affordable budget options for our comprehensive career consultancy services.
 
 
 
@@ -74,7 +74,7 @@ const Offer = () => {
 
 
 </h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>With Career Guardian India, you can have 100% assurance to your medical career success. Trust us to provide unwavering support, expert guidance.
+         <p className='text-[14px] font-medium tracking-wide text-center'>With Nscx Education India, you can have 100% assurance to your medical career success. Trust us to provide unwavering support, expert guidance.
 
 
 

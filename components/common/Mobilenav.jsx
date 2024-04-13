@@ -163,7 +163,7 @@ const MobileNav = ({ onLinkClick }) => {
        MD/MS IN INDIA
           </Link>
           <Link
-          href={"/"}
+          href={"/contact"}
             onClick={handleLinkClick}
             className="text-[17px] font-medium"
           >

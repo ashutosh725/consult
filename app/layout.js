@@ -3,6 +3,7 @@ import "./globals.css";
 import TopHeader from "@/components/common/TopHeader";
 import MainHeader from "@/components/common/MainHeader";
 import Footer from "@/components/common/Footer";
+import Chat from "@/components/common/Chat";
 
 
 
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
         <TopHeader/>
         <MainHeader/>
         {children}
+        <Chat/>
         <Footer/>
         </body>
     </html>

@@ -26,7 +26,7 @@ const Box = () => {
       <div className='container mx-auto'>
         <div className='flex lg:justify-between justify-center items-center gap-5 flex-wrap'>
             <div>
-                <button onClick={handlebtn1} className='bg-[#fb641b] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>UG Medical & Denta Counselling</button>
+                <button onClick={handlebtn1} className='bg-[#fb641b] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 md:px-0 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>UG Medical & Denta Counselling</button>
             </div>
             <div>
                 <button onClick={handlebtn2} className='bg-[#7f19e6] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>PG Medical counselling</button>

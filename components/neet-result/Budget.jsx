@@ -1,10 +1,49 @@
-import React from 'react'
+"use client"
+
+
+import Link from "next/link";
+import emailjs from "@emailjs/browser";
+import React, { useRef } from "react";
 import Lkl from '../../public/lkl.jpg'
 import Image from 'next/image'
 import { IoCall } from "react-icons/io5";
 import { IoMdMail } from "react-icons/io";
 
 const Budget = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+  
+    
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
+   
+    if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address.");
+      return;
+    }
+  
+    emailjs.sendForm('service_2dvdge4', 'template_b8fpnsg', form.current, 'rHRprvUIzkhHX_RhB')
+      .then((result) => {
+        alert("Message sent successfully!");
+  
+        
+        setName('');
+        setEmail('');
+      
+        setPhone('');
+      }, (error) => {
+        alert("Error sending message. Please try again.");
+      });
+  };
+
   return (
     <div className=''>
       <div className='flex flex-col lg:flex-row justify-center items-center '>
@@ -25,18 +64,39 @@ const Budget = () => {
             <p  className='text-[16px]'>careerguardianindia@gmail.com</p>
         </div>
      </div>
-     <form className='flex flex-col w-full gap-5 md:px-16 px-4 mt-5'>
+     <form 
+      ref={form}
+      onSubmit={sendEmail}
+     className='flex flex-col w-full gap-5 md:px-16 px-4 mt-5'>
 <div>
-    <input type='text' placeholder='Name' className='outline-none border border-black p-4 w-full placeholder-black bg-transparent' />
+    <input
+    name="user_name"
+           
+    value={name}
+    onChange={(e) => setName(e.target.value)}
+    required
+    type='text' placeholder='Name' className='outline-none border border-black p-4 w-full placeholder-black bg-transparent' />
 </div>
 <div>
-    <input type='text' placeholder='Email Address' className='outline-none border border-black p-4 w-full placeholder-black bg-transparent' />
+    <input type='text'
+    name="user_email"
+            
+    value={email}
+    onChange={(e) => setEmail(e.target.value)}
+    required
+    placeholder='Email Address' className='outline-none border border-black p-4 w-full placeholder-black bg-transparent' />
 </div>
 <div>
-    <input type='text' placeholder='Phone' className='outline-none border border-black p-4 w-full placeholder-black bg-transparent' />
+    <input type='text'
+    name="user_phone"
+            
+    value={phone}
+    onChange={(e) => setPhone(e.target.value)}
+    required
+    placeholder='Phone' className='outline-none border border-black p-4 w-full placeholder-black bg-transparent' />
 </div>
 <div className='flex justify-center items-center my-5'>
-<button  className='bg-black tracking-wide px-6 py-3 text-white text-[20px] shadow-lg font-medium'>Submit</button>
+<button  type="submit" className='bg-black tracking-wide px-6 py-3 text-white text-[20px] shadow-lg font-medium'>Submit</button>
         </div>
      </form>
        </div>

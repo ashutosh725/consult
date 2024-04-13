@@ -13,7 +13,7 @@ const CpsSection = () => {
 <div className='flex flex-col lg:flex-row justify-center items-center absolute lg:top-[-15%] top-0'>
 <div className='flex lg:w-[50%] w-full flex-col lg:justify-start justify-center items-center lg:items-start gap-3'>
 <h3 className='lg:text-[80px] text-[20px] font-bold text-[#005450]'>CPS / FCPS</h3>
-<p className='text-[17px] text-[#000000] tracking-wide font-medium'>Open the gateway to a thriving medical career with Career Guardian India. Let us unlock your potential today.
+<p className='text-[17px] text-[#000000] tracking-wide font-medium'>Open the gateway to a thriving medical career with Nscx Education India. Let us unlock your potential today.
 <div className='lg:mt-6 mt-6 mb-6 lg:mb-0 flex justify-center items-center lg:justify-start lg:items-start'>
 <button className='bg-[#005450] rounded-full tracking-wide px-8 py-4 text-white text-[16px] font-medium'>Know More</button>
 </div>
