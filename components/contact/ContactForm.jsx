@@ -180,7 +180,7 @@ const ContactForm = () => {
       </div>
       <div className='bg-black text-white flex flex-col lg:flex-row gap-20'>
             <div className=''>
-                <Image src={'/STUDY-IN.png'} width={565} height={350} alt='' objectFit='contain'/>
+                <Image src={'/STUDY-IN-ABROAD.png'} width={565} height={350} alt='' objectFit='contain'/>
             </div>
 <div>
     <h3 className='lg:text-[48px] text-[25px] font-bold px-4'>Contact Us

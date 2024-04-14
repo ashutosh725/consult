@@ -30,7 +30,7 @@ const MainHeader = () => {
             <Image
               src={Logo1}
               alt="Image description"
-              className="w-32 h-18 object-cover"
+              className="lg:w-32 lg:h-18 w-28 h-18 object-cover"
             />
           </div>
           <ul className="flex justify-center items-center lg:gap-6 md:gap-2">

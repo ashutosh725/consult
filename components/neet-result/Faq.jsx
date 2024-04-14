@@ -14,7 +14,7 @@ const Faq = () => {
           </div>
         </div>
         <div  className='lg:w-[50%] flex flex-col justify-center items-center gap-5 w-full h-full '>
-         <h3 className='lg:text-[40px] text-[25px] font-extrabold mx-10'>NEET Result – 2023
+         <h3 className='lg:text-[40px] text-[25px] font-extrabold mx-10'>NEET Result – 2024
 </h3>
 <div className='mx-10'>
   <Image src={Ak} alt='' className='w-[244px] h-full object-cover'/>

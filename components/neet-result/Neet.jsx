@@ -14,7 +14,7 @@ const Neet = () => {
     <div>
         <Image src={Nta} alt='nta' className='w-[255px] h-full object-cover'/>
     </div>
-    <Link href={'/neet-result-2023'}  className='bg-black  tracking-wide px-6 py-3 text-white text-[20px] shadow-lg font-medium'>Check Now</Link>
+    <Link href={'/neet-result-2024'}  className='bg-black  tracking-wide px-6 py-3 text-white text-[20px] shadow-lg font-medium'>Check Now</Link>
 </div>
       </div>
         </div>
