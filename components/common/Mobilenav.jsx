@@ -89,7 +89,7 @@ const MobileNav = ({ onLinkClick }) => {
                                 </Link>
                                 <Link
                                        onClick={handleLinkClick}
-                                       href={"/mbbs#bangladesh"}
+                                       href={"/mbbs-in-bangladesh"}
                                 
                                   className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
                                 >

@@ -190,7 +190,7 @@ const ContactForm = () => {
     <IoCall className='text-[25px] text-[#ffd000]'/>
     <div className='flex flex-col justify-start items-start gap-3'>
         <h5 className='text-[20px] font-bold'>Call</h5>
-        <p className='text-[14px] '>+91 7679751281</p>
+        <p className='text-[14px] '>+917742727811</p>
     </div>
 </div>
 <div className='flex justify-start items-start gap-4'>
@@ -198,7 +198,7 @@ const ContactForm = () => {
     <div className='flex flex-col justify-start items-start gap-3'>
         <h5 className='text-[20px] font-bold'>Email</h5>
         <p className='text-[14px] '>
-careerguardianindia@gmail.com</p>
+        Nscxinfo@gmail.com</p>
     </div>
 </div>
 </div>

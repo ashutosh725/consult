@@ -46,7 +46,7 @@ const Footer = () => {
     </ul>
     <ul className='flex flex-col justify-center items-start gap-3'>
         <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#india'}>MBBS in India</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#bangladesh'}>MBBS in Bangladesh</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs-in-bangladesh'}>MBBS in Bangladesh</Link></li>
         <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#nepal'}>MBBS in Nepal</Link></li>
         <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#philippines'}>MBBS in Philippines</Link></li>
     </ul>

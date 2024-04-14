@@ -92,9 +92,9 @@ const MainHeader = () => {
                           INDIA
                         </Link>
                         <Link
-                                        className={`block py-1 font-bold text-white hover:text-primary text-start md:mx-2 ${activeLink === '/mbbs#bangladesh' ? 'text-primary' : ''}`}
-                         href={"/mbbs#bangladesh"}
-                         onClick={() => handleSetActiveLink('/mbbs#bangladesh')}
+                                        className={`block py-1 font-bold text-white hover:text-primary text-start md:mx-2 ${activeLink === '/mbbs-in-bangladesh' ? 'text-primary' : ''}`}
+                         href={"/mbbs-in-bangladesh"}
+                         onClick={() => handleSetActiveLink('/mbbs-in-bangladesh')}
                        >
                          BANGLADESH
                        </Link>
@@ -178,10 +178,10 @@ const MainHeader = () => {
           <div className="flex justify-center items-center gap-3">
             <div className="">
               <Link
-                href={"/neet-result-2023"}
+                href={"/neet-result-2024"}
                 className="hover:text-primary border hover:bg-transparent hover:border-primary border-white bg-primary text-white duration-500 transition-all font-bold shadow-md rounded-full lg:text-[14px] text-[12px] px-6 py-3 text-center flex justify-center uppercase items-start "
               >
-                neet result 2023
+                neet result 2024
               </Link>
             </div>
             <div className="lg:hidden flex" onClick={toggleMobileNav}>
