@@ -58,11 +58,11 @@ const Budget = () => {
      <div className='flex flex-col justify-start items-start gap-6 md:px-16 px-4'>
         <div className='flex justify-center items-center gap-7'>
             <IoCall  className='text-[16px]'/>
-            <p className='text-[16px]'> +91 76797 51281</p>
+            <p className='text-[16px]'> +917742727811</p>
         </div>
         <div className='flex justify-center items-center gap-7'>
             <IoMdMail  className='text-[16px]'/>
-            <p  className='text-[16px]'>careerguardianindia@gmail.com</p>
+            <p  className='text-[16px]'>Nscxinfo@gmail.com</p>
         </div>
      </div>
      <form 

@@ -1,15 +1,14 @@
 "use client"
 import Slider from "react-slick";
-import Slide1 from '../../public/hero1.jpg'
-import Slide2 from '../../public/hero2.jpg'
-import Slide3 from '../../public/hero3.jpg'
-import Slide4 from '../../public/hero4.jpg'
+import Slide1 from '../../public/hero5.png'
+import Slide2 from '../../public/hero6.png'
+
 import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Link from "next/link";
 const HeroSection = () => {
     var settings = {
-        // dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 1,
@@ -21,18 +20,13 @@ const HeroSection = () => {
   return (
     <div className='mx-auto '>
           <Slider {...settings}>
-          <div>
-        <Image src={Slide1} alt="" className='w-full h-full object-cover'/>
-      </div>
-      <div>
+          <Link href={'/contact'}>
+        <Image src={Slide1} alt="" className='w-[1349px] h-[800px] object-cover'/>
+      </Link>
+      <Link href={'/contact'}>
         <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
-      </div>
-      <div>
-        <Image src={Slide3} alt="" className='w-full h-full object-cover'/>
-      </div>
-      <div>
-        <Image src={Slide4} alt="" className='w-full h-full object-cover'/>
-      </div>
+      </Link>
+     
           </Slider>
      
     
