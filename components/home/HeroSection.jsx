@@ -28,7 +28,7 @@ const HeroSection = () => {
         <Image src={Slide4} alt="" className='w-full h-full object-cover'/>
       </Link>
       <Link href={'/contact'}>
-        <Image src={Slide31} alt="" className='h-full w-full object-cover'/>
+        <Image src={Slide1} alt="" className='h-full w-full object-cover'/>
       </Link>
       <Link href={'/contact'}>
         <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
