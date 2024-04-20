@@ -1,6 +1,6 @@
 "use client"
 import Slider from "react-slick";
-import Slide1 from '../../public/learn.png'
+import Slide1 from '../../public/hero3.jpg'
 import Slide2 from '../../public/learn2.webp'
 import Slide3 from '../../public/hero5.PNG'
 import Slide4 from '../../public/hero6.PNG'
@@ -22,16 +22,16 @@ const HeroSection = () => {
     <div className='mx-auto '>
           <Slider {...settings}>
           <Link href={'/contact'}>
-        <Image src={Slide1} alt="" className='h-full w-full object-cover'/>
-      </Link>
-      <Link href={'/contact'}>
-        <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
-      </Link>
-      <Link href={'/contact'}>
         <Image src={Slide3} alt="" className='h-full w-full object-cover'/>
       </Link>
       <Link href={'/contact'}>
         <Image src={Slide4} alt="" className='w-full h-full object-cover'/>
+      </Link>
+      <Link href={'/contact'}>
+        <Image src={Slide31} alt="" className='h-full w-full object-cover'/>
+      </Link>
+      <Link href={'/contact'}>
+        <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
       </Link>
      
           </Slider>
