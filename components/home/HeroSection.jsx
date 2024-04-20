@@ -1,7 +1,7 @@
 "use client"
 import Slider from "react-slick";
-import Slide1 from '../../public/hero5.png'
-import Slide2 from '../../public/hero6.png'
+import Slide1 from '../../public/hero5.PNG'
+import Slide2 from '../../public/hero6.PNG'
 
 import Image from 'next/image'
 import "slick-carousel/slick/slick.css";
