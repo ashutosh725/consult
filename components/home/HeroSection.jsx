@@ -21,7 +21,7 @@ const HeroSection = () => {
     <div className='mx-auto '>
           <Slider {...settings}>
           <Link href={'/contact'}>
-        <Image src={Slide1} alt="" className='w-[1349px] h-[800px] object-cover'/>
+        <Image src={Slide1} alt="" className='h-full w-full object-cover'/>
       </Link>
       <Link href={'/contact'}>
         <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
