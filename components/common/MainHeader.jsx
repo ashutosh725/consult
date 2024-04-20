@@ -178,10 +178,10 @@ const MainHeader = () => {
           <div className="flex justify-center items-center gap-3">
             <div className="">
               <Link
-                href={"/neet-result-2024"}
+                href={"/neet-result-2023"}
                 className="hover:text-primary border hover:bg-transparent hover:border-primary border-white bg-primary text-white duration-500 transition-all font-bold shadow-md rounded-full lg:text-[14px] text-[12px] px-6 py-3 text-center flex justify-center uppercase items-start "
               >
-                neet result 2024
+                neet result 2023
               </Link>
             </div>
             <div className="lg:hidden flex" onClick={toggleMobileNav}>
