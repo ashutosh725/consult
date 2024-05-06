@@ -30,21 +30,21 @@ const Chat = () => {
 
   return (
     <div>
-      <div className='bg-[#000000] fixed cursor-pointer left-0 md:top-[33%] top-[49%] z-50  px-[8px]   py-2' onClick={handleArrowClick}>
+      <div className='bg-[#000000] fixed cursor-pointer left-0 md:top-[32%] top-[35%] z-50  px-[8px]   py-2' onClick={handleArrowClick}>
         <FaLongArrowAltRight className='text-white  font-bold text-[20px]' />
       </div>
 
       {/* Buttons that toggle visibility */}
       {isVisible && (
-        <div className="fixed left-0 md:top-[60%] top-[75%] z-50">
+        <div className="fixed left-0 md:top-[70%] top-[75%] z-50">
           <ul className='list-none flex flex-col justify-center items-center gap-0 m-0 p-0'>
             <li className="flex flex-col items-center gap-0">
-              <button onClick={handleOpenContactModel} className='bg-[#7761DF] px-6 py-[6px] tracking-wider text-white transform -rotate-90 origin-top-left' >
-                contact us
+              <button onClick={handleOpenContactModel} className='bg-[#7761DF] px-6 py-[7px] tracking-wider text-[14px] text-white transform -rotate-90 origin-top-left' >
+              Get Free Counselling 
               </button>
             </li>
           </ul>
-          <div onClick={handleWhatsAppClick} className='bg-[#00d084] fixed cursor-pointer left-0 md:top-[60%] top-[75%] z-50 px-2 py-[6px]'>
+          <div onClick={handleWhatsAppClick} className='bg-[#00d084] fixed cursor-pointer left-0 md:top-[70%] top-[75%] z-50 px-2 py-[6px]'>
             <FaWhatsapp className='text-white  font-bold text-[20px]' />
           </div>
         </div>

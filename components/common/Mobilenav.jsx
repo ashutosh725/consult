@@ -14,38 +14,38 @@ const MobileNav = ({ onLinkClick }) => {
       onLinkClick();
     }
     setCoursesDropdownOpen(false);
-    setServicesDropdownOpen(false);
+ 
   };
 
   const handleCoursesDropdownToggle = () => {
     setCoursesDropdownOpen(!isCoursesDropdownOpen);
 
-    setServicesDropdownOpen(false);
+   
   };
 
  
   return (
-    <div className=" bg-white z-50 top-0   py-7 fixed w-full  lg:py-0 shadow">
+    <div className="  z-50 top-[160px]      w-full  lg:py-0 shadow">
       <div className="container mx-auto">
-        <ul className="lg:hidden relative flex flex-col justify-center items-start gap-5 ">
+        <ul className="lg:hidden bg-primary/80 text-white relative mx-6 flex flex-col justify-center items-start gap-5 p-5 ">
           <Link
             href={"/"}
             onClick={handleLinkClick}
-            className="text-[17px] font-medium"
+            className="text-[17px] text-white font-medium"
           >
             Home
           </Link>
           <Link
     href={"/#about-us"}
             onClick={handleLinkClick}
-            className="text-[17px] font-medium"
+            className="text-[17px] text-white font-medium"
           >
       About
           </Link>
           <div 
             onClick={handleCoursesDropdownToggle}
         data-dropdown-toggle="servicesDropdown"
-        className="text-black flex items-center font-medium text-[17px]"
+        className="text-white flex items-center font-medium text-[17px]"
        >
         MBBS
         <svg
@@ -75,7 +75,7 @@ const MobileNav = ({ onLinkClick }) => {
                   }  divide-y divide-gray-100`}
                 >
                   <ul
-                    class=" flex flex-col justify-start items-start gap-3  py-2 text-sm text-gray-700 dark:text-gray-200"
+                    class=" flex flex-col justify-start items-start gap-3  py-2 text-sm text-white dark:text-gray-200"
                     aria-labelledby="servicesDropdown"
                   >
                     
@@ -83,7 +83,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#india"}
                                  
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                           INDIA
                                 </Link>
@@ -91,7 +91,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs-in-bangladesh"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
      BANGLADESH
                                 </Link>
@@ -99,7 +99,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#nepal"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                                  NEPAL
                                 </Link>
@@ -107,7 +107,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#russia"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                              RUSSIA
                                 </Link>
@@ -115,7 +115,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#poland"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                               POLAND
                                 </Link>
@@ -123,7 +123,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#uzbekistan"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                              UZBEKISTAN
                                 </Link>
@@ -131,7 +131,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#kazakhsthan"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                           KAZAKHSTAN
                                 </Link>
@@ -139,7 +139,7 @@ const MobileNav = ({ onLinkClick }) => {
                                        onClick={handleLinkClick}
                                        href={"/mbbs#philippines"}
                                 
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-gray-500 hover:text-black md:mx-2"
+                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
                           PHILIPPINES
                                 </Link>
@@ -151,21 +151,21 @@ const MobileNav = ({ onLinkClick }) => {
           <Link
         href={"/cps-fcps"}
             onClick={handleLinkClick}
-            className="text-[17px] font-medium"
+            className="text-[17px] text-white font-medium"
           >
       CPS/FCPS
           </Link>
           <Link
          href={"/md-ms-in-india"}
             onClick={handleLinkClick}
-            className="text-[17px] font-medium"
+            className="text-[17px] text-white font-medium"
           >
        MD/MS IN INDIA
           </Link>
           <Link
           href={"/contact"}
             onClick={handleLinkClick}
-            className="text-[17px] font-medium"
+            className="text-[17px] text-white font-medium"
           >
        CONTACT US
           </Link>
@@ -175,9 +175,9 @@ const MobileNav = ({ onLinkClick }) => {
 
          
         </ul>
-        <div className="lg:hidden flex absolute top-4 right-3 ">
+        {/* <div className="lg:hidden flex absolute top-4 right-3 ">
           <span onClick={handleLinkClick}><IoClose className="text-4xl cursor-pointer"/></span>
-        </div>
+        </div> */}
       </div>
     </div>
   );

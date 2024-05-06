@@ -29,9 +29,9 @@ const Footer = () => {
       });
   };
   return (
-    <div className='bg-[#0d4d4c] text-white py-10'>
+    <div className='bg-[#290768]/70 text-white py-10'>
       <div className='container mx-auto'>
- <div className='flex flex-col justify-start md:flex-row items-center md:flex-wrap md:gap-10 gap-7 md:justify-between md:items-center '>
+ <div className='flex flex-col justify-start md:flex-row items-start md:flex-wrap md:gap-10 gap-7 md:justify-between md:items-center px-6 lg:px-0 '>
  <ul className='flex flex-col justify-center items-start gap-3'>
         <div>
           <Image src={Logo1} alt='' className='md:w-[180px] w-[160px] md:h-[100px] object-contain'/>
