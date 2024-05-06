@@ -6,7 +6,7 @@ import { IoClose } from "react-icons/io5";
 
 
 const MobileNav = ({ onLinkClick }) => {
-  const [isCoursesDropdownOpen, setCoursesDropdownOpen] = useState(false);
+  const [isCoursesDropdownOpen, setCoursesDropdownOpen] = useState(true);
 
 
   const handleLinkClick = () => {

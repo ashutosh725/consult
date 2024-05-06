@@ -51,7 +51,7 @@ const ContactModel = ({handleCloseContactModel, handleOpenContactModel}) => {
             handleOpenContactModel ? 'flex' : 'hidden'
         } overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] bg-[rgba(0,0,0,0.40)] max-h-full`}
       >
-       <div className='relative bg-gradient-to-r from-cyan-500 to-blue-700 md:p-12 p-8 rounded-md shadow-md'>
+       <div className='relative bg-gradient-to-r from-cyan-500 to-blue-700 md:p-12 mx-4 p-8 rounded-md shadow-md'>
        <div className={` w-full  px-6 py-5`}>
             
              <form
@@ -149,14 +149,14 @@ const ContactModel = ({handleCloseContactModel, handleOpenContactModel}) => {
                 </div>
               <div className="flex items-center ">
   <input id="default-checkbox" type="checkbox" defaultValue className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600" />
-  <label htmlFor="default-checkbox" className="ms-2 text-base font-medium text-white dark:text-gray-300">{`You Shall Receive Brochures, Fees Structure of Requested College or Country on WhatsApp & Email.`}</label>
+  <label htmlFor="default-checkbox" className="ms-2 text-[14px] font-medium text-white dark:text-gray-300">{`You Shall Receive Brochures, Fees Structure of Requested College or Country on WhatsApp & Email.`}</label>
 </div>
 <div>
-  <p className="text-white pl-5"><span className="font-bold">Note :</span> Be Assured we Do not share your contact details, we respect your privacy.</p>
+  <p className="text-white text-[14px] pl-5"><span className="font-bold">Note :</span> Be Assured we Do not share your contact details, we respect your privacy.</p>
 </div>
 
                 <div className=''>
-                    <button type="submit" className='bg-[#ffd000] px-7 py-3 w-full rounded-md text-black text-[17px] font-medium uppercase'>Submit</button>
+                    <button type="submit" className='bg-[#ffd000] px-7 py-2 w-full rounded-md text-black text-[17px] font-medium uppercase'>Submit</button>
                 </div>
              </form>
             </div>

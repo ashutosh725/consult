@@ -30,7 +30,7 @@ const Chat = () => {
 
   return (
     <div>
-      <div className='bg-[#000000] fixed cursor-pointer left-0 md:top-[32%] top-[35%] z-50  px-[8px]   py-2' onClick={handleArrowClick}>
+      <div className='bg-[#000000] fixed cursor-pointer left-0 md:top-[32%] top-[40%] z-50  px-[8px]   py-2' onClick={handleArrowClick}>
         <FaLongArrowAltRight className='text-white  font-bold text-[20px]' />
       </div>
 
