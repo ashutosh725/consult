@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Image from "next/image";
 import { GiHamburgerMenu } from "react-icons/gi";
-import Logo1 from "../../public/kkkk.png";
+import Logo1 from "../../public/logos.png";
 import Link from "next/link";
 import MobileNav from './Mobilenav';
 
@@ -25,12 +25,12 @@ const MainHeader = () => {
   return (
     <div className="border-b-2 border-b-black">
       <div className="container mx-auto">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center lg:h-20 h-[70px]">
           <div>
             <Image
               src={Logo1}
               alt="Image description"
-              className="lg:w-32 lg:h-18 w-28 h-18 object-cover"
+              className="lg:w-32 lg:h-18 w-24 h-18 object-cover"
             />
           </div>
           <ul className="flex justify-center items-center lg:gap-6 md:gap-2">
@@ -176,7 +176,7 @@ const MainHeader = () => {
             </li>
           </ul>
           <div className="flex justify-center items-center gap-3">
-            <div className="">
+            <div className="hidden lg:flex">
               <Link
                 href={"/neet-result-2023"}
                 className="hover:text-primary border hover:bg-transparent hover:border-primary border-white bg-primary text-white duration-500 transition-all font-bold shadow-md rounded-full lg:text-[14px] text-[12px] px-6 py-3 text-center flex justify-center uppercase items-start "

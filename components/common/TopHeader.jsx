@@ -8,7 +8,7 @@ const TopHeader = () => {
   return (
     <div className='h-[82px] flex justify-center items-center bg-[#000000] text-white'>
 <div className='container mx-auto'>
-<div className='flex justify-between items-center'>
+<div className='flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-2 lg:gap-0'>
     <ul className='flex justify-center items-center gap-7'>
 <li className='cursor-pointer'>
  <Link href={'https://www.facebook.com/profile.php?id=100080881050247&mibextid=ZbWKwL'} target='_blank'>   <FaFacebookF className='text-[#0693e3]'/></Link>
@@ -24,7 +24,7 @@ const TopHeader = () => {
    <Link href={'https://www.youtube.com/@helloNscx'} target='_blank'> <FaYoutube className='text-[#cf2e2e]'/></Link>
 </li>
     </ul>
-    <div className='flex justify-center items-center gap-3 '>
+    <div className='hidden lg:flex justify-center items-center gap-3 '>
  <div className='flex justify-center items-center gap-2'>
     <p className='text-[#cf2e2e]'><IoCall/></p>
     <p className='text-[14px] tracking-wide font-medium'>+917742727811</p>
@@ -34,6 +34,14 @@ const TopHeader = () => {
     <p className='text-[14px] tracking-wide font-medium'>Nscxinfo@gmail.com</p>
  </div>
     </div>
+    <div className="flex lg:hidden">
+              <Link
+                href={"/neet-result-2023"}
+                className="hover:text-primary  hover:bg-transparent  border-white bg-primary text-white duration-500 transition-all font-bold shadow-md rounded-full lg:text-[14px] text-[8px] px-3 py-2 text-center flex justify-center uppercase items-start hover:shadow-md"
+              >
+                neet result 2023
+              </Link>
+            </div>
 </div>
 </div>
     </div>

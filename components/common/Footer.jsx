@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import { useState } from "react";
 
-import Logo1 from '../../public/kkkk.png'
+import Logo1 from '../../public/logos.png'
 import Image from 'next/image'
 import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
@@ -31,10 +31,10 @@ const Footer = () => {
   return (
     <div className='bg-[#0d4d4c] text-white py-10'>
       <div className='container mx-auto'>
- <div className='flex flex-wrap gap-10 justify-between items-center '>
+ <div className='flex flex-col justify-start md:flex-row items-center md:flex-wrap md:gap-10 gap-7 md:justify-between md:items-center '>
  <ul className='flex flex-col justify-center items-start gap-3'>
         <div>
-          <Image src={Logo1} alt='' className='w-[180px] h-[100px] object-contain'/>
+          <Image src={Logo1} alt='' className='md:w-[180px] w-[160px] md:h-[100px] object-contain'/>
         </div>
         <p className='text-[13px]'>©4 Apr, 2024 Nscx Education India</p>
     </ul>
