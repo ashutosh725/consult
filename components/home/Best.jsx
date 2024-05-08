@@ -11,52 +11,59 @@ const Best = () => {
   return (
     <div className={` py-20`} >
       <div className='container mx-auto'>
+        <div className='flex flex-col justify-center items-center gap-3'>
+          <h3 className='font-Jost text-[28px] font-[500]'>NEET PG Admisssion 2024</h3>
+          <span className='w-[150px] h-[5px] bg-[#4a1e75]'></span>
+          <h4 className='font-Jost text-[28px] font-[700] text-center'>State Wise Counselling Information</h4>
+          <p className='font-Jost text-[18px] font-[400] text-center'>Check latest updates on state wise counselling</p>
+        </div>
         <div className='flex flex-col lg:flex-row gap-10 justify-center items-start'>
-        <div className={`bg-[url('/Polygon.png')] bg-cover w-full lg:w-[50%]`}>
-  <div className="grid grid-cols-2 md:grid-cols-2 md:gap-10 gap-3">
-    <div className="bg-white flex flex-col justify-center items-center gap-3 rounded-lg p-6 shadow-md">
-      <Image src={'/career.png'} alt='' width={50} height={50} objectFit='cover'/>
-      <h2 className="text-[30px] font-bold">6+</h2>
-      <p className="text-gray-600 text-[16px] tracking-wide font-medium">Career Counsellors</p>
+        <div className={` w-full `}>
+  <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 md:gap-10 gap-3 mt-10">
+    <div className="bg-white h-[250px] flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/422-4221338_as-boratti-argues-it-would-be-more-productive.png'} alt='' width={50} height={50} objectFit='cover'/>
+     
+      <p className="text-[#4a1e75] text-[16px] text-center tracking-wide font-medium">Karnataka NEET PG Counselling 2024</p>
     </div>
-    <div className="bg-white flex flex-col justify-center items-center gap-3 rounded-lg p-6 shadow-md">
-      <Image src={'/year-of-experience.png'} alt='' width={50} height={50} objectFit='cover'/>
-      <h2 className="text-[30px] font-bold">8+</h2>
-      <p className="text-gray-600 text-[16px] tracking-wide font-medium">Years Of Experience</p>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/tamil-nadu.png'} alt='' width={50} height={50} objectFit='cover'/>
+  
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">Tamil Nadu NEET PG Counselling 2024</p>
     </div>
-    <div className="bg-white flex flex-col justify-center items-center gap-3 rounded-lg p-6 shadow-md">
-      <Image src={'/enrolments.png'} alt='' width={50} height={50} objectFit='cover'/>
-      <h2 className="text-[30px] font-bold">250+</h2>
-      <p className="text-gray-600 text-[16px] tracking-wide font-medium">Enrolments</p>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/3177571-200.png'} alt='' width={50} height={50} objectFit='cover'/>
+     
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">UP NEET PG Counselling 2024</p>
     </div>
-    <div className="bg-white flex flex-col justify-center items-center gap-3 rounded-lg p-6 shadow-md">
-      <Image src={'/testimonials.png'} alt='' width={50} height={50} objectFit='cover'/>
-      <h2 className="text-[30px] font-bold">600+</h2>
-      <p className="text-gray-600 text-[16px] tracking-wide font-medium"> Testimonials</p>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/870-8709536_explore-your-circuit-madhya-pradesh-map-png.png'} alt='' width={50} height={50} objectFit='cover'/>
+    
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">MP NEET PG Counselling 2024</p>
+    </div>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/3903612-200.png'} alt='' width={50} height={50} objectFit='cover'/>
+     
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">Odisha NEET PG Counselling 2024</p>
+    </div>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/map-puducherry.png'} alt='' width={50} height={50} objectFit='cover'/>
+     
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">Puducherry NEET PG Counselling 2024</p>
+    </div>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/3177557-200.png'} alt='' width={50} height={50} objectFit='cover'/>
+    
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">Haryana NEET PG Counselling 2024</p>
+    </div>
+    <div className="bg-white h-[250px]  flex flex-col justify-center items-center gap-5 rounded-[20px] p-6 shadow-lg">
+      <Image src={'/maharashtra.png'} alt='' width={50} height={50} objectFit='cover'/>
+     
+      <p className="text-[#4a1e75] text-[16px] text-center  tracking-wide font-medium">Maharashtra NEET PG Counselling 2024</p>
     </div>
   </div>
 </div>
 
-          <div className='lg:w-[50%] w-full flex flex-col '>
-            <h5 className='text-[26px] font-bold'># Best MBBS Education Consultants</h5>
-            <p className='text-[14px] font-medium pt-3'>Trusted and experienced MBBS education consultants providing expert guidance, personalized assistance, and comprehensive support for a successful medical career. We help you make the best choices for your future.</p>
-            <ul className='flex flex-col gap-3 pt-6'>
-              <li className='flex justify-start items-center gap-4'><Image src={'/Icon-awesome-graduation-cap.png'} alt='' width={40} height={40} objectFit='cover'/> <p className='text-[14px] font-medium'>Most trusted abroad consultancy firm in India.
-</p></li>
-<li className='flex justify-start items-center gap-4'><Image src={'/Icon-awesome-graduation-cap.png'} alt='' width={40} height={40} objectFit='cover'/> <p className='text-[14px] font-medium'>With over 8 years of experience we provide the best educational solutions.
-
-</p></li>
-              <li className='flex justify-start items-center gap-4'><Image src={'/Icon-awesome-graduation-cap.png'} alt='' width={40} height={40} objectFit='cover'/> <p className='text-[14px] font-medium'>We offer an affordable MBBS education and stay.
-</p></li>
-              <li className='flex justify-start items-center gap-4'><Image src={'/Icon-awesome-graduation-cap.png'} alt='' width={40} height={40} objectFit='cover'/> <p className='text-[14px] font-medium'>We provide A-Z Support for your MBBS Journey.
-</p></li>
-              <li className='flex justify-start items-center gap-4'><Image src={'/Icon-awesome-graduation-cap.png'} alt='' width={40} height={40} objectFit='cover'/> <p className='text-[14px] font-medium'>Our active associates will guide you thoroughly to study MBBS abroad.
-</p></li>
-            </ul>
-<div className='flex justify-center items-center'>
-<button onClick={handlebtn8} className='bg-[#000000] shadow-lg rounded-full tracking-wide px-6 py-3 text-white text-[16px] font-medium mt-10'>Know More</button>
-</div>
-          </div>
+          
         </div>
       </div>
     </div>

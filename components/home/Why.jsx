@@ -1,137 +1,124 @@
-"use client"
-import { useState } from "react";
-import Link from "next/link";
-import emailjs from "@emailjs/browser";
-import React, { useRef } from "react";
+
 import M1 from '../../public/health-medical.png'
 import M2 from '../../public/health-center.png'
+import Box1 from '../../public/bellavita_icon1-150x150-2.png'
 import Image from 'next/image'
-import { useRouter } from 'next/navigation'
+
 const Why = () => {
 
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [phone, setPhone] = useState("");
-    const [message, setMessage] = useState("");
-    const [address, setAddress] = useState("");
-
-    const router = useRouter();
-    const handlebtn10 = ()=>{
-      router.push('/contact')
-    }
-
-    const form = useRef();
-
-    const sendEmail = (e) => {
-      e.preventDefault();
     
-      
-      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    
-     
-      if (!emailRegex.test(email)) {
-        alert("Please enter a valid email address.");
-        return;
-      }
-    
-      emailjs.sendForm('service_2dvdge4', 'template_b8fpnsg', form.current, 'rHRprvUIzkhHX_RhB')
-        .then((result) => {
-          alert("Message sent successfully!");
-    
-          
-          setName('');
-          setEmail('');
-          setMessage('');
-          setPhone('');
-          setAddress('');
-        }, (error) => {
-          alert("Error sending message. Please try again.");
-        });
-    };
 
   return (
-    <div className={`bg-[url('/bac-01.png')] bg-cover pb-20 pt-9`}>
+    <div className={`py-20 bg-[#f8f8fc]`}>
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row justify-center items-start gap-8'>
-            <div className='lg:w-[25%] w-full'>
-                <div>
-                    <Image src={M1} alt='m1' className='w-full h-full object-contain shadow-2xl rounded-lg'/>
-                </div>
-                <p className='text-[14px] font-Open font-medium text-justify tracking-wide text-[#666666]'>Transform Your Passion for Medicine into a Thriving Career through Tailored Consultancy, Mentorship, and Proven Strategies for Success.</p>
-<div className='flex justify-center items-center my-5'>
-<button onClick={handlebtn10} className='bg-[#000000] rounded-full tracking-wide px-6 py-3 text-white text-[20px] font-medium'>Know More</button>
-</div>
-            </div>
-            <div className='lg:w-[50%] w-full'>
-                <div>
-                    <Image src={M2} alt='m1' className='w-full h-full object-contain shadow-2xl'/>
-                </div>
-                <h3 className='text-[30px] font-[700] text-black tracking-wide text-center pt-5'>Why Choose Us?</h3>
-                <p className='text-[14px] font-Open font-medium text-justify tracking-wide text-[#666666]'>When it comes to choosing a medical career consulting agency, Nscx Education India stands out as a trusted partner. Our team of seasoned professionals understands the intricacies of the medical field, and we are dedicated to helping you build a successful and fulfilling career. With personalized guidance, we tailor our services to your unique goals, providing expert advice and support at every step. Our extensive network of connections opens doors to valuable opportunities. Count on us for cutting-edge industry insights, ongoing mentorship, and a commitment to your long-term success. Choose Nscx Education India and unlock the path to a thriving medical career.</p>
-                <div className='flex justify-center items-center my-5'>
-<button onClick={handlebtn10} className='bg-[#f1c503] rounded-full tracking-wide px-6 py-3 text-black text-[20px] shadow-lg font-medium'>Unlock now</button>
-</div>
-            </div>
-            <div className='lg:w-[25%] w-full'>
-                <div>
-                <h3 className='text-[23px] text-start font-[700] text-black tracking-wide  pt-5'>{`Let's Connect With Us`}</h3>
-                <form
-                 ref={form}
-                 onSubmit={sendEmail}
-                className='flex flex-col gap-3 py-3'>
-                    <div>
-                        <input
-                          name="user_name"
-           
-                          value={name}
-                          onChange={(e) => setName(e.target.value)}
-                          required
-                        type='text' placeholder='Name' className='p-4 bg-slate-200  shadow-md rounded-md outline-none w-full'/>
-                    </div>
-                    <div>
-                        <input
-                        name="user_email"
-            
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        required
-                        type='text' placeholder='Email Address' className='p-4  bg-slate-200 shadow-md rounded-md outline-none w-full'/>
-                    </div>
-                    <div>
-                        <input
-                         name="user_phone"
-            
-                         value={phone}
-                         onChange={(e) => setPhone(e.target.value)}
-                         required
-                        type='text' placeholder='Phone' className='p-4 bg-slate-200  shadow-md rounded-md outline-none w-full'/>
-                    </div>
-                    <div>
-                        <textarea
-                         name="user_address"
-            
-                         value={address}
-                         onChange={(e) => setAddress(e.target.value)}
-                         required
-                        type='text' placeholder='Address' cols={5} className='p-4 bg-slate-200  shadow-md rounded-md outline-none w-full'/>
-                    </div>
-                    <div>
-                        <textarea
-                         name="message"
-            
-                         value={message}
-                         onChange={(e) => setMessage(e.target.value)}
-                         required
-                        type='text' placeholder='Message' cols={5}  className='p-4 bg-slate-200  shadow-md rounded-md outline-none w-full'/>
-                    </div>
-                    <div className='flex justify-center items-center my-5'>
-<button type="submit" className='bg-black rounded-full tracking-wide px-6 py-3 text-white text-[20px] shadow-lg font-medium'>Submit</button>
+        <div className='flex flex-col justify-center items-center gap-3'>
+          <p className='text-[18px] font-Poppins font-[500] text-[#68778c]'># Browse Categories</p>
+          <h2 className='text-[#2a2131] text-[36px] text-center font-Jost font-[500]'>Browse Popular Medical PG Courses</h2>
+          <span className='w-[150px] h-[5px] bg-[#ffda00]'></span>
         </div>
-                </form>
-              
-                </div>
-            </div>
+        <div className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-4 mt-16'>
+        <div className='relative group bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD ANESTHESIA</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD DERMATOLOGY</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</button>
+    </div>
+</div>
+<div className='relative group bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD RADIOLOGY</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD GENERAL MEDICINE</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD PAEDIATRICS</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS Orthopaedics</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS Obstetrics & Gynaecology</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS Ophthalmology</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD Pulmonary / Respiratory medicine</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</button>
+    </div>
+</div>
+
+<div className='relative group bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+    <div>
+        <Image src={Box1} alt='' className='object-cover w-full h-full'/>
+    </div>
+    <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS General Surgery</h4>
+    <div className='flex justify-center items-center'>
+        <button className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</button>
+    </div>
+</div>
         </div>
+        <div className='flex justify-center items-center mt-12'>
+        <button className='text-[18px] font-Jost tracking-wide bg-[#5a1e91] rounded-ss-[20px] rounded-br-[20px] font-bold   py-[20px] px-[40px]  text-white hover:bg-[#ffda00] shadow-xl'>Contact Us</button>
+      </div>
       </div>
     </div>
   )

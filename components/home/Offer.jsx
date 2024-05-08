@@ -1,117 +1,37 @@
 import Image from 'next/image'
 import React from 'react'
-
+import Co from '../../public/1IwLMfBKHaY_h_10iz5Shuw-2-957x1024.png'
+import Link from 'next/link'
 const Offer = () => {
   return (
-    <div className={`bg-[url('/home-five-curve-banner.png')] bg-cover bg-center py-20`}>
+    <div className={` py-20`}>
    <div className='container mx-auto'>
-    <div className='grid grid-cols-1 md:grid-cols-2  lg:grid-cols-6 place-content-center place-items-start'>
-        <div className='flex  p-4 flex-col justify-center items-center gap-3'>
-         <div>
-<Image src={'/1-2.png'} alt='' width={50} height={50} objectFit='cover'/>
-         </div>
-         <h3 className='text-[18px] font-bold text-center'>Personalized Career Planning
-</h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>Tailored guidance and strategic planning to help you chart a clear path towards your medical career goals.
-
-</p>
+  <div className='flex flex-col lg:flex-row gap-10 justify-center items-center'>
+        <div className='lg:w-[50%] w-full'>
+                <div>
+                        <Image src={Co} alt='' className='w-full h-full object-cover'/>
+                </div>
         </div>
-        <div className='flex   p-4  flex-col justify-center items-center gap-3'>
-         <div>
-<Image src={'/2-2.png'} alt='' width={50} height={50} objectFit='cover'/>
-         </div>
-         <h3 className='text-[18px] font-bold text-center'>Expert Mentorship & Coaching
+        <div className='lg:w-[50%] w-full bg-[#4a1e75] flex  flex-col justify-center items-start px-5 py-10'>
+        <h3 className='font-Jost text-[28px] font-[500] text-white'>NEET UG Admisssion 2024</h3>
+        <span className='w-[100px] h-[5px] bg-[#ffda00] my-4'></span>
+        <h4 className='font-Jost text-[28px] font-[700] text-white'>State Wise Counselling Information</h4>
+      <div className='flex flex-col justify-start items-start gap-3 pt-5'>
+      <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>MCC NEET UG Counseling</Link>
+        <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>UP NEET UG Choice Filling Guidelines.</Link>
+        <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>UP NEET UG Counseling</Link>
+        <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>Haryana NEET UG Counseling</Link>
+        <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>Punjab NEET UG Counseling</Link>
 
-</h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>Experienced mentors who will provide invaluable insights, advice, support foryour medical journey.
+           <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>MP NEET UG Counseling</Link>
+           <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>Kerala NEET UG Counseling</Link>
+        <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>KEA (Karnataka) NEET UG Counseling</Link>
+        <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>Puducherry NEET UG Counseling</Link>
 
-
-
-</p>
+           <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>Tamil Nadu NEET UG Counseling</Link>
+      </div>
         </div>
-        <div className='flex   p-4  flex-col justify-center items-center gap-3'>
-         <div>
-<Image src={'/6.png'} alt='' width={50} height={50} objectFit='cover'/>
-         </div>
-         <h3 className='text-[18px] font-bold text-center'>Affordable Budget
-
-
-</h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>At Nscx Education India, we offer affordable budget options for our comprehensive career consultancy services.
-
-
-
-
-
-</p>
-        </div>
-        <div className='flex   p-4  flex-col justify-center items-center gap-3'>
-         <div>
-<Image src={'/7.png'} alt='' width={50} height={50} objectFit='cover'/>
-         </div>
-         <h3 className='text-[18px] font-bold text-center'>Extensive Network Connections
-
-
-
-</h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>Tap into our vast network of healthcare professionals, institutions, and industry contacts for networking.
-
-
-
-
-
-
-
-</p>
-        </div>
-        <div className='flex   p-4  flex-col justify-center items-center gap-3'>
-         <div>
-<Image src={'/5.png'} alt='' width={50} height={50} objectFit='cover'/>
-         </div>
-         <h3 className='text-[18px] font-bold text-center'>100% Assurance
-
-
-
-
-</h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>With Nscx Education India, you can have 100% assurance to your medical career success. Trust us to provide unwavering support, expert guidance.
-
-
-
-
-
-
-
-
-
-</p>
-        </div>
-        <div className='flex   p-4  flex-col justify-center items-center gap-3'>
-         <div>
-<Image src={'/4-1.png'} alt='' width={50} height={50} objectFit='cover'/>
-         </div>
-         <h3 className='text-[18px] font-bold text-center'>Ongoing Career Support
-
-
-
-
-
-</h3>
-         <p className='text-[14px] font-medium tracking-wide text-center'>Long-term support even after placement, including assistance with career transitions and continuous growth in your medical career.
-
-
-
-
-
-
-
-
-
-
-
-</p>
-        </div>
-    </div>
+  </div>
    </div>
     </div>
   )

@@ -1,6 +1,52 @@
 "use client"
 import { useRouter } from 'next/navigation'
 import React from 'react'
+import Box1 from '../../public/bellavita_icon1-150x150-2.png'
+import Box2 from '../../public/state-wise-eligibility.png'
+import Box3 from '../../public/Expert-Counselling.png'
+import Box4 from '../../public/Transparent-process-01.png'
+import Box5 from '../../public/Personalised-Guidence.png'
+import Box6 from '../../public/Alert-and-Notification-01.png'
+import Image from 'next/image'
+
+const listData = [
+  {
+
+    title: `COLLEGE PREDICTOR`,
+    des: `Get rank based college and course prediction`,
+    img: Box1 
+  },
+  {
+
+    title: `COUNSELLING ELIGIBILITY`,
+    des: `Check your eligibility for All India/State/ Private University Counselling`,
+    img:  Box2
+  },
+  {
+
+    title: `EXPERT COUNSELLORS`,
+    des: `Our team comprises of experts with more than a decade’s experience`,
+    img:  Box3
+  },
+  {
+
+    title: `TRANSPARENT PROCESS`,
+    des: `No beating around the bush. Get straight and transparent analysis.`,
+    img:  Box4
+  },
+  {
+
+    title: `PERSONOLISED GUIDANCE`,
+    des: `Each candidate is provided a personalised tailor made service`,
+    img:  Box5
+  },
+  {
+
+    title: `ALERTS & NOTIFICATION`,
+    des: `Date, Time & Other NEET Updates & Notification on SMS & Email`,
+    img:  Box6
+  },
+]
 
 const Box = () => {
   const router = useRouter();
@@ -22,25 +68,21 @@ const Box = () => {
   }
 
   return (
-    <div className='pt-16 pb-8'>
+    <div className=' pt-16 pb-20'>
       <div className='container mx-auto'>
-        <div className='flex lg:justify-between justify-center items-center gap-5 flex-wrap'>
+        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5'>
+         {
+          listData.map((item,index)=>{
+            return <div key={index} className=' flex flex-col justify-start h-[300px] items-center gap-5 border-[1px] rounded-[15px] py-[20px] px-[15px] shadow-xl'>
             <div>
-                <button onClick={handlebtn1} className='bg-[#fb641b] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 md:px-0 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>UG Medical & Denta Counselling</button>
-            </div>
-            <div>
-                <button onClick={handlebtn2} className='bg-[#7f19e6] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>PG Medical counselling</button>
-            </div>
-            <div>
-                <button onClick={handlebtn3} className='bg-[#e619a1] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>PG Dental Counselling</button>
-            </div>
-            <div>
-                <button onClick={handlebtn4} className='bg-[#00b300] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'>UG AYUSH Counselling</button>
-            </div>
-            <div>
-                <button onClick={handlebtn5} className='bg-[#fb641b] hover:scale-105 duration-500 transition-all rounded-md text-center px-5 lg:w-[195px] w-full h-full py-3 lg:py-0 lg:h-[84px] text-white text-[20px]'> PG AYUSH Counselling</button>
-            </div>
+              <Image src={item.img} alt='' className='w-[60px] h-[60px] object-cover'/>
             
+            </div>
+            <h5 className='text-[15px] text-center font-Montserrat font-[600] text-[#4a1e75]'>{item.title}</h5>
+            <p className='text-[14px] text-center font-Montserrat font-[500] text-[#4a1e75]'>{item.des}</p>
+                      </div>
+          })
+         }
         </div>
       </div>
     </div>

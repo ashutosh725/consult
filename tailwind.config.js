@@ -27,10 +27,10 @@ module.exports = {
       fontFamily: {
         Open: ['Open Sans', 'serif'],
         Alice:  ['Heebo', 'serif'],
-       
-       
-      
-        
+        Jost:  ['Jost', 'sans-serif'],
+        Montserrat:  ['Montserrat', 'sans-serif'],
+        Poppins:  ['Poppins', 'sans-serif'],
+     
       },
     },
   },
