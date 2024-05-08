@@ -79,7 +79,7 @@ const Box = () => {
             
             </div>
             <h5 className='text-[15px] text-center font-Montserrat font-[600] text-[#4a1e75]'>{item.title}</h5>
-            <p className='text-[14px] text-center font-Montserrat font-[500] text-[#4a1e75]'>{item.des}</p>
+            <p className='md:text-[14px] text-[13px] text-center font-Montserrat font-[500] text-[#4a1e75]'>{item.des}</p>
                       </div>
           })
          }

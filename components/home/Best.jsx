@@ -12,10 +12,10 @@ const Best = () => {
     <div className={` py-20`} >
       <div className='container mx-auto'>
         <div className='flex flex-col justify-center items-center gap-3'>
-          <h3 className='font-Jost text-[28px] font-[500]'>NEET PG Admisssion 2024</h3>
+          <h3 className='font-Jost md:text-[28px] text-[24px] font-[500]'>NEET PG Admisssion 2024</h3>
           <span className='w-[150px] h-[5px] bg-[#4a1e75]'></span>
-          <h4 className='font-Jost text-[28px] font-[700] text-center'>State Wise Counselling Information</h4>
-          <p className='font-Jost text-[18px] font-[400] text-center'>Check latest updates on state wise counselling</p>
+          <h4 className='font-Jost md:text-[28px] text-[24px] font-[700] text-center'>State Wise Counselling Information</h4>
+          <p className='font-Jost md:text-[18px] text-[16px] font-[400] text-center'>Check latest updates on state wise counselling</p>
         </div>
         <div className='flex flex-col lg:flex-row gap-10 justify-center items-start'>
         <div className={` w-full `}>

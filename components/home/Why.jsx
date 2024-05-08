@@ -12,8 +12,8 @@ const Why = () => {
     <div className={`py-20 bg-[#f8f8fc]`}>
       <div className='container mx-auto'>
         <div className='flex flex-col justify-center items-center gap-3'>
-          <p className='text-[18px] font-Poppins font-[500] text-[#68778c]'># Browse Categories</p>
-          <h2 className='text-[#2a2131] text-[36px] text-center font-Jost font-[500]'>Browse Popular Medical PG Courses</h2>
+          <p className='md:text-[18px] text-[16px] w-full text-center font-Poppins font-[500] text-[#68778c]'># Browse Categories</p>
+          <h2 className='text-[#2a2131] md:text-[36px] text-[24px] text-center font-Jost font-[500]'>Browse Popular Medical PG Courses</h2>
           <span className='w-[150px] h-[5px] bg-[#ffda00]'></span>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-4 mt-16'>

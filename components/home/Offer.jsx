@@ -13,9 +13,9 @@ const Offer = () => {
                 </div>
         </div>
         <div className='lg:w-[50%] w-full bg-[#4a1e75] flex  flex-col justify-center items-start px-5 py-10'>
-        <h3 className='font-Jost text-[28px] font-[500] text-white'>NEET UG Admisssion 2024</h3>
+        <h3 className='font-Jost md:text-[28px] text-[24px] font-[500] text-white'>NEET UG Admisssion 2024</h3>
         <span className='w-[100px] h-[5px] bg-[#ffda00] my-4'></span>
-        <h4 className='font-Jost text-[28px] font-[700] text-white'>State Wise Counselling Information</h4>
+        <h4 className='font-Jost md:text-[28px] text-[24px] font-[700] text-white'>State Wise Counselling Information</h4>
       <div className='flex flex-col justify-start items-start gap-3 pt-5'>
       <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>MCC NEET UG Counseling</Link>
         <Link href={'/'} className='text-[#ffda00] text-[18px] font-[500] font-Poppins'>UP NEET UG Choice Filling Guidelines.</Link>
