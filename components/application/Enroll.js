@@ -18,11 +18,11 @@ const Enroll = () => {
                     <input type='text' placeholder='Student Name' className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2 '/>
                 </div>
                 <div className='flex justify-center items-center gap-3'>
-                    <label className='text-[14px] text-[#000000]'>Father's Name:</label>
+                    <label className='text-[14px] text-[#000000]'>{`Father's Name:`}</label>
                     <input type='text' placeholder={`Father's Name`} className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>
                 </div>
                 <div className='flex justify-center items-center gap-3'>
-                    <label className='text-[14px] text-[#000000]'>Mother's Name:</label>
+                    <label className='text-[14px] text-[#000000]'>{`Mother's Name:`}</label>
                     <input type='text' placeholder={`Mother's Name`} className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>
                 </div>
                 <div className='flex justify-center items-center gap-3'>
