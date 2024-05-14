@@ -45,9 +45,9 @@ const MainHeader = () => {
             </li>
             <li>
               <Link
-                href={"/#about-us"}
-                className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-[700] hover:text-primary duration-300 transition-all ${activeLink === '/#about-us' ? 'text-primary' : ''}`}
-                onClick={() => handleSetActiveLink('/#about-us')}
+                href={"/about"}
+                className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-[700] hover:text-primary duration-300 transition-all ${activeLink === '/about' ? 'text-primary' : ''}`}
+                onClick={() => handleSetActiveLink('/about')}
               >
                 About Us
               </Link>

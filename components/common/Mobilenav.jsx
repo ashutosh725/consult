@@ -49,7 +49,7 @@ const MobileNav = ({ onLinkClick }) => {
             Home
           </Link>
           <Link
-    href={"/#about-us"}
+    href={"/about"}
             onClick={handleLinkClick}
             className="text-[17px] text-white font-medium"
           >
