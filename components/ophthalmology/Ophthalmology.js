@@ -10,8 +10,8 @@ const Ophthalmology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`OVERVIEW OF MS OPHTHALMOLOGY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MS Ophthalmology is a specialization of Medicine and surgery dedicated to diagnosis and treatment of the eye-related disorder. It is also called as MD in Ophthalmology in India. It is a three-year postgraduate program dedicated to providing the fundamentals of ophthalmology with strong scientific expertise. MS Ophthalmology involves an advanced study of the eye’s anatomy, physiology and diseases. The ophthalmology course contains core clinical training and elements including Orbital and Ocular Anatomy, Histology, Ocular Physiology, Ocular Pathology, Biochemistry, Microbiology and Immunology. It is critical that aspirants acquire knowledge about research methodology during the course, including record-keeping, to perform effective research inquiry with proper analysis and report writing.`}</p>
-        <p className='text-[14px] font-Poppins  font-[500] py-3'>{`The program’s purpose is to create professionals who would provide patients with high-quality eye care and advance the science cause through research and training. The lucrative employment opportunities for Ophthalmologist professionals are in sectors such as government and private hospitals, NGOs, missionary hospitals in India and abroad. Applicants with an MBBS degree from a recognized institute who have permanently registered with India’s Medical Council or any other State Medical Council are eligible for this course.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MS Ophthalmology is a specialization of Medicine and surgery dedicated to diagnosis and treatment of the eye-related disorder. It is also called as MD in Ophthalmology in India. It is a three-year postgraduate program dedicated to providing the fundamentals of ophthalmology with strong scientific expertise. MS Ophthalmology involves an advanced study of the eye’s anatomy, physiology and diseases. The ophthalmology course contains core clinical training and elements including Orbital and Ocular Anatomy, Histology, Ocular Physiology, Ocular Pathology, Biochemistry, Microbiology and Immunology. It is critical that aspirants acquire knowledge about research methodology during the course, including record-keeping, to perform effective research inquiry with proper analysis and report writing.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] py-3'>{`The program’s purpose is to create professionals who would provide patients with high-quality eye care and advance the science cause through research and training. The lucrative employment opportunities for Ophthalmologist professionals are in sectors such as government and private hospitals, NGOs, missionary hospitals in India and abroad. Applicants with an MBBS degree from a recognized institute who have permanently registered with India’s Medical Council or any other State Medical Council are eligible for this course.`}</p>
 
         </div>
         <div className='pt-10'>
@@ -19,7 +19,7 @@ const Ophthalmology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS OPHTHALMOLOGY COURSE DURATION`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MS Ophthalmology is a 3 years Post Graduation Course which includes clinical training and theoretical studies .To apply for this course an applicant must have MCI or State Medical Council registered MBBS degree along with 1 year rotational internship, The students who is continuing with the internship can also participate but the internship should be complete before the commencement of the academic year i.e.31st march.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MS Ophthalmology is a 3 years Post Graduation Course which includes clinical training and theoretical studies .To apply for this course an applicant must have MCI or State Medical Council registered MBBS degree along with 1 year rotational internship, The students who is continuing with the internship can also participate but the internship should be complete before the commencement of the academic year i.e.31st march.`}</p>
         </div>
   
       
@@ -27,7 +27,7 @@ const Ophthalmology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS OPHTHALMOLOGY SEATS IN GOVERNMENT COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The total of 128 Government Medical colleges in India which are offering MD/MS Ophthalmology course, the Post-Graduation MD/MS Ophthalmology seats in government medical colleges is approximately 936 in different states of the country. Government Medical colleges in Delhi have the maximum number of Ophthalmology seats i.e. 156. State-wise Ophthalmology seats are given below in the table below.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The total of 128 Government Medical colleges in India which are offering MD/MS Ophthalmology course, the Post-Graduation MD/MS Ophthalmology seats in government medical colleges is approximately 936 in different states of the country. Government Medical colleges in Delhi have the maximum number of Ophthalmology seats i.e. 156. State-wise Ophthalmology seats are given below in the table below.`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -410,7 +410,7 @@ const Ophthalmology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS OPHTHALMOLOGY SEATS IN PRIVATE COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`There are a total of 146 Private Medical Colleges in India which offers MD/MS Ophthalmology course; the private colleges have a total of 509 Post Graduation Ophthalmology seats in different states of the country. Private Medical colleges in Karnataka have the maximum number of Ophthalmology seats i.e. 129. Refer table for state-wise seat distribution.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`There are a total of 146 Private Medical Colleges in India which offers MD/MS Ophthalmology course; the private colleges have a total of 509 Post Graduation Ophthalmology seats in different states of the country. Private Medical colleges in Karnataka have the maximum number of Ophthalmology seats i.e. 129. Refer table for state-wise seat distribution.`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -793,17 +793,17 @@ const Ophthalmology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS OPHTHALMOLOGY FEES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The MS Ophthalmology Fees for state private colleges starts from 16 Lakhs to maximum 40 Lakhs per annum.
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The MS Ophthalmology Fees for state private colleges starts from 16 Lakhs to maximum 40 Lakhs per annum.
 The MS Ophthalmology Fees in deemed universities vary from college to college. It starts minimum 18 Lakhs to Maximum 40 Lakhs per annum.
 The MS Ophthalmology Fees for all India quota and state quota govt. seats start from 50k to 1.5 Lakh per annum.`}</p>
-<p className='text-[14px] font-Poppins  font-[700]'>{`*To Know college wise fees, cutoff in different categories kindly reach us.`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700]'>{`*To Know college wise fees, cutoff in different categories kindly reach us.`}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS OPHTHALMOLOGIST SALARY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The basic salary of an Ophthalmologist is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the health industry. Some Ophthalmologists invest in specialized centers for eye care to earn even more. Ophthalmologists are highly in demand for both government and private health sectors. There is a huge demand of Indian Ophthalmologists in various countries like Australia, USA, UK and Gulf Countries. They can work as a consultant, public health specialist, junior research scientist, professors etc.`}</p>
-<p className='text-[14px] font-Poppins  font-[700] pt-10'>{`Summary:  M.D./M.S. Ophthalmologist is a 3-year course. The candidates who wish to take this course must have completed M.B.B.S with a minimum of 50% score. It all depends on the candidate’s performance in their PG Medical exams for the Admission in Ophthalmology. The Ophthalmology course is completely based on the clinical training and research of Eyecare. The candidates have to be good in caring for the patient, research and faculty development. The fees charged for this course is between INR 10 to 25 Lakhs per annum for private medical colleges. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad. In India, the average salary of an ophthalmologist is around Rs.9 lakh per year. The more experience gained the better one can earn.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The basic salary of an Ophthalmologist is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the health industry. Some Ophthalmologists invest in specialized centers for eye care to earn even more. Ophthalmologists are highly in demand for both government and private health sectors. There is a huge demand of Indian Ophthalmologists in various countries like Australia, USA, UK and Gulf Countries. They can work as a consultant, public health specialist, junior research scientist, professors etc.`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700] pt-10'>{`Summary:  M.D./M.S. Ophthalmologist is a 3-year course. The candidates who wish to take this course must have completed M.B.B.S with a minimum of 50% score. It all depends on the candidate’s performance in their PG Medical exams for the Admission in Ophthalmology. The Ophthalmology course is completely based on the clinical training and research of Eyecare. The candidates have to be good in caring for the patient, research and faculty development. The fees charged for this course is between INR 10 to 25 Lakhs per annum for private medical colleges. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad. In India, the average salary of an ophthalmologist is around Rs.9 lakh per year. The more experience gained the better one can earn.`}</p>
 <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS OPHTHALMOLOGY CUTOFF`}</p>
 
@@ -815,7 +815,7 @@ The MS Ophthalmology Fees for all India quota and state quota govt. seats start 
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection`}</p>
         </div>
 
     

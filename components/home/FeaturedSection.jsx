@@ -1,13 +1,22 @@
 "use client"
-
+import { useState } from 'react';
 import Link from 'next/link'
  import Pg1 from '../../public/enroll-icon.png'
  import Pg2 from '../../public/faculty-icon.png'
  import Pg3 from '../../public/franchise-icon.png'
  import Pg4 from '../../public/ui-ux-icon.png'
 import Image from 'next/image'
+import ContactModel from '../common/ContactModel';
 const FeaturedSection = () => {
+  const [contactmodel, setContactModel] = useState(false);
 
+    const handleOpenContactModel = () => {
+      setContactModel(true);
+    };
+  
+    const handleCloseContactModel = () => {
+      setContactModel(false);
+    };
   return (
     <div className={`py-20`}>
     <div className='container mx-auto'>
@@ -26,7 +35,7 @@ const FeaturedSection = () => {
 </div>
 <p className='text-[#4a1e75] text-[18px] font-Poppins'>NEET PG Counselling</p>
 <div>
-  <button className='px-5 py-2 rounded-lg bg-[#4a1e75] text-white shadow-lg font-bold text-[20px]'>{`>>`}</button>
+  <button  className='px-5 py-2 rounded-lg bg-[#4a1e75] text-white shadow-lg font-bold text-[20px]'>{`>>`}</button>
 </div>
 <div className='flex flex-col gap-5 justify-center items-center bg-[#4a1e75] w-full  rounded-tr-[40px]'>
 <div className='pt-10'>
@@ -44,7 +53,7 @@ const FeaturedSection = () => {
 </div>
 <p className='text-[#FFF] text-[18px] font-Poppins'>NEET UG Counselling</p>
 <div>
-  <button className='px-5 py-2 rounded-lg  bg-[#ffda00] text-white shadow-lg font-bold text-[20px]'>{`>>`}</button>
+  <button onClick={handleOpenContactModel} className='px-5 py-2 rounded-lg  bg-[#ffda00] text-white shadow-lg font-bold text-[20px]'>{`>>`}</button>
 </div>
 <div className='flex flex-col gap-5 justify-center items-center bg-[#ffda00] w-full  rounded-tl-[40px]'>
 <div className='pt-10'>
@@ -59,6 +68,7 @@ const FeaturedSection = () => {
      </div>
        </div>
     </div>
+    {contactmodel && <ContactModel handleCloseContactModel={handleCloseContactModel} handleOpenContactModel={handleOpenContactModel}/>}
     </div>
   )
 }

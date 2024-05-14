@@ -10,34 +10,34 @@ const Dermatology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY, VENEREOLOGY AND LEPROSY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MD Dermatology is also known as MD in Dermatology, Venereology and Leprosy is a 3 years post-graduation Medical course, MD Dermatology is an education mainly concerned with the skin and diseases of the hair, nails, and mucous membranes of the human body. A dermatologist provides support for cosmetic issues. A candidate can take MD Dermatology as a career only if he/she has an MCI registered MBBS degree after that an aspirant has to go through NEET-PG entrance test conducted by NBE and has to qualify it with good percentile in an individual category to get MD Dermatology seat. There is a vast career opportunity for a dermatologist. A Dermatologist has a secure income and career stability, due to its charming career prospect it is a most demanding PG Medical course nowadays, A Dermatologist has ample of scopes, Due to the increase in environmental pollution, there is a rapid increase in Skin related problems, hair loss or baldness and cosmetic issues. Mostly MD Dermatologist prefer to have their own clinic to have an extra income source but their scope is not limited to the clinic only they had wide range of jobs in Government hospitals and Private organization, Dermatologist with years of experience are usually chosen to appoint as directors and HOD’s of the organization. Dermatologists can also choose their career in teaching; job opportunities for Dermatologists are also available in India and abroad.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MD Dermatology is also known as MD in Dermatology, Venereology and Leprosy is a 3 years post-graduation Medical course, MD Dermatology is an education mainly concerned with the skin and diseases of the hair, nails, and mucous membranes of the human body. A dermatologist provides support for cosmetic issues. A candidate can take MD Dermatology as a career only if he/she has an MCI registered MBBS degree after that an aspirant has to go through NEET-PG entrance test conducted by NBE and has to qualify it with good percentile in an individual category to get MD Dermatology seat. There is a vast career opportunity for a dermatologist. A Dermatologist has a secure income and career stability, due to its charming career prospect it is a most demanding PG Medical course nowadays, A Dermatologist has ample of scopes, Due to the increase in environmental pollution, there is a rapid increase in Skin related problems, hair loss or baldness and cosmetic issues. Mostly MD Dermatologist prefer to have their own clinic to have an extra income source but their scope is not limited to the clinic only they had wide range of jobs in Government hospitals and Private organization, Dermatologist with years of experience are usually chosen to appoint as directors and HOD’s of the organization. Dermatologists can also choose their career in teaching; job opportunities for Dermatologists are also available in India and abroad.`}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center '>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY COURSE DURATION`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MD Dermatology is 3 yrs. Prost Graduation Course which includes clinical and theoretical studies.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MD Dermatology is 3 yrs. Prost Graduation Course which includes clinical and theoretical studies.`}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY ELIGIBILITY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`An aspirant should have completed MBBS degree with a 1-year rotational internship, however, a student having provisional or permanent MCI registration who is continuing with the internship can also participate. (*the internship should be completed before the commencement of the academic year i.e. 31st march).`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`An aspirant should have completed MBBS degree with a 1-year rotational internship, however, a student having provisional or permanent MCI registration who is continuing with the internship can also participate. (*the internship should be completed before the commencement of the academic year i.e. 31st march).`}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY ADMISSION PROCESS`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The applicant who wishes to take admission in MD Dermatology has to appear for NEET PG medical exam which is conducted by NBE in January every year. The student/aspirants have to qualify NEET-PG with required cutoff percentile in individual category i.e. for general 50th percentile and 40th percentile for SC, ST and OBC to get admission in MD Dermatology. Due to its high demand and less number of seat availability NEET-PG cutoff for MD Dermatology is relatively high for top private and government medical college, In India dermatology seats in medical colleges are available under various quota like All India Quota seats, Management quota seats, Institutional quota seats and NRI quota seats, etc. which students can opt during NEET-PG Counselling. `}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The applicant who wishes to take admission in MD Dermatology has to appear for NEET PG medical exam which is conducted by NBE in January every year. The student/aspirants have to qualify NEET-PG with required cutoff percentile in individual category i.e. for general 50th percentile and 40th percentile for SC, ST and OBC to get admission in MD Dermatology. Due to its high demand and less number of seat availability NEET-PG cutoff for MD Dermatology is relatively high for top private and government medical college, In India dermatology seats in medical colleges are available under various quota like All India Quota seats, Management quota seats, Institutional quota seats and NRI quota seats, etc. which students can opt during NEET-PG Counselling. `}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY SEATS IN GOVERNMENT COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`There are a total of 106 Government Colleges in India which offers MD Dermatology course, the Post-Graduation MD Dermatology seats in government colleges are 455 in different states of the country. Government colleges in Tamil Nadu have the maximum number of MD Dermatology seats i.e. 44. The total number of available seats for MD Dermatology in government colleges is given in the table below.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`There are a total of 106 Government Colleges in India which offers MD Dermatology course, the Post-Graduation MD Dermatology seats in government colleges are 455 in different states of the country. Government colleges in Tamil Nadu have the maximum number of MD Dermatology seats i.e. 44. The total number of available seats for MD Dermatology in government colleges is given in the table below.`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -421,7 +421,7 @@ const Dermatology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY SEATS IN PRIVATE COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`There are total 135 Private Colleges in India which offers MD Dermatology course, the Post-Graduation MD Dermatology seats in private colleges are 406 in different states of the country. Private colleges in Karnataka have the maximum number of MD Dermatology seats i.e. 102. The total number of available seats for MD Dermatology in private colleges is given in the table below.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`There are total 135 Private Colleges in India which offers MD Dermatology course, the Post-Graduation MD Dermatology seats in private colleges are 406 in different states of the country. Private colleges in Karnataka have the maximum number of MD Dermatology seats i.e. 102. The total number of available seats for MD Dermatology in private colleges is given in the table below.`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -804,16 +804,16 @@ const Dermatology = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY FEES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The MD Dermatology Fees for state private colleges starts from 18 Lakhs to maximum 75 Lakhs per annum.
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The MD Dermatology Fees for state private colleges starts from 18 Lakhs to maximum 75 Lakhs per annum.
 The MD Dermatology Fees in deemed universities vary from college to college. It starts minimum 18 Lakhs to Maximum 65 Lakhs per annum.The MD Dermatology Fees for all India quota and state quota govt. seats start from 50k to 1.5 Lakh per annum.`}</p>
-<p className='text-[14px] font-Poppins  font-[700]'>{`*To Know college wise fee, cutoff in different categories kindly reach us.`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700]'>{`*To Know college wise fee, cutoff in different categories kindly reach us.`}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGIST SALARY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`Their take-home pay is about 1lakh to 4 lakhs rupees per month depending upon their experience in the industry. Some Dermatologist Doctors earn even more by investing in specialized centers. They work more. They get paid more.`}</p>
-<p className='text-[14px] font-Poppins  font-[700] pt-10'>{`SUMMARY:- M.D. Dermatology is a 3-year post-graduation course. The candidates who wish to take this course must have MCI registered M.B.B.S degree. It all depends on the candidate’s performance in their NEET-PG exams for the Admission in MD Dermatology. The candidates have to be good at caring for the patient, education, research, and faculty development. The fees for MD Dermatology course is between INR 6 lakhs to 40 Lakhs per years in private colleges. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`Their take-home pay is about 1lakh to 4 lakhs rupees per month depending upon their experience in the industry. Some Dermatologist Doctors earn even more by investing in specialized centers. They work more. They get paid more.`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700] pt-10'>{`SUMMARY:- M.D. Dermatology is a 3-year post-graduation course. The candidates who wish to take this course must have MCI registered M.B.B.S degree. It all depends on the candidate’s performance in their NEET-PG exams for the Admission in MD Dermatology. The candidates have to be good at caring for the patient, education, research, and faculty development. The fees for MD Dermatology course is between INR 6 lakhs to 40 Lakhs per years in private colleges. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad.`}</p>
 <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD DERMATOLOGY CUTOFF`}</p>
 
@@ -825,7 +825,7 @@ The MD Dermatology Fees in deemed universities vary from college to college. It 
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection`}</p>
         </div>
 
     

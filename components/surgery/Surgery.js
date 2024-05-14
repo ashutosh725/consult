@@ -10,17 +10,17 @@ const Surgery = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`OVERVIEW OF MS GENERAL SURGERY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`General Surgery is a surgical sub-specialty dealing with the surgical treatment of organs. MS General Surgery is a three-year postgraduate Medical program devoted to teaching students various diseases and accidents related operating procedures (commonly known as surgery). The program’s course work includes a balance of practical sessions and theoretical lectures that imparts knowledge on abdominal organs such as liver, stomach, colon, intestine esophagus, thyroid gland, and hernia. Students are prepared to perform diagnostic procedures as well as prevention and treatment under this program.`}</p>
-        <p className='text-[14px] font-Poppins  font-[500] py-3'>{`Once the course is completed, aspirants gain the ability to practice the specialty for surgery in accordance with professional ethics principles. While gaining medical experience, the program teaches the students to effectively manage trauma patients. `}</p>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`Those who have completed their postgraduate studies in MS General Surgery can work as surgeons in various private and government hospitals, which are among the most renowned medical professions.`}</p>
-        <p className='text-[14px] font-Poppins  font-[500] py-3'>{`Applicants with an MBBS degree from a recognized institute who have permanently registered with India’s Medical Council or any other State Medical Council are eligible for this course. `}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`General Surgery is a surgical sub-specialty dealing with the surgical treatment of organs. MS General Surgery is a three-year postgraduate Medical program devoted to teaching students various diseases and accidents related operating procedures (commonly known as surgery). The program’s course work includes a balance of practical sessions and theoretical lectures that imparts knowledge on abdominal organs such as liver, stomach, colon, intestine esophagus, thyroid gland, and hernia. Students are prepared to perform diagnostic procedures as well as prevention and treatment under this program.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] py-3'>{`Once the course is completed, aspirants gain the ability to practice the specialty for surgery in accordance with professional ethics principles. While gaining medical experience, the program teaches the students to effectively manage trauma patients. `}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`Those who have completed their postgraduate studies in MS General Surgery can work as surgeons in various private and government hospitals, which are among the most renowned medical professions.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] py-3'>{`Applicants with an MBBS degree from a recognized institute who have permanently registered with India’s Medical Council or any other State Medical Council are eligible for this course. `}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center '>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERY COURSE DURATION`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MS General Surgery is a 3 years Prost Graduation Course which includes clinical training and theoretical studies`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MS General Surgery is a 3 years Prost Graduation Course which includes clinical training and theoretical studies`}</p>
         </div>
   
         <div className='pt-10'>
@@ -28,13 +28,13 @@ const Surgery = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERY ADMISSION PROCESS`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`To get admission in MS general surgery course an applicant has to qualify NEET-PG exam with good NEET score. The student/aspirants have to qualify NEET-PG with required cutoff percentile in individual category i.e. 40th percentile for SC, ST and OBC for general 50th percentile is required.  NEET-CUTOFF Score for MS General Surgery is quite high for government medical colleges and some top private medical colleges but the student can also look for the option to get a seat in some private medical colleges and Deemed Universities with high fees for MS General Surgery under management quota, Institutional quota or NRI quota. The process of General Surgery starts with NEET- PG exam conducted by NBE followed by NEET PG counselling conducted by various state medical authorities and MCC.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`To get admission in MS general surgery course an applicant has to qualify NEET-PG exam with good NEET score. The student/aspirants have to qualify NEET-PG with required cutoff percentile in individual category i.e. 40th percentile for SC, ST and OBC for general 50th percentile is required.  NEET-CUTOFF Score for MS General Surgery is quite high for government medical colleges and some top private medical colleges but the student can also look for the option to get a seat in some private medical colleges and Deemed Universities with high fees for MS General Surgery under management quota, Institutional quota or NRI quota. The process of General Surgery starts with NEET- PG exam conducted by NBE followed by NEET PG counselling conducted by various state medical authorities and MCC.`}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERY SEATS IN GOVERNMENT COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MS General Surgery course is offered by 145 government medical college in India, the total number of General Surgery seats in government medical colleges is approximately 2116 in different states of the country. Government medical colleges in Tamil Nadu have the maximum number of General Surgery seats i.e 267. The state-wise data for General Surgery seats in government colleges is given in the table below –`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MS General Surgery course is offered by 145 government medical college in India, the total number of General Surgery seats in government medical colleges is approximately 2116 in different states of the country. Government medical colleges in Tamil Nadu have the maximum number of General Surgery seats i.e 267. The state-wise data for General Surgery seats in government colleges is given in the table below –`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -416,7 +416,7 @@ const Surgery = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERY SEATS IN PRIVATE COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`There are  144 Private Medical Colleges in India which offers MS General Surgery course, the private medical colleges has a total of 1101 MS General Surgery seats in different states of the country. Private medical colleges in Karnataka have the maximum number of surgery seats 235.The state wise General surgery seats are given in the table below-`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`There are  144 Private Medical Colleges in India which offers MS General Surgery course, the private medical colleges has a total of 1101 MS General Surgery seats in different states of the country. Private medical colleges in Karnataka have the maximum number of surgery seats 235.The state wise General surgery seats are given in the table below-`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -799,17 +799,17 @@ const Surgery = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERY FEES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The MS General Surgery Fees for state private colleges starts from 16 Lakhs to maximum 50 Lakhs per annum.
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The MS General Surgery Fees for state private colleges starts from 16 Lakhs to maximum 50 Lakhs per annum.
 The MS General Surgery Fees in deemed universities vary from college to college. It starts minimum 18 Lakhs to Maximum 40 Lakhs per annum.
 The MS General Surgery Fees for all India quota and state quota govt. seats start from 50k to 1.5 Lakh per annum.`}</p>
-<p className='text-[14px] font-Poppins  font-[700]'>{`*To Know college wise fee, cutoff in different categories kindly reach us.`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700]'>{`*To Know college wise fee, cutoff in different categories kindly reach us.`}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERON SALARY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The take-home pay for the general surgeon is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the industry, the specialized surgeons have a huge demand in the medical industry the surgeon has a respectful position in society. Some Surgeon Doctors earn even more after getting super speciality degree`}</p>
-<p className='text-[14px] font-Poppins  font-[700] pt-10'>{`Summary:- M.S General Surgery is a 3-year post-graduation medical course. The candidates who wish to take this course must have completed M.B.B.S with a minimum of 50% score. It all depends on the candidate’s performance in their Post-graduation entrance exams for the Admission. The General surgery course is completely based on Surgical procedures training. The candidates have to be good in performing the surgeries and caring for the patients. The fees charged for this course is between INR 2 to 5 Lakhs for 3 years in government medical colleges, private medical colleges have higher fees ranging from 15 lakhs per annum to 30 lakhs per annum. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The take-home pay for the general surgeon is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the industry, the specialized surgeons have a huge demand in the medical industry the surgeon has a respectful position in society. Some Surgeon Doctors earn even more after getting super speciality degree`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700] pt-10'>{`Summary:- M.S General Surgery is a 3-year post-graduation medical course. The candidates who wish to take this course must have completed M.B.B.S with a minimum of 50% score. It all depends on the candidate’s performance in their Post-graduation entrance exams for the Admission. The General surgery course is completely based on Surgical procedures training. The candidates have to be good in performing the surgeries and caring for the patients. The fees charged for this course is between INR 2 to 5 Lakhs for 3 years in government medical colleges, private medical colleges have higher fees ranging from 15 lakhs per annum to 30 lakhs per annum. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad`}</p>
 <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MS GENERAL SURGERY CUTOFF`}</p>
 
@@ -821,7 +821,7 @@ The MS General Surgery Fees for all India quota and state quota govt. seats star
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection`}</p>
         </div>
 
     

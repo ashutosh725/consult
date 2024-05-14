@@ -10,34 +10,34 @@ const Anesthesia = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`OVERVIEW OF MD ANESTHESIA`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MD Anesthesia is a postgraduate medical degree course taught in various government and private medical colleges in the country.MD Anesthesia course duration is of 3 years, the students get entry into the course by competing in the national level exam  NEET PG which is conducted by National Board of Education (NBE). The importance of MD Anesthesiologists is not only increasing in India but also in abroad. There is a wide range of career opportunity for the MD Anesthesiologist which lies in the field of military and research field, Teaching and Clinical practices in hospitals. A career in Anesthesiology is one of the most useful areas in the field of healthcare. Anesthesia is a medical treatment which prevents the patients from the painful surgery. It helps the patients to have a smooth procedure that leads to a healthier life. There are a collection of anesthetic drugs developed with different effects. This includes general, regional, and local anesthesia applied to the type of pain relief needed for the concerned surgery.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MD Anesthesia is a postgraduate medical degree course taught in various government and private medical colleges in the country.MD Anesthesia course duration is of 3 years, the students get entry into the course by competing in the national level exam  NEET PG which is conducted by National Board of Education (NBE). The importance of MD Anesthesiologists is not only increasing in India but also in abroad. There is a wide range of career opportunity for the MD Anesthesiologist which lies in the field of military and research field, Teaching and Clinical practices in hospitals. A career in Anesthesiology is one of the most useful areas in the field of healthcare. Anesthesia is a medical treatment which prevents the patients from the painful surgery. It helps the patients to have a smooth procedure that leads to a healthier life. There are a collection of anesthetic drugs developed with different effects. This includes general, regional, and local anesthesia applied to the type of pain relief needed for the concerned surgery.`}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center '>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA COURSE DURATION`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`MD Anesthesia is a 3 years Prost Graduation Course which includes clinical and theoretical studies.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`MD Anesthesia is a 3 years Prost Graduation Course which includes clinical and theoretical studies.`}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA ELIGIBILITY`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`Applicant must have  completed MBBS degree along with a 1-year rotational internship, however a student who is continuing with the internship can also participate (*the internship should be complete before the commencement of the academic  year. i.e. before 31st march).`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`Applicant must have  completed MBBS degree along with a 1-year rotational internship, however a student who is continuing with the internship can also participate (*the internship should be complete before the commencement of the academic  year. i.e. before 31st march).`}</p>
         </div>
         <div className='pt-10'>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA ADMISSION PROCESS`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The applicant has to appear for NEET PG Medical exam which is conducted by NBE in January every year. The student/aspirants have to qualify NEET-PG with required cutoff percentile in individual category i.e. for general 50th percentile and 40th percentile for SC, ST and OBC to get admission in MD Anesthesia.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The applicant has to appear for NEET PG Medical exam which is conducted by NBE in January every year. The student/aspirants have to qualify NEET-PG with required cutoff percentile in individual category i.e. for general 50th percentile and 40th percentile for SC, ST and OBC to get admission in MD Anesthesia.`}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA SEATS IN GOVERNMENT COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`There are a total of 158 Government Colleges in India which offers MD Anesthesia course, the Post-Graduation MD Anesthesia seats in government colleges are approximately 2049 in different states of the country. Government colleges in Maharashtra have the maximum number of MD Anesthesia seats i.e. 225.The details of available seats For MD Anesthesia in government colleges are given in the table below.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`There are a total of 158 Government Colleges in India which offers MD Anesthesia course, the Post-Graduation MD Anesthesia seats in government colleges are approximately 2049 in different states of the country. Government colleges in Maharashtra have the maximum number of MD Anesthesia seats i.e. 225.The details of available seats For MD Anesthesia in government colleges are given in the table below.`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -421,7 +421,7 @@ const Anesthesia = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA SEATS IN PRIVATE COLLEGES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`There are total 153 Private Colleges in India which offers MD Anesthesia course; the private colleges have total 1159 Post Graduation MD Anesthesia seats in different states of the country. Private colleges in Karnataka have the maximum number of MD anesthesia seats i.e. 268. The details of available seats for MD Anesthesia in Private colleges are given in the table below.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`There are total 153 Private Colleges in India which offers MD Anesthesia course; the private colleges have total 1159 Post Graduation MD Anesthesia seats in different states of the country. Private colleges in Karnataka have the maximum number of MD anesthesia seats i.e. 268. The details of available seats for MD Anesthesia in Private colleges are given in the table below.`}</p>
         
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg my-6">
@@ -804,17 +804,17 @@ const Anesthesia = () => {
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA FEES`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`The MD Anesthesia Fees for state private colleges starts from 10 Lakhs to maximum 40 Lakhs per annum.
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The MD Anesthesia Fees for state private colleges starts from 10 Lakhs to maximum 40 Lakhs per annum.
 The MD Anesthesia Fees in deemed universities vary from college to college. It starts minimum 18 Lakhs to Maximum 35 Lakhs per annum.
 The MD Anesthesia Fees for all India quota and state quota govt. seats start from 50k to 1.5 Lakh per annum.`}</p>
-<p className='text-[14px] font-Poppins  font-[700]'>{`*To Know college wise fee, cutoff in different categories kindly reach us`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700]'>{`*To Know college wise fee, cutoff in different categories kindly reach us`}</p>
         </div>
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`SALARY OF MD ANESTHESIOLOGISTS`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500]'>{`Their take-home pay is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the industry. Some anesthesia Doctors earn even more by investing in specialized centers. They work more. They get paid more.`}</p>
-<p className='text-[14px] font-Poppins  font-[700] pt-10'>{`SUMMARY: –      M.D. Anesthesiology is a 3-year course. The candidates who wish to take this course must have completed M.B.B.S and has permanent or provisional registration with medical council of India. It all depends on the candidate’s performance in their NEET-PG examination for the Admission in MD Anesthesia the student has to qualify NEET-PG with minimum of 50th percentile score for general candidates and 40th percentile for OBC, SC and ST candidates. The anesthesiology course is completely based on the utilization of drugs. The candidates have to be good at caring for the patient, education, research, and faculty development. The fees charged for this course is between INR 2 to 20 Lakhs per years. The candidates on completion of the course can work in colleges, universities and hospitals, in India and abroad.`}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`Their take-home pay is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the industry. Some anesthesia Doctors earn even more by investing in specialized centers. They work more. They get paid more.`}</p>
+<p className='lg:text-[14px] text-[12px] font-Poppins  font-[700] pt-10'>{`SUMMARY: –      M.D. Anesthesiology is a 3-year course. The candidates who wish to take this course must have completed M.B.B.S and has permanent or provisional registration with medical council of India. It all depends on the candidate’s performance in their NEET-PG examination for the Admission in MD Anesthesia the student has to qualify NEET-PG with minimum of 50th percentile score for general candidates and 40th percentile for OBC, SC and ST candidates. The anesthesiology course is completely based on the utilization of drugs. The candidates have to be good at caring for the patient, education, research, and faculty development. The fees charged for this course is between INR 2 to 20 Lakhs per years. The candidates on completion of the course can work in colleges, universities and hospitals, in India and abroad.`}</p>
 <div className='bg-[#4a1e75]  text-[#63625e] p-2 mt-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD ANESTHESIA CUTOFF`}</p>
 
@@ -826,7 +826,7 @@ The MD Anesthesia Fees for all India quota and state quota govt. seats start fro
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 
         </div>
-        <p className='text-[14px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection `}</p>
+        <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pb-10'>{`Get College Wise Course Details | Course Wise Cutoff Details | Category Wise Seat Availability | Rank Based College & Course Selection `}</p>
         </div>
 
     
