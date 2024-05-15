@@ -29,7 +29,7 @@ const Footer = () => {
       });
   };
   return (
-    <div className='bg-[#290768]/70 text-white py-10'>
+    <div className='bg-secondary text-white py-10'>
       <div className='container mx-auto'>
  <div className='flex flex-col justify-start md:flex-row items-start md:flex-wrap md:gap-10 gap-7 md:justify-between md:items-center px-6 lg:px-0 '>
  <ul className='flex flex-col justify-center items-start gap-3'>
@@ -39,24 +39,27 @@ const Footer = () => {
         <p className='text-[13px]'>©4 Apr, 2024 Nscx Education India</p>
     </ul>
     <ul className='flex flex-col justify-center items-start gap-3'>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs'}>MBBS</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/md-ms-in-india'}>MD/MS</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs'}>Home</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/md-ms-in-india'}>About us</Link></li>
         <li><Link className='hover:text-primary hover:scale-75' href={'/cps-fcps'}>CPS/FCPS</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/cps-fcps'}>Career Counselling</Link></li>
         <li><Link className='hover:text-primary hover:scale-75' href={'/contact'}>Contact US</Link></li>
     </ul>
     <ul className='flex flex-col justify-center items-start gap-3'>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#india'}>MBBS in India</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs-in-bangladesh'}>MBBS in Bangladesh</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#nepal'}>MBBS in Nepal</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#philippines'}>MBBS in Philippines</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#india'}>MD ANESTHESIA</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs-in-bangladesh'}>MD DERMATOLOGY</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#nepal'}>MD RADIOLOGY</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#philippines'}>MD GENERAL MEDICINE</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#philippines'}>MD PAEDIATRICS</Link></li>
     </ul>
     <ul className='flex flex-col justify-center items-start gap-3'>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#kazakhsthan'}>MBBS in Kazakhstan</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#uzbekistan'}>MBBS in Uzbekistan</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#poland'}>MBBS in Poland</Link></li>
-        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#russia'}>MBBS in Russia</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#kazakhsthan'}>MS Orthopaedics</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#uzbekistan'}>MS Obstetrics & Gynaecology</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#poland'}>MS Ophthalmology</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#russia'}>MD Pulmonary / Respiratory medicine</Link></li>
+        <li><Link className='hover:text-primary hover:scale-75' href={'/mbbs#russia'}>MS General Surgery</Link></li>
     </ul>
-    <form  ref={form}
+    {/* <form  ref={form}
              onSubmit={sendEmail}>
     <div className='flex flex-col gap-2'>
      <input
@@ -77,7 +80,7 @@ const Footer = () => {
     <div className='mt-[13px] flex justify-end items-end'>
       <button type='submit' className='bg-[#E02B20] text-[15px] rounded-full px-3 py-2  font-[600]'>Request Now</button>
     </div>
-    </form>
+    </form> */}
    
  </div>
       </div>

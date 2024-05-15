@@ -101,6 +101,58 @@ const MainHeader = () => {
               </div>
             </li>
             <li>
+              <div className="hidden lg:flex relative group px-3 py-2">
+                <div className="flex justify-center items-center space-x-3">
+                  <div
+                  
+                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide text-secondary font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                 
+                  >
+                    Courses
+                  </div>
+                  <svg
+                    className="w-2.5 h-2.5 ms-2.5 text-secondary"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </div>
+                <div
+                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform `}
+                >
+                  <div className="relative top-8 p-6 bg-white  border-t-4 border-secondary  w-full">
+                    <div className="relative z-10 ">
+                      <div className="">
+                        <Link
+                          href={"/mbbs"}
+                          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/mbbs')}
+                        >
+                        MBBS
+                        </Link>
+                        <Link
+                          href={"/md-ms-in-india"}
+                          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/md-ms-in-india')}
+                        >
+                        MD MS
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            {/* <li>
               <Link
                 href={"/cps-fcps"}
                 className={`hidden lg:flex text-secondary text-[15px] font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/cps-fcps' ? 'text-secondary' : ''}`}
@@ -108,7 +160,7 @@ const MainHeader = () => {
               >
                 CPS/FCPS
               </Link>
-            </li>
+            </li> */}
             <li>
             <div className="hidden lg:flex relative group px-3 py-2">
 <div className="flex justify-center items-center space-x-3">
@@ -117,7 +169,70 @@ const MainHeader = () => {
     className={`hidden lg:flex text-[15px] text-secondary font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
     onClick={() => handleSetActiveLink('/md-ms-in-india')}
   >
-    MD/MS IN INDIA
+   Medical In India
+
+  </Link>
+  <svg
+    className="w-2.5 h-2.5 ms-2.5 text-secondary"
+    aria-hidden="true"
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 10 6"
+  >
+    <path
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="2"
+      d="m1 1 4 4 4-4"
+    />
+  </svg>
+</div>
+<div
+  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform `}
+>
+  <div className="relative top-8 p-6 bg-white  border-t-4 border-secondary  w-full">
+    <div className="relative z-10 ">
+      <div className="">
+        <Link
+          href={"/mbbs"}
+          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+          onClick={() => handleSetActiveLink('/mbbs')}
+        >
+      Study MBBS in India
+        </Link>
+        <Link
+          href={"/md-ms-in-india"}
+          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
+          onClick={() => handleSetActiveLink('/md-ms-in-india')}
+        >
+      Study MD MS in India
+        </Link>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+            </li>
+            {/* <li>
+              <Link
+                href={"/contact"}
+                className={`hidden lg:flex text-[15px] text-secondary font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/contact' ? 'text-secondary' : ''}`}
+                onClick={() => handleSetActiveLink('/contact')}
+              >
+                CONTACT US
+              </Link>
+            </li> */}
+              {/* <li>
+            <div className="hidden lg:flex relative group px-3 py-2">
+<div className="flex justify-center items-center space-x-3">
+  <Link
+    href={"/md-ms-in-india"}
+    className={`hidden lg:flex text-[15px] text-secondary font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
+    onClick={() => handleSetActiveLink('/md-ms-in-india')}
+  >
+Study Medical Abroad
+
   </Link>
   <svg
     className="w-2.5 h-2.5 ms-2.5 text-secondary"
@@ -146,23 +261,23 @@ const MainHeader = () => {
           className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/application' ? 'text-secondary' : ''}`}
           onClick={() => handleSetActiveLink('/application')}
         >
-         ENROLL NOW
+      Study MBBS in India
+        </Link>
+        <Link
+          href={"/application"}
+          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/application' ? 'text-secondary' : ''}`}
+          onClick={() => handleSetActiveLink('/application')}
+        >
+      Study MD MS in India
         </Link>
       </div>
     </div>
   </div>
 </div>
 </div>
-            </li>
-            <li>
-              <Link
-                href={"/contact"}
-                className={`hidden lg:flex text-[15px] text-secondary font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/contact' ? 'text-secondary' : ''}`}
-                onClick={() => handleSetActiveLink('/contact')}
-              >
-                CONTACT US
-              </Link>
-            </li>
+            </li> */}
+            
+
           </ul>
           <div className="flex justify-center items-center gap-3">
             <div className="hidden lg:flex">

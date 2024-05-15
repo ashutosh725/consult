@@ -6,7 +6,7 @@ import { IoMailOutline } from "react-icons/io5";
 import { IoCall } from "react-icons/io5";
 const TopHeader = () => {
   return (
-    <div className='h-[75px] flex justify-center items-center bg-primary text-secondary'>
+    <div className='h-[75px] hidden lg:flex justify-center items-center bg-primary text-secondary'>
 <div className='container mx-auto'>
 <div className='flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-2 lg:gap-0'>
     <ul className='flex justify-center items-center gap-7'>

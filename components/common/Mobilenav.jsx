@@ -40,7 +40,7 @@ const MobileNav = ({ onLinkClick }) => {
   return (
     <div className="  z-50 top-[160px]      w-full  lg:py-0 shadow">
       <div className="container mx-auto">
-        <ul className="lg:hidden bg-primary/80 text-white relative mx-6 flex flex-col justify-center items-start gap-5 p-5 ">
+        <ul className="lg:hidden bg-secondary text-white relative mx-6 flex flex-col justify-center items-start gap-5 p-5 ">
           <Link
             href={"/"}
             onClick={handleLinkClick}
@@ -60,7 +60,7 @@ const MobileNav = ({ onLinkClick }) => {
         data-dropdown-toggle="servicesDropdown"
         className="text-white flex items-center font-medium text-[17px]"
        >
-        MBBS
+        Services
         <svg
          onClick={handleCoursesDropdownToggle}
           className={`w-2.5 h-2.5 ms-3 ${
@@ -94,86 +94,31 @@ const MobileNav = ({ onLinkClick }) => {
                     
                                 <Link
                                        onClick={handleLinkClick}
-                                       href={"/mbbs#india"}
+                                       href={"/career-counselling"}
                                  
                                   className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                                 >
-                          INDIA
+                        Career Counselling
                                 </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs-in-bangladesh"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-     BANGLADESH
-                                </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs#nepal"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-                                 NEPAL
-                                </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs#russia"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-                             RUSSIA
-                                </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs#poland"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-                              POLAND
-                                </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs#uzbekistan"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-                             UZBEKISTAN
-                                </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs#kazakhsthan"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-                          KAZAKHSTAN
-                                </Link>
-                                <Link
-                                       onClick={handleLinkClick}
-                                       href={"/mbbs#philippines"}
-                                
-                                  className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
-                                >
-                          PHILIPPINES
-                                </Link>
+                               
                                 
                              
                   </ul>
                 </div>
-         
+{/*          
           <Link
         href={"/cps-fcps"}
             onClick={handleLinkClick}
             className="text-[17px] text-white font-medium"
           >
       CPS/FCPS
-          </Link>
+          </Link> */}
           <div 
 onClick={handleCoursesDropdownToggle}
 data-dropdown-toggle="servicesDropdown"
 className="text-white flex items-center font-medium text-[17px]"
 >
-MD/MS IN INDIA
+Courses
 <svg
 onClick={handleCoursesDropdownToggle}
 className={`w-2.5 h-2.5 ms-3 ${
@@ -207,26 +152,93 @@ d="m1 1 4 4 4-4"
         
                     <Link
                            onClick={handleLinkClick}
-                           href={"/application"}
+                           href={"/mbbs"}
                      
                       className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                     >
-                      ENROLL NOW
+                                             MBBS
+
                     </Link>
                    
-                    
+                    <Link
+                           onClick={handleLinkClick}
+                           href={"/md-ms-in-india"}
+                     
+                      className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
+                    >
+                                                 MD MS
+
+                    </Link>
                  
       </ul>
     </div>
-          <Link
+          {/* <Link
           href={"/contact"}
             onClick={handleLinkClick}
             className="text-[17px] text-white font-medium"
           >
        CONTACT US
-          </Link>
+          </Link> */}
          
+         <div 
+onClick={handleCoursesDropdownToggle}
+data-dropdown-toggle="servicesDropdown"
+className="text-white flex items-center font-medium text-[17px]"
+>
+Medical In India
+<svg
+onClick={handleCoursesDropdownToggle}
+className={`w-2.5 h-2.5 ms-3 ${
+  isCoursesDropdownOpen ? "rotate-180" : ""
+}`}
+aria-hidden="true"
+xmlns="http://www.w3.org/2000/svg"
+fill="none"
+viewBox="0 0 10 6"
+>
+<path
+stroke="currentColor"
+stroke-linecap="round"
+stroke-linejoin="round"
+stroke-width="2"
+d="m1 1 4 4 4-4"
+/>
+</svg>
+</div>
+
+<div
+      id="servicesDropdown"
+      className={`z-10 ${
+          isCoursesDropdownOpen ? "block" : "hidden"
+      }  divide-y divide-gray-100`}
+    >
+      <ul
+        class=" flex flex-col justify-start items-start gap-3  py-2 text-sm text-white dark:text-gray-200"
+        aria-labelledby="servicesDropdown"
+      >
         
+                    <Link
+                           onClick={handleLinkClick}
+                           href={"/mbbs"}
+                     
+                      className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
+                    >
+                                          Study MBBS in India
+
+                    </Link>
+                   
+                    <Link
+                           onClick={handleLinkClick}
+                           href={"/md-ms-in-india"}
+                     
+                      className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
+                    >
+                                               Study MD MS in India
+
+                    </Link>
+                 
+      </ul>
+    </div>
 
 
          
