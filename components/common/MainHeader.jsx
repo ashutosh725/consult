@@ -137,14 +137,14 @@ const MainHeader = () => {
                           className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/mbbs')}
                         >
-                        MBBS
+                       UG Courses - MBBS
                         </Link>
                         <Link
                           href={"/md-ms-in-india"}
                           className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/md-ms-in-india')}
                         >
-                        MD MS
+                        PG Courses - MD MS
                         </Link>
                       </div>
                     </div>

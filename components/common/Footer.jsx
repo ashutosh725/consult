@@ -16,7 +16,7 @@ const Footer = () => {
 <div>
 <Image src={Logo1} alt='' className='w-full h-[100px] object-contain'/>
 </div>
-<p className='font-Jost text-gray-300 text-[15px]'>Our team can assist you in transforming<br/> your business through latest tech capabilities<br/> to stay ahead of the curve.</p>
+<p className='font-Jost text-gray-300 text-[15px]'>Nscx Education is a Medical Education Consultancy providing a professional platform for students seeking career assistance, guidance and support. We assist students seeking admission to Medical PG and  Medical UG courses in India and Abroad. </p>
 <ul className='flex justify-center items-center gap-3'>
        <Link href={'https://www.facebook.com/profile.php?id=100080881050247&mibextid=ZbWKwL'} target='_blank' className='bg-black/55 p-2 rounded-full'> <FaFacebookF className='hover:text-primary ease-in-out duration-200'/></Link>
         {/* <Link href={'/'} className='bg-black/55  p-2 rounded-full'><FaXTwitter className='hover:text-primary ease-in-out duration-200'/></Link> */}

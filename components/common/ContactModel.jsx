@@ -51,7 +51,7 @@ const ContactModel = ({handleCloseContactModel, handleOpenContactModel}) => {
             handleOpenContactModel ? 'flex' : 'hidden'
         } overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] bg-[rgba(0,0,0,0.40)] max-h-full`}
       >
-       <div className='relative bg-gradient-to-r from-cyan-500 to-blue-700 md:p-12 mx-4 p-8 rounded-md shadow-md'>
+       <div className='relative bg-gradient-to-r from-secondary to-secondary md:p-12 mx-4 p-8 rounded-md shadow-md'>
        <div className={` w-full  px-6 py-5`}>
             
              <form
