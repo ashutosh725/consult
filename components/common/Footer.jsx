@@ -49,9 +49,11 @@ const Footer = () => {
       <hr className='mt-10'/>
       <div className='flex flex-col md:flex-row justify-between items-center gap-5 py-5'>
         <div className='flex justify-center items-center gap-3'>
-          <Link href={'/'} className='font-Jost text-gray-300 text-[15px] hover:text-primary ease-in-out duration-200'>Privacy Policy</Link>
+          <Link href={'/privacy-policy'} className='font-Jost text-gray-300 text-[15px] hover:text-primary ease-in-out duration-200'>Privacy Policy</Link>
           <p>|</p>
-          <Link href={'/'} className='font-Jost text-gray-300 text-[15px] hover:text-primary ease-in-out duration-200'>Refund Policy</Link>
+          <Link href={'/refund-policy'} className='font-Jost text-gray-300 text-[15px] hover:text-primary ease-in-out duration-200'>Refund Policy</Link>
+          <p>|</p>
+          <Link href={'/terms-conditions'} className='font-Jost text-gray-300 text-[15px] hover:text-primary ease-in-out duration-200'>{`Terms & Conditions`}</Link>
         </div>
        <p className='font-Jost text-[15px] text-gray-300'>{`Copyright © 2024 Ashutosh. All Rights Reserved.`}</p>
       </div>
