@@ -55,11 +55,11 @@ Students holding a valid MBBS or equivalent degree from India or Abroad recogniz
 
  The following are the minimum eligibility criteria for admission in India:`}</p>
  <ul className='list-disc py-4 pl-4'>
-            <li>{`Candidates pursuing MBBS Degree or have completed the MBBS from Institutions recognized by Indian Medical Council (MCI) are eligible. `}</li>
-            <li>{`The candidate has to complete one year of internships on or before 31st March of the commencement of academic year. `}</li>
-            <li>{`The candidate has passed his/her MBBS with minimum of 50% for general category and 45% for SC, ST and OBC category. `}</li>
-            <li>{`Foreign Medical Graduates- Candidates who have completed MBBS degree from institutions outside India must clear the FMGE Screening test and has permanent or provisional registration with MCI can apply for the NEET-PG exam, Candidates who have completed their internships before 31st March of the commencement of academic year can also participate for NEET PG exam. `}</li>
-            <li>{`Foreign nationals – Candidates from outside India can also write NEET-PG exam, it is not mandatory for them to have temporary registration with MCI, they can write NEET-PG exam without MCI registration, however they can opt for temporary registration with MCI by paying prescribed fees ,but the person appearing for the exam must have registered with appropriate registering authority in his/her own country ,and his/her medical qualification  should be recognized by the competent authority for the concerned country.`}</li>
+            <li className='lg:text-[14px] text-[12px]'>{`Candidates pursuing MBBS Degree or have completed the MBBS from Institutions recognized by Indian Medical Council (MCI) are eligible. `}</li>
+            <li className='lg:text-[14px] text-[12px]'>{`The candidate has to complete one year of internships on or before 31st March of the commencement of academic year. `}</li>
+            <li className='lg:text-[14px] text-[12px]'>{`The candidate has passed his/her MBBS with minimum of 50% for general category and 45% for SC, ST and OBC category. `}</li>
+            <li className='lg:text-[14px] text-[12px]'>{`Foreign Medical Graduates- Candidates who have completed MBBS degree from institutions outside India must clear the FMGE Screening test and has permanent or provisional registration with MCI can apply for the NEET-PG exam, Candidates who have completed their internships before 31st March of the commencement of academic year can also participate for NEET PG exam. `}</li>
+            <li className='lg:text-[14px] text-[12px]'>{`Foreign nationals – Candidates from outside India can also write NEET-PG exam, it is not mandatory for them to have temporary registration with MCI, they can write NEET-PG exam without MCI registration, however they can opt for temporary registration with MCI by paying prescribed fees ,but the person appearing for the exam must have registered with appropriate registering authority in his/her own country ,and his/her medical qualification  should be recognized by the competent authority for the concerned country.`}</li>
         </ul>
         </div>
         <div className=' my-5 flex flex-col justify-start items-start'>

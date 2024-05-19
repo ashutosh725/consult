@@ -16,15 +16,15 @@ const MbbsInIndia = () => {
         </div>
         <h4 className='lg:text-[18px] text-[16px] font-Poppins  font-[700] pt-9 pb-5'>IMPORTANT LINKS</h4>
         <ul className='flex flex-col justify-start items-start gap-2 list-decimal'>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`Who study MBBS ?`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`Why Study MBBS in India?`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`Scope of MBBS in India`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`Eligibility Criteria for MBBS in India`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`Documents Required for MBBS in India`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`MBBS Admission in India`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`MBBS Seats in India`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`Top MBBS Colleges in India`}</Link></li>
-            <li><Link href={'/'} className='text-secondary hover:text-primary text-[15px] md:text-[18px] font-Jost'>{`FAQ’s`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`Who study MBBS ?`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`Why Study MBBS in India?`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`Scope of MBBS in India`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`Eligibility Criteria for MBBS in India`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`Documents Required for MBBS in India`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`MBBS Admission in India`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`MBBS Seats in India`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`Top MBBS Colleges in India`}</Link></li>
+            <li><Link href={'/'} className='text-secondary hover:text-primary text-[14px] md:text-[16px] '>{`FAQ’s`}</Link></li>
         </ul>
         <div>
         <div>
@@ -36,11 +36,11 @@ const MbbsInIndia = () => {
         <p className='lg:text-[17px] text-[15px] font-Poppins  font-[700] pt-3' >{`The regular work of an MBBS doctor includes:`}</p>
         <p  className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pt-3'>{`At the end of the undergraduate MBBS program, the MBBS Doctors are trained enough to perform various medical practices and serve the society the main goals of Indian medical graduates include –`}</p>
         <ul className='list-disc py-4 pl-4'>
-            <li>{`The Doctor Realize “health for everyone” as a goal and health right of all. `}</li>
-            <li>{`The Doctor Uses his acquired knowledge in every aspect of National policies of health and devotes himself/herself to its practical implementation. `}</li>
-            <li>{`They acquire competence in the practice of holistic medicine, encompassing promotive, curative, preventive, and rehabilitative aspects of common diseases.`}</li>
-            <li>{`Uses their acquired scientific temper, they acquire educational experience for proficiency in the medical profession, hence promotes healthy living. `}</li>
-            <li>{`And finally, they become exemplary citizens by the observance of medical ethics and fulfilling professional and social obligations. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`The Doctor Realize “health for everyone” as a goal and health right of all. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`The Doctor Uses his acquired knowledge in every aspect of National policies of health and devotes himself/herself to its practical implementation. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`They acquire competence in the practice of holistic medicine, encompassing promotive, curative, preventive, and rehabilitative aspects of common diseases.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Uses their acquired scientific temper, they acquire educational experience for proficiency in the medical profession, hence promotes healthy living. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`And finally, they become exemplary citizens by the observance of medical ethics and fulfilling professional and social obligations. `}</li>
         </ul>
         </div>
         </div>
@@ -53,11 +53,11 @@ const MbbsInIndia = () => {
 
         <p  className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pt-3'>{`The Training Program of the Indian Medical Graduate is Competency-Based, competency-based learning focuses on the desired and observable ability in real-life situations. The Indian MBBS Graduate obtains the following competencies at the time of their graduation:  `}</p>
         <ul className='list-decimal py-4 pl-4'>
-            <li>{`Medical Professional who is committed to excellence is ethical, accountable and responsive to the patients, communities, and the profession. `}</li>
-            <li>{`They will be Lifelong learner committed to the continuous improvement of knowledge and skills.`}</li>
-            <li>{`Excellent Communicator with patients and their families, colleagues, and community.`}</li>
-            <li>{`Leader and member of the health care team and system. `}</li>
-            <li>{`A Clinician, who understands and provides preventive, promotive, curative, palliative and holistic care with compassion. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Medical Professional who is committed to excellence is ethical, accountable and responsive to the patients, communities, and the profession. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`They will be Lifelong learner committed to the continuous improvement of knowledge and skills.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Excellent Communicator with patients and their families, colleagues, and community.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Leader and member of the health care team and system. `}</li>
+            <li className='text-[14px] md:text-[16px]'>{`A Clinician, who understands and provides preventive, promotive, curative, palliative and holistic care with compassion. `}</li>
         </ul>
         </div>
         <div>
@@ -69,13 +69,13 @@ const MbbsInIndia = () => {
 
         <p  className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pt-3'>{`After completing MBBS degree the Indian medical graduates has multiple career options in front of them some of them are listed below – `}</p>
         <ul className='list-decimal py-4 pl-4'>
-            <li>{`An MBBS graduate can achieve the position of a doctor at a government and private hospital.`}</li>
-            <li>{`They can achieve the position of medical officer at government and private hospitals.`}</li>
-            <li>{`They can enhance their career options by Pursuing post-graduation MD-MS courses by giving NEET-PG exam and further super-specialty courses by giving NEET-SS.`}</li>
-            <li>{`They can take a job as professors in medical institutions.`}</li>
-            <li>{`They can do further innovation in medical field by taking u medical research as their career option.`}</li>
-            <li>{`MBBS doctors can Startup their own clinics or nursing homes.`}</li>
-            <li>{`The doctors can work full time or part-time with NGOs.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`An MBBS graduate can achieve the position of a doctor at a government and private hospital.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`They can achieve the position of medical officer at government and private hospitals.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`They can enhance their career options by Pursuing post-graduation MD-MS courses by giving NEET-PG exam and further super-specialty courses by giving NEET-SS.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`They can take a job as professors in medical institutions.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`They can do further innovation in medical field by taking u medical research as their career option.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`MBBS doctors can Startup their own clinics or nursing homes.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`The doctors can work full time or part-time with NGOs.`}</li>
         </ul>
         </div>
         <div>
@@ -87,9 +87,9 @@ const MbbsInIndia = () => {
 
         <p  className='lg:text-[14px] text-[12px] font-Poppins  font-[500] pt-3'>{`For a candidate to gain entrance into a medical college:`}</p>
         <ul className='list-decimal py-4 pl-4'>
-            <li>{`The Candidate must be at least 17 years of age at the time of admission and not more than 25 (unless specified).`}</li>
-            <li>{`Candidate must pass senior secondary or  Class 12th with a minimum of 50% marks in Physics, Chemistry, Biology for General Category and 40% for the reserved category (Scheduled Caste/Scheduled Tribe) respectively.`}</li>
-            <li>{`Candidate must pass the qualifying Exam National Eligibility cum Entrance Test (NEET) conducted by NTA.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`The Candidate must be at least 17 years of age at the time of admission and not more than 25 (unless specified).`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Candidate must pass senior secondary or  Class 12th with a minimum of 50% marks in Physics, Chemistry, Biology for General Category and 40% for the reserved category (Scheduled Caste/Scheduled Tribe) respectively.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Candidate must pass the qualifying Exam National Eligibility cum Entrance Test (NEET) conducted by NTA.`}</li>
           
         </ul>
         </div>
@@ -102,15 +102,15 @@ const MbbsInIndia = () => {
 
 
         <ul className='list-disc py-4 pl-4'>
-            <li>{`NEET UG Admit Card.`}</li>
-            <li>{`NEET Scorecard or Rank Letter.`}</li>
-            <li>{`Class 10 certificate and mark sheet (for date of birth)`}</li>
-            <li>{`Class 12 certificate and mark sheet.`}</li>
-            <li>{`ID proof (Aadhar/PAN Card/Driving License/Passport)`}</li>
-            <li>{`Eight passport size photographs.`}</li>
-            <li>{`Provisional Allotment Letter.`}</li>
-            <li>{`Category Certificate (If applicable)`}</li>
-            <li>{`PwD Certificate (If applicable)`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`NEET UG Admit Card.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`NEET Scorecard or Rank Letter.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Class 10 certificate and mark sheet (for date of birth)`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Class 12 certificate and mark sheet.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`ID proof (Aadhar/PAN Card/Driving License/Passport)`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Eight passport size photographs.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Provisional Allotment Letter.`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`Category Certificate (If applicable)`}</li>
+            <li className='text-[14px] md:text-[16px]'>{`PwD Certificate (If applicable)`}</li>
           
         </ul>
         </div>
