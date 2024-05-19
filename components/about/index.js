@@ -1,12 +1,12 @@
 import React from 'react'
-import Ab1 from '../../public/ISA2.jpg';
-import Ab2 from '../../public/cheerful-indian-asian-young-group-college-students-friends-laughing-together-while-sitting-standing-walking-campus_466689-7718.jpg';
+import Ab1 from '../../public/three-couples-walking-after-school_329181-8459.jpg';
+import Ab2 from '../../public/student-sharing-her-knowledge-with-her-colleagues_329181-8498.jpg';
 import Image from 'next/image';
 const AboutSection = () => {
   return (
     <div>
    <div className='container mx-auto'>
-    <h2 className='text-center font-Jost font-bold text-[#4a1e75] md:text-[44px] text-[26px] py-5'>Welcome To Your Chankya</h2>
+    <h2 className='text-center font-Jost font-bold text-[#4a1e75] md:text-[44px] text-[26px] py-5'>Welcome To Nscx Education</h2>
     <div className='flex flex-col lg:flex-row justify-center items-center gap-6'>
         <div className='lg:w-[50%] w-full'>
 <p className='text-[14px] font-Poppins  text-justify'>{`Nscx Education  is a Medical Education Consultancy providing a professional platform for students seeking career assistance, guidance and support. We assist students seeking admission to Medical PG and  Medical UG courses in India and Abroad. `}</p>
@@ -16,14 +16,14 @@ const AboutSection = () => {
         </div>
         <div className='lg:w-[50%] w-full'>
 <div>
-    <Image src={Ab1} alt='' className='w-full h-full object-cover'/>
+    <Image src={Ab2} alt='' className='w-full h-full object-cover'/>
 </div>
         </div>
     </div>
     <div className='flex flex-col lg:flex-row justify-center items-center gap-6 py-10'>
     <div className='lg:w-[50%] w-full'>
 <div>
-    <Image src={Ab2} alt='' className='w-full h-full object-cover'/>
+    <Image src={Ab1} alt='' className='w-full h-full object-cover'/>
 </div>
         </div>
         <div className='lg:w-[50%] w-full'>

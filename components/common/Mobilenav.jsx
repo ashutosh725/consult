@@ -219,7 +219,7 @@ d="m1 1 4 4 4-4"
         
                     <Link
                            onClick={handleLinkClick}
-                           href={"/mbbs"}
+                           href={"/mbbs-in-india"}
                      
                       className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                     >
@@ -229,7 +229,7 @@ d="m1 1 4 4 4-4"
                    
                     <Link
                            onClick={handleLinkClick}
-                           href={"/md-ms-in-india"}
+                           href={"/md-ms"}
                      
                       className=" block border-b border-gray-100  text-[14px]  font-medium text-white hover:text-black md:mx-2"
                     >

@@ -11,11 +11,11 @@ const Enroll = () => {
        <div className=''>
          <h5 className='bg-[#f5f5f5] flex justify-start items-center p-3 text-[18px]  font-semibold text-[#111111]'>ENROLLMENT FORM</h5>
         </div>
-        <div className='bg-white'>
-            <form className=" w-full">
-                <div className='flex justify-center items-start gap-3'>
+        <div className='bg-white flex justify-center items-center w-full'>
+            <form className="  flex flex-col  justify-start items-start gap-3 p-4 w-full">
+                <div className='flex justify-center items-start gap-3 '>
                     <label className='text-[14px] text-[#000000]'>Student Name:</label>
-                    <input type='text' placeholder='Student Name' className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2 '/>
+                    <input type='text' placeholder='Student Name' className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2  '/>
                 </div>
                 <div className='flex justify-center items-center gap-3'>
                     <label className='text-[14px] text-[#000000]'>{`Father's Name:`}</label>
@@ -42,7 +42,7 @@ const Enroll = () => {
                 </div>
                 <div className='flex justify-center items-center gap-3'>
                     <label className='text-[14px] text-[#000000]'>Category:</label>
-<div className='flex gap-10'>
+<div className='flex gap-10 flex-wrap'>
 <div className='flex justify-center items-center gap-2'><input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>General</div>
 <div className='flex justify-center items-center gap-2'>                    <input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>OBC</div>
 <div className='flex justify-center items-center gap-2'>                    <input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>SC</div>
@@ -80,11 +80,31 @@ const Enroll = () => {
 <div className='flex justify-center items-center gap-2'><input type='checkbox'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>DM/MCH/DNBSS</div>
 </div>
                 </div>
-                <div>
-                    <h6 className='text-[18px] font-semibold'>Engineering</h6>
-                    <div className='bg-white p-4 rounded-lg shadow-xl '>
-                    <div className='flex justify-center items-center gap-2'><input type='checkbox'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>B.TECH INFORMATION SERVICE</div>
-                    </div>
+                <div className='flex justify-center items-start gap-3 '>
+                    <label className='text-[14px] text-[#000000]'>School Name:</label>
+                    <input type='text' placeholder='School Name' className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2  '/>
+                </div>
+                <div className='flex justify-center items-start gap-3 '>
+                    <label className='text-[14px] text-[#000000]'>Coaching Institute Name:</label>
+                    <input type='text' placeholder='Coaching Institute Name' className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2  '/>
+                </div>
+                <div className='flex justify-center items-center gap-3'>
+                    <label className='text-[14px] text-[#000000]'> Board:</label>
+<div className='flex gap-10 flex-wrap'>
+<div className='flex justify-center items-center gap-2'><input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>CBSE</div>
+<div className='flex justify-center items-center gap-2'>                    <input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>ICSE</div>
+<div className='flex justify-center items-center gap-2'>                    <input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>Any Other</div>
+<div className='flex justify-center items-center gap-2'>                    <input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>Appeared in 12th</div>
+<div className='flex justify-center items-center gap-2'>                    <input type='radio'  className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2'/>Appearing in 12th</div>
+</div>
+                </div>
+                <div className='flex justify-center items-start gap-3 '>
+                    <label className='text-[14px] text-[#000000]'>Other Board Name:</label>
+                    <input type='text' placeholder='Board Name:' className='outline-none border-[1px] placeholder:text-[#000000] placeholder:text-[14px] border-[#848484] bg-[#ffffff] rounded-[5px] p-2  '/>
+                </div>
+                <div className='flex justify-start items-center gap-5 my-5'>
+                    <button className='py-2 px-5 bg-blue-400 text-white rounded-md hover:bg-red-400'>Submit</button>
+                    <button className='py-2 px-5 bg-red-400 text-white rounded-md hover:bg-blue-400'>Reset</button>
                 </div>
             </form>
         </div>

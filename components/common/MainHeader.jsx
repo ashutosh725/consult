@@ -195,16 +195,16 @@ const MainHeader = () => {
     <div className="relative z-10 ">
       <div className="">
         <Link
-          href={"/mbbs"}
-          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
-          onClick={() => handleSetActiveLink('/mbbs')}
+          href={"/mbbs-in-india"}
+          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs-in-india' ? 'text-secondary' : ''}`}
+          onClick={() => handleSetActiveLink('/mbbs-in-india')}
         >
       Study MBBS in India
         </Link>
         <Link
-          href={"/md-ms-in-india"}
-          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
-          onClick={() => handleSetActiveLink('/md-ms-in-india')}
+          href={"/md-ms"}
+          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms' ? 'text-secondary' : ''}`}
+          onClick={() => handleSetActiveLink('/md-ms')}
         >
       Study MD MS in India
         </Link>
