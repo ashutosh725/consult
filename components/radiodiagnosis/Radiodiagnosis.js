@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Rr2 from '../../public/md-radiology-cuoff-2022.jpg'
+
 const Radiodiagnosis = () => {
   return (
     <div className=''>
@@ -818,9 +818,7 @@ The MD Radiology Fees for all India quota and state quota govt. seats start from
         <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`The monthly salary of MD Radiologist is about 1 lakhs to 5 lakhs rupees depending upon their experience in the industry. Some Radiologist earns even more by investing in specialized diagnosis centers. Since opening a Radio diagnosis centers requires heavy investment one who establishes it earn very good.`}</p>
 <p className='lg:text-[14px] text-[12px] font-Poppins  font-[700] pt-10'>{`Summary:– MD Radiology is a 3 years clinical specialty post-graduation course, a candidate can take MD  Radiology as a career only if he/she has provisional or permanent MBBS degree which is very much essential to apply for M.D. in Radiologist course in any MCI recognized medical college in India and Abroad. A Radiologist has ample of scopes. Government hospitals and Private organizations are their main areas to work, Radiologist with years of experience are usually chosen to appoint as directors and HOD of private and government medical institutions and hospitals.`}</p>
 
-<div className='w-full h-full'>
-  <Image src={Rr2}  alt='' className='w-full h-full object-cover'/>
-</div>
+
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 

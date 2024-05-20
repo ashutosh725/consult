@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Rr9 from '../../public/md-tb-chest-cuoff-2022.jpg'
+
 const Tuberculosis = () => {
   return (
     <div className=''>
@@ -816,9 +816,7 @@ const Tuberculosis = () => {
         <p className='lg:text-[14px] text-[12px] font-Poppins  font-[500]'>{`Salary of Paediatrician:- Their take home pay of a paediatrician is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the industry. Some Pediatrics Doctors earn even more by investing in specialized centers. They can have their own centres where they can earn more.`}</p>
 <p className='lg:text-[14px] text-[12px] font-Poppins  font-[700] pt-10'>{`Summary:- The Doctor of Medicine in TB & chest is the specialization about the latest technologies and methods used to cure tuberculosis (TB), an infectious bacterial lung disease. It course includes a training cycle which includes some measures for proper care like diagnostic, therapeutic, rehabilitative, preventive, and primitive. The MD Respiratory Medicine postgraduates have lucrative career opportunities in government and private sectors, the average annual salary of TB&Chest postgraduate ranges between INR 1lakh to 5 lakh. It is a 3-year course. The candidates who wish to take this course must have completed M.B.B.S with a minimum of 50% score. It all depends on the candidate’s performance in their PG Medical Entrance exams for the Admission. The candidates have to be good at caring for the patient, education, research, and development. The Tuition fees charged for this course is between INR 2lakhs to 25 Lakhs per annum. The candidates on completion of the course can work in colleges and universities and hospitals, in India and abroad.`}</p>
 
-<div className='w-full h-full'>
-  <Image src={Rr9}  alt='' className='w-full h-full object-cover'/>
-</div>
+
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 

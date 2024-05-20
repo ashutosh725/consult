@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Rr5 from '../../public/md-paediatrics-cuoff-2022.jpg'
+
 const Paediatrics = () => {
   return (
     <div className=''>
@@ -821,9 +821,7 @@ The MD Paediatrics Fees for all India quota and state quota govt. seats start fr
         <p className='text-[14px] font-Poppins  font-[500]'>{`Salary of Paediatrician:- Their take home pay of a paediatrician is about 1 lakh to 5 lakhs rupees per month depending upon their experience in the industry. Some Pediatrics Doctors earn even more by investing in specialized centers. They can have their own centres where they can earn more.`}</p>
 <p className='text-[14px] font-Poppins  font-[700] pt-10'>{`Summary:- MD Pediatric is a 3 years post-graduation course, a candidate can take MD Pediatric as a career only if he/she had an MBBS degree with permanent or provisional MCI registration. They have to go through NEET-PG exam and NEET PG counselling to get entry into MD Paediatric course in India. A Paediatric has ample of scopes. Government hospitals and Private organization are their main areas to work, with the year of experience they can be appointed as HOD and directors of the organization. They can open their specialized centres to earn more.`}</p>
 
-<div className='w-full h-full'>
-  <Image src={Rr5}  alt='' className='w-full h-full object-cover'/>
-</div>
+
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 

@@ -74,53 +74,53 @@ const Why = () => {
     </div>
 </div>
 
-<div className='relative group  bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+<div className='relative group  bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out hover:bg-[#ffda00]  '>
     <div>
         <Image src={Box6} alt='' className='object-contain w-full h-[70px]'/>
     </div>
     <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS Orthopaedics</h4>
     <div className='flex justify-center items-center'>
-        <Link  href={'/ms-orthopedics'} className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</Link >
+        <Link  href={'/ms-orthopedics'} className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</Link >
     </div>
 </div>
 
-<div className='relative group  bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+<div className='relative group  bg-[#ffda00] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
     <div>
         <Image src={Box7} alt='' className='object-contain w-full h-[70px]'/>
     </div>
     <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS Obstetrics & Gynaecology</h4>
     <div className='flex justify-center items-center'>
-        <Link href={'/ms-obstetrics-gynaecology'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</Link >
+        <Link href={'/ms-obstetrics-gynaecology'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff]  rounded-[5px]'>Details</Link >
     </div>
 </div>
 
-<div className='relative group  bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+<div className='relative group  bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
     <div>
         <Image src={Box8} alt='' className='object-contain w-full h-[70px]'/>
     </div>
     <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS Ophthalmology</h4>
     <div className='flex justify-center items-center'>
-        <Link href={'/ms-ophthalmology'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</Link >
+        <Link href={'/ms-ophthalmology'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</Link >
     </div>
 </div>
 
-<div className='relative group bg-[#ffda00]  pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
+<div className='relative group bg-[#ffda00]  pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out   hover:bg-[#5a1e91]'>
     <div>
         <Image src={Box9} alt='' className='object-contain w-full h-[70px]'/>
     </div>
     <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MD Pulmonary / Respiratory medicine</h4>
     <div className='flex justify-center items-center'>
-        <Link href={'/md-tuberculosis-respiratory-diseases-pulmonary-medicine'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</Link >
+        <Link href={'/md-tuberculosis-respiratory-diseases-pulmonary-medicine'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff]  rounded-[5px]'>Details</Link >
     </div>
 </div>
 
-<div className='relative group bg-[#5a1e91]  pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#5a1e91]'>
+<div className='relative group bg-[#5a1e91]  pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-b-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
     <div>
         <Image src={Box10} alt='' className='object-contain w-full h-[70px]'/>
     </div>
     <h4 className='text-[16px] font-Poppins font-[500] text-white text-center'>MS General Surgery</h4>
     <div className='flex justify-center items-center'>
-        <Link href={'/ms-general-surgery'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#5a1e91] text-[#fff] rounded-[5px]'>Details</Link >
+        <Link href={'/ms-general-surgery'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</Link >
     </div>
 </div>
         </div>

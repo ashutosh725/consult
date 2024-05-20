@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Rr4 from '../../public/md-general-medicine-cuoff-2022.jpg'
+
 const General = () => {
   return (
     <div className=''>
@@ -819,9 +819,7 @@ The MD General Medicine Fees for all India quota and state quota govt. seats sta
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`MD GENERAL MEDICINE CUTOFF`}</p>
 
         </div>
-<div className='w-full h-full'>
-  <Image src={Rr4}  alt='' className='w-full h-full object-cover'/>
-</div>
+
         <div className='bg-[#4a1e75]  text-[#63625e] p-2 my-10 mb-5 flex justify-center items-center'>
             <p className='text-[18px] font-Poppins text-[#ffda00] font-[500]'>{`PG MEDICAL ADMISSION 2024`}</p>
 
