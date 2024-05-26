@@ -1,7 +1,5 @@
 'use client';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
 import N1 from '../../public/Neet-pg-2023-768x519.jpg'
 import C1 from '../../public/bellavita_icon1-150x150-1.png'
 import C2 from '../../public/state-wise-eligibility.svg'
@@ -10,45 +8,24 @@ import C4 from '../../public/Transparent-process-01.svg'
 import C5 from '../../public/Personalised-Guidence.svg'
 import C6 from '../../public/Alert-and-Notification-01.svg'
 import S1 from '../../public/Alert-and-Notification-01.svg'
+import P1 from '../../public/P1.png'
+import P2 from '../../public/P2.png'
+import P3 from '../../public/P3.png'
+import P4 from '../../public/P4.png'
+import P5 from '../../public/P5.png'
+import P6 from '../../public/P6.png'
+import P7 from '../../public/P7.png'
+import P8 from '../../public/P8.png'
+import P9 from '../../public/P9.png'
+import P10 from '../../public/P10.png'
+import P11 from '../../public/P11.png'
+import P12 from '../../public/P12.png'
+
 import Image from 'next/image'
 import Link from 'next/link';
+import CountrySlider from './CountrySlider';
 const Assistance = () => {
-    const settings = {
-      
-        infinite: true, // Set to true for infinite loop
-        speed: 500,
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        initialSlide: 0,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 1000, // Set autoplay speed in milliseconds (e.g., 3000ms = 3 seconds)
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 4,
-              slidesToScroll: 1,
-              infinite: true,
-            
-            },
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              initialSlide: 1,
-            },
-          },
-          {
-            breakpoint: 480,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1,
-            },
-          },
-        ],
-      };
+  
   return (
     <>
     <div className='bg-[#c6e2d8] py-20'>
@@ -85,6 +62,7 @@ NEET PG Counselling Assistance</h3>
 <button className='bg-[#1b5fc1] hover:bg-[#28bd86] px-7 py-2 rounded-full text-white'>Register Now</button>
 <button className='bg-[#28bd86] hover:bg-[#1b5fc1] px-7 py-2 rounded-full text-white'>Get Call Back</button>
         </div>
+        <CountrySlider/>
         {/* <div className='flex justify-center items-center'>
         <div className='lg:w-[1024px] md:w-[768px] xl:w-[1280px] w-full overflow-hidden mx-auto'>
           <Slider {...settings}>
@@ -266,7 +244,124 @@ Get Consultation`}</p>
                 </div>
 
             </div>
+           
         </div>
+        <div className='bg-[#28BD86] py-10 my-20'>
+            <div className='container mx-auto'> 
+            <div className='flex lg:flex-row flex-col justify-center items-center gap-5'>
+                <div className='lg:w-[40%] w-full'>
+<h3 className='text-white text-[30px] font-Poppins font-medium'>Score Based Seat Predictor</h3>
+                </div>
+                <div className='lg:w-[40%] w-full flex flex-col justify-center items-center lg:flex-row gap-3 '>
+<div className='flex flex-col justify-center items-center lg:flex-row gap-3'>
+<div>    <input type='text' placeholder='Neet Score (E.g 450, 600)' className='bg-white p-3 shadow-md rounded-full outline-none'/></div>
+<div>    <input type='text' placeholder='Mobile' className='bg-white p-3 shadow-md rounded-full outline-none'/></div>
+</div>
+<div>
+    <button className='bg-[#1B5FC1] py-3 px-7 text-white rounded-md'> Send</button>
+</div>
+                </div>
+            </div>
+            </div>
+         
+        </div>
+        <div className='container mx-auto'>
+          <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
+                <div className='w-full lg:w-[50%]'>
+                    <h1 className='text-[#2C5476] leading-[49px] font-bold font-Open text-[48px]'>TOP MD/MS SPECIALIZATIONS IN INDIA</h1>
+                    <p className='text-[18px] font-Jost text-[#60748A] pt-5'>{`It is a dream for every MBBS graduate to study MD/MS in India since the postgraduate medical qualification not only boosts their career to the next level but it also helps them to be financially vigilant. Securing PG medical seats in India is not an easy nut to crack since more than 1.6 lakhs students appear in NEET-PG for 35 thousand (approx.) PG medical seats, student and seat ratio is very uneven so the competition is very high to secure PG medical seat which is further followed by complicated counselling and admission procedures. Here at Your Chanakya, we help you out to know the college and course prediction, cut-off and quota-based seat availability, MCC and State Counselling, eligibility, admission procedure, fees and documentation etc`}</p>
+                </div>
+                <div className='w-full lg:w-[50%] flex flex-col lg:flex-row justify-start items-center gap-7'>
+                  <div className='flex flex-col justify-center items-start'>
+                  <div className='flex justify-start items-center gap-4 border-b border-b-[#1B5FC1] w-full py-4'>
+                        <div >
+                            <Image src={P1} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Radiology</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P2} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>General Medicine</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P3} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>General Surgery</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P4} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Orthopedics</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P5} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Pulmonary Medicine
+</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P6} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Psychiatry</p>
+                    </div>
+                  </div>
+                  <div className='flex flex-col justify-start items-start'>
+                  <div className='flex justify-start items-start w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P7} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Dermatology</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P8} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Pediatrics</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P9} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Anesthesia</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P10} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Opthalmology</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P11} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>OBS. & Gynaecology
+</p>
+                    </div>
+                    <div className='flex justify-start items-center w-full gap-4 border-b border-b-[#1B5FC1] py-4'>
+                        <div >
+                            <Image src={P12} alt='' className='w-full h-full object-cover'/>
+                        </div>
+                        <p className='text-[#1B5FC1] text-[20px]'>Pathalogy</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+         <div className='bg-[#d1d1e4] py-20'>
+         <div className='container mx-auto'>
+            <h3 className='text-black text-[40px] font-Poppins font-medium'>{`Why Us for your MD/MS/MBBS ?`}</h3>
+            <h4 className='text-[20px] text-[#28BD86] font-bold font-Poppins'>{`You choose what you dream and with us you get what you have chosen.
+
+`}</h4>
+<p>{`With presence for over a decade in medical education we have fulfilled dreams of many parents and students. We are one of India’s Top education consultancies providing you with invaluable information, counselling and guidance to help you choose your career path wisely.`}</p>
+          </div>
+         </div>
     </div>
     </>
   )

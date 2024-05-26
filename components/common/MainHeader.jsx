@@ -88,14 +88,14 @@ const MainHeader = () => {
                       <div className="">
                         <Link
                           href={"/career-counselling"}
-                          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/career-counselling' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/career-counselling' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/career-counselling')}
                         >
                          Career Counselling
                         </Link>
                         <Link
                           href={"/subscription-plans"}
-                          className={`block py-2 font-bold text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/subscription-plans' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/subscription-plans' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/subscription-plans')}
                         >
                         Subscription Plans
@@ -140,14 +140,14 @@ const MainHeader = () => {
                       <div className="">
                         <Link
                           href={"/mbbs"}
-                          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/mbbs')}
                         >
                        UG Courses - MBBS
                         </Link>
                         <Link
                           href={"/md-ms-in-india"}
-                          className={`block py-2 font-bold text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/md-ms-in-india')}
                         >
                         PG Courses - MD MS
@@ -202,14 +202,14 @@ const MainHeader = () => {
       <div className="">
         <Link
           href={"/mbbs-in-india"}
-          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/mbbs-in-india' ? 'text-secondary' : ''}`}
+          className={`block py-2 font-medium text-secondary  text-center border-b hover:rounded-ss-[20px] font-Jost  border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/mbbs-in-india' ? 'text-secondary' : ''}`}
           onClick={() => handleSetActiveLink('/mbbs-in-india')}
         >
       Study MBBS in India
         </Link>
         <Link
           href={"/md-ms"}
-          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-br-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/md-ms' ? 'text-secondary' : ''}`}
+          className={`block py-2 font-medium text-secondary  text-center border-b hover:rounded-br-[20px] font-Jost  border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/md-ms' ? 'text-secondary' : ''}`}
           onClick={() => handleSetActiveLink('/md-ms')}
         >
       Study MD MS in India
