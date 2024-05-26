@@ -1,9 +1,10 @@
-import Privacy from "@/components/privacy";
+
+import Refund from "@/components/refund";
 
 export default function Page(){
     return(
         <>
-        <Privacy/>
+        <Refund/>
         </>
     )
 }

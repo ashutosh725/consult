@@ -81,19 +81,25 @@ const MainHeader = () => {
                   </svg>
                 </div>
                 <div
-                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform `}
+                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform `}
                 >
-                  <div className="relative top-8 p-6 bg-white  border-t-4 border-secondary  w-full">
+                  <div className="relative top-8  bg-gray-200  rounded-ss-[20px] rounded-br-[20px] shadow-md  w-full">
                     <div className="relative z-10 ">
                       <div className="">
                         <Link
                           href={"/career-counselling"}
-                          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/career-counselling' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/career-counselling' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/career-counselling')}
                         >
                          Career Counselling
                         </Link>
-                       
+                        <Link
+                          href={"/subscription-plans"}
+                          className={`block py-2 font-bold text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/subscription-plans' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/subscription-plans')}
+                        >
+                        Subscription Plans
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -127,21 +133,21 @@ const MainHeader = () => {
                   </svg>
                 </div>
                 <div
-                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform `}
+                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform `}
                 >
-                  <div className="relative top-8 p-6 bg-white  border-t-4 border-secondary  w-full">
+                  <div className="relative top-8  bg-gray-200  rounded-ss-[20px] rounded-br-[20px] shadow-md   w-full">
                     <div className="relative z-10 ">
                       <div className="">
                         <Link
                           href={"/mbbs"}
-                          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/mbbs')}
                         >
                        UG Courses - MBBS
                         </Link>
                         <Link
                           href={"/md-ms-in-india"}
-                          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
+                          className={`block py-2 font-bold text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
                           onClick={() => handleSetActiveLink('/md-ms-in-india')}
                         >
                         PG Courses - MD MS
@@ -189,21 +195,21 @@ const MainHeader = () => {
   </svg>
 </div>
 <div
-  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[250px] transform `}
+  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[220px] transform `}
 >
-  <div className="relative top-8 p-6 bg-white  border-t-4 border-secondary  w-full">
+  <div className="relative top-8  bg-gray-200  rounded-ss-[20px] rounded-br-[20px] shadow-md ">
     <div className="relative z-10 ">
       <div className="">
         <Link
           href={"/mbbs-in-india"}
-          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/mbbs-in-india' ? 'text-secondary' : ''}`}
+          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/mbbs-in-india' ? 'text-secondary' : ''}`}
           onClick={() => handleSetActiveLink('/mbbs-in-india')}
         >
       Study MBBS in India
         </Link>
         <Link
           href={"/md-ms"}
-          className={`block py-1 font-bold text-secondary hover:text-secondary text-start md:mx-2 ${activeLink === '/md-ms' ? 'text-secondary' : ''}`}
+          className={`block py-2 font-bold text-secondary  text-center border-b hover:rounded-br-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/md-ms' ? 'text-secondary' : ''}`}
           onClick={() => handleSetActiveLink('/md-ms')}
         >
       Study MD MS in India

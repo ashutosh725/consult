@@ -33,9 +33,9 @@ const FeaturedSection = () => {
 <div className='pt-10'>
   <Image src={Pg1} alt='' className='object-cover w-full h-full'/>
 </div>
-<p className='text-[#4a1e75] text-[18px] font-Poppins'>NEET PG Counselling</p>
+<Link href={'/neet-pg-counselling-assistance'} className='text-[#4a1e75] text-[18px] font-Poppins'>NEET PG Counselling</Link>
 <div>
-  <button  className='px-5 py-2 rounded-lg bg-[#4a1e75] text-white shadow-lg font-bold text-[20px]'>{`>>`}</button>
+  <Link href={'/neet-pg-counselling-assistance'}  className='px-5 py-2 rounded-lg bg-[#4a1e75] text-white shadow-lg font-bold text-[20px]'>{`>>`}</Link>
 </div>
 <div className='flex flex-col gap-5 justify-center items-center bg-[#4a1e75] w-full  rounded-tr-[40px]'>
 <div className='pt-10'>

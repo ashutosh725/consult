@@ -74,7 +74,7 @@ const Box = () => {
          {
           listData.map((item,index)=>{
             return <div key={index} className=' flex flex-col justify-start h-[300px] items-center gap-5 border-[1px] rounded-[15px] py-[20px] px-[15px] shadow-xl'>
-            <div>
+            <div >
               <Image src={item.img} alt='' className='w-[60px] h-[60px] object-cover'/>
             
             </div>

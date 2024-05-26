@@ -1,42 +1,34 @@
-"use client"
-import Slider from "react-slick";
-import Slide1 from '../../public/hero3.jpg'
-import Slide2 from '../../public/learn2.webp'
-import Slide3 from '../../public/hero5.PNG'
-import Slide4 from '../../public/hero6.PNG'
+import Link from 'next/link'
+import React from 'react'
+import Hero from '../../public/herosection1.png'
 import Image from 'next/image'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Link from "next/link";
 const HeroSection = () => {
-    var settings = {
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true, // Enable autoplay
-        autoplaySpeed: 2000,
-        arrows: false,
-      };
   return (
-    <div className='mx-auto '>
-          <Slider {...settings}>
-          <Link href={'/contact'}>
-        <Image src={Slide3} alt="" className='h-full w-full object-cover'/>
-      </Link>
-      <Link href={'/contact'}>
-        <Image src={Slide4} alt="" className='w-full h-full object-cover'/>
-      </Link>
-      <Link href={'/contact'}>
-        <Image src={Slide1} alt="" className='h-full w-full object-cover'/>
-      </Link>
-      <Link href={'/contact'}>
-        <Image src={Slide2} alt="" className='w-full h-full object-cover'/>
-      </Link>
-     
-          </Slider>
-     
-    
+    <div className='bg-secondary text-white lg:h-[580px] h-full py-10 flex justify-center items-center' >
+      <div className='container mx-auto'>
+        <div className='flex flex-col lg:flex-row gap-10 justify-center items-center'>
+          <div className='w-full lg:w-[50%] '>
+<div className='flex flex-col justify-center lg:items-start items-center gap-5'>
+<h5 className='text-primary text-[20px] font-Poppins text-center lg:text-start font-semibold tracking-wide'>{`India's No 1 Smartest Counselling Platform`}</h5>
+            <h1 className='text-[40px] font-Jost text-center lg:text-start  font-bold leading-[45px]'>{`Study MBBS, MD/MS, BDS, MDS And Other Medical Courses`}</h1>
+            <h2 className=' text-[20px] font-Poppins font-bold tracking-wide'>{`Build Career In Medical Profession`}</h2>
+</div>
+<div className='flex lg:justify-start justify-center items-center gap-3 my-16'>
+  <div>
+    <input type='text' placeholder='Enter your email' className='placeholder:text-primary bg-transparent outline-none border-b-2 border-b-primary py-3'/>
+  </div>
+  <div >
+        <Link href={'/contact'} className='text-[18px] font-Jost tracking-wide rounded-ss-[20px] rounded-br-[20px] font-bold text-[#4a1e75] border-[1px] border-[#4a1e75] md:py-[20px] md:px-[40px] py-[16px] px-[32px] bg-primary hover:bg-transparent hover:border-primary hover:text-white shadow-xl'>Contact Us</Link>
+      </div>
+</div>
+          </div>
+          <div className='w-full lg:w-[50%]'>
+           <div className='bg-primary rounded-full flex justify-center items-center px-4'>
+            <Image src={Hero} alt='hero' className='w-full h-full object-cover '/>
+           </div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
