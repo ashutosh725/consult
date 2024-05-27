@@ -20,6 +20,9 @@ import P9 from '../../public/P9.png'
 import P10 from '../../public/P10.png'
 import P11 from '../../public/P11.png'
 import P12 from '../../public/P12.png'
+import P13 from '../../public/indian-business-man-with-crossed-hands-posing-isolated-white-wall-updated-768x867.jpg'
+import { IoMdPhonePortrait } from "react-icons/io";
+import P14 from '../../public/testimonials-2.jpg'
 
 import Image from 'next/image'
 import Link from 'next/link';
@@ -353,14 +356,128 @@ Get Consultation`}</p>
                 </div>
             </div>
           </div>
-         <div className='bg-[#d1d1e4] py-20'>
+         <div className='bg-[#d1d1e4]/30 py-20'>
          <div className='container mx-auto'>
-            <h3 className='text-black text-[40px] font-Poppins font-medium'>{`Why Us for your MD/MS/MBBS ?`}</h3>
-            <h4 className='text-[20px] text-[#28BD86] font-bold font-Poppins'>{`You choose what you dream and with us you get what you have chosen.
+          <div className='flex justify-center items-center flex-col gap-3'>
+          <h3 className='text-black text-center text-[40px] font-Poppins font-medium'>{`Why Us for your MD/MS/MBBS ?`}</h3>
+            <h4 className='text-[20px] text-center text-[#28BD86] font-bold font-Poppins'>{`You choose what you dream and with us you get what you have chosen.
 
 `}</h4>
-<p>{`With presence for over a decade in medical education we have fulfilled dreams of many parents and students. We are one of India’s Top education consultancies providing you with invaluable information, counselling and guidance to help you choose your career path wisely.`}</p>
+<p className='text-[15px] text-center'>{`With presence for over a decade in medical education we have fulfilled dreams of many parents and students. We are one of India’s Top education consultancies providing you with invaluable information, counselling and guidance to help you choose your career path wisely.`}</p>
           </div>
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
+            <div className='bg-[#1B5FC1] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
+<div className='p-4 bg-green-500 rounded-full'>
+
+</div>
+<h4 className='text-[18px] text-center text-white font-bold'>{`Wide Choice`}</h4>
+<p className='text-[16px] text-center text-white'>{`On choosing Your Chanakya college mapping and data analytics services, students will get a surprisingly wide choice of colleges and course selection options within prescribed budget.`}</p>
+            </div>
+            <div className='bg-[#e68845] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
+<div className='p-4 bg-green-500 rounded-full'>
+
+</div>
+<h4 className='text-[18px] text-center text-white font-bold'>{`Unmatched Expertise
+`}</h4>
+<p className='text-[16px] text-center text-white'>{`With a plethora of experienced counselors and senior academicians' guidance, Students can get all their queries resolved satisfactorily.`}</p>
+            </div>
+            <div className='bg-[#1B5FC1] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
+<div className='p-4 bg-green-500 rounded-full'>
+
+</div>
+<h4 className='text-[18px] text-center text-white font-bold'>{`Safe and Transparent`}</h4>
+<p className='text-[16px] text-white text-center'>{`NEET counseling is all about marks and affordability so the process of choosing the right course and college is discussed thoroughly and well documented. No involuntary promises. Honest review of Individual profile and probability.`}</p>
+            </div>
+            <div className='bg-[#e68845] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
+<div className='p-4 bg-green-500 rounded-full'>
+
+</div>
+<h4 className='text-[18px] text-center text-white font-bold'>{`Personalized Guidance`}</h4>
+<p className='text-[16px] text-center text-white'>{`Each Individual has his own perceptions about counseling, college and course selection. Your Chanakya provides the right platform to discuss the
+- Right college based on rank
+-Proper financials planning for each course and colleges
+-One on one strategy session of each counseling`}</p>
+            </div>
+
+          </div>
+          </div>  
+         </div>
+         <div className='container mx-auto py-20'>
+            <div className='flex items-center'>
+                <div className='lg:w-[33%] w-full'>
+                    <h3 className='lg:text-[40px] text-[28px] font-bold font-Poppins'>What People Say About Us</h3>
+                </div>
+                <div className='lg:w-[33%] w-full'>
+                    <div>
+                        <Image src={P13} alt='' className='w-full h-full object-cover'/>
+                    </div>
+                </div>
+                <div className='lg:w-[33%] w-full p-5 bg-[#f3f3f3] flex flex-col gap-5 justify-start items-start'>
+                    <h5 className='font-Jost text-[20px] font-medium'>MOHIT SINGH</h5>
+                    <p className='text-[20px] font-Jost'>{`I had an excellent experience with Your Chanakya as my MD/MS consultant. They provided comprehensive guidance, practical advice, and emotional support throughout the consulting process. Their deep understanding of the medical field and personalized approach helped me make informed decisions about my academic and career path. I highly recommend Your Chanakya to anyone seeking expert and compassionate consulting services `}</p>
+                </div>
+            </div>
+         </div>
+         <div className='container mx-auto'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+                <div className='bg-white rounded-lg p-5 flex flex-col gap-5'>
+                    <div className='flex justify-start items-center gap-2'>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                    </div>
+                    <p className='text-[18px] font-Jost font-semibold'>{`I can assure this is the best one ever. Fully satisfied with their guidance. Thrust worthy. The most genuine counselor. I recommend everyone to opt service from this consultancy only.`}</p>
+                    <div className='flex justify-start items-center gap-4'>
+                       <div>
+                       <Image src={P14} alt='' className='w-full h-full object-cover rounded-full'/>
+                       </div>
+                       <p className='text-[20px] font-Jost'>	
+SHALINI GUPTA</p>
+                    </div>
+                </div>
+                <div className='bg-white rounded-lg p-5 flex flex-col gap-5'>
+                    <div className='flex justify-start items-center gap-2'>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                    </div>
+                    <p className='text-[18px] font-Jost font-semibold'>{`Great service and they are true professional people, really appreciate their services.thanku your chanakya for helping me and my family to achieve my sister's dream of becoming MD pathologist.`}</p>
+                    <div className='flex justify-start items-center gap-4'>
+                       <div>
+                       <Image src={P14} alt='' className='w-full h-full object-cover rounded-full'/>
+                       </div>
+                       <p className='text-[20px] font-Jost'>RAHUL CHOPRA</p>
+                    </div>
+                </div>
+                <div className='bg-white rounded-lg p-5 flex flex-col gap-5'>
+                    <div className='flex justify-start items-center gap-2'>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                        <IoMdPhonePortrait/>
+                    </div>
+                    <p className='text-[18px] font-Jost font-semibold'>{`Really amazing medical consultancy. They have guided me really well through complete admission process of MD. They are highly professional. I recommend to everyone to opt services from this consultancy.`}</p>
+                    <div className='flex justify-start items-center gap-4'>
+                       <div>
+                       <Image src={P14} alt='' className='w-full h-full object-cover rounded-full'/>
+                       </div>
+                       <p className='text-[20px] font-Jost'>	
+DHARMENDER GUPTA</p>
+                    </div>
+                </div>
+            </div>
+         </div>
+         <div className='container mx-auto py-20'>
+<div>
+    <h2 className='text-[40px] text-[#1B5FC1] font-bold font-Poppins text-center'>{`Confirm Admission - Direct Admission
+Through MD MS Counselling`}</h2>
+<p className='text-[19px] font-Jost font-medium text-center'>{`We understand the stress of a student, hence offer him/her with personalized guidance, support, and counselling, so that they realize their dream of studying at top medical colleges in India to fulfill their unambiguous career aspirations. We assist them at every step of counselling so that they can select the right course in the right college, starting from the college mapping, application process and required documents that leads successful admissions into desired MD MS courses through NEET-PG  counselling in Management and NRI quota seats. Our motive is to guide the pupil effortlessly towards their desired college/university in India.`}</p>
+</div>
          </div>
     </div>
     </>
