@@ -1,6 +1,18 @@
 "use client"
 import React, { useState } from "react";
+import { FaPhone } from "react-icons/fa";
+import B from '../../public/b.png'
+import { IoMail } from "react-icons/io5";
+import { IoCall } from "react-icons/io5";
+import {motion} from 'framer-motion'
 
+import A2 from '../../public/img_0.png'
+import C from '../../public/call.png'
+import A from '../../public/a.png'
+import G1 from '../../public/g1.png'
+import G2 from '../../public/g2.png'
+import G3 from '../../public/g3.png'
+import G4 from '../../public/g4.png'
 import N1 from '../../public/Neet-pg-2023-768x519.jpg'
 import C1 from '../../public/bellavita_icon1-150x150-1.png'
 import C2 from '../../public/state-wise-eligibility.svg'
@@ -10,6 +22,7 @@ import C5 from '../../public/Personalised-Guidence.svg'
 import C6 from '../../public/Alert-and-Notification-01.svg'
 import S1 from '../../public/Alert-and-Notification-01.svg'
 import P1 from '../../public/P1.png'
+import S from '../../public/s.png'
 import P2 from '../../public/P2.png'
 import P3 from '../../public/P3.png'
 import P4 from '../../public/P4.png'
@@ -37,9 +50,11 @@ import Image from 'next/image'
 import Link from 'next/link';
 import CountrySlider from './CountrySlider';
 import EnquryForm1 from "./EnquryForm1";
+import EnquryForm2 from "./EnquryForm2";
+import { fadeIn } from "@/variants";
 const Assistance = () => {
     const [form1, setFrom1] = useState(false);
-
+    const [form2, setFrom2] = useState(false);
       const handleForm1Model = () => {
         setFrom1(true);
       };
@@ -47,43 +62,57 @@ const Assistance = () => {
       const handleCloseForm1Model = () => {
         setFrom1(false);
       };
+      const handleForm2Model = () => {
+        setFrom2(true);
+      };
+    
+      const handleCloseForm2Model = () => {
+        setFrom2(false);
+      };
   
+
+     
   return (
     <>
     <div className='bg-[#c6e2d8] pt-20'>
       <div className='container mx-auto'>
         <div className='flex justify-center items-center '>
-            <h3 className='text-[#28bd86] text-[25px] font-Open font-[500]'>Register today for end to end
-NEET PG Counselling Assistance</h3>
+          
         </div>
-        <div className='flex flex-col lg:flex-row justify-center items-center gap-5 mt-10'>
+        <motion.div 
+        variants={fadeIn('up', 0.4)}
+        initial='hidden' 
+       whileInView={'show'}
+       viewport={{once: false, amount: 0.3}}
+        className='flex flex-col lg:flex-row justify-center items-center gap-10 mt-10'>
             <div className='w-full lg:w-[50%]'>
                 <div>
                     <Image src={N1} alt='' className='w-full h-full object-cover'/>
                 </div>
             </div>
-            <div className='w-full lg:w-[50%] grid grid-cols-1 md:grid-cols-3 justify-start items-start gap-5 lg:gap-0'>
-                <div onClick={handleForm1Model} className='bg-white lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-center cursor-pointer items-center gap-5 py-10 px-7'>
+            <div className='w-full lg:w-[50%] '>
+            <h3 className='text-[#28bd86] text-[32px] text-center font-Open font-[400]'>Register today for end to end
+NEET PG Counselling Assistance</h3>
+               <div className="grid grid-cols-1 md:grid-cols-3 justify-start py-5 items-start gap-5 lg:gap-0">
+               <div onClick={handleForm1Model} className='bg-white lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-center cursor-pointer items-center gap-5 py-10 px-7'>
                     <span className='bg-[#1b5fc1] text-white p-2 rounded-md'>1</span>
                     <h5 className='text-[16px]  text-center font-Open font-semibold'>{`NEET PG Counselling Assistance`}</h5>
                     <p className='text-[14px] text-center'>{` All India Quota | State Quota | Private College & Deemed Universities`}</p>
                 </div>
-                <div onClick={handleForm1Model} className='bg-white cursor-pointer lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-center items-center gap-5 py-10 px-7'>
-                    <span className='bg-[#1b5fc1] text-white p-2 rounded-md'>2</span>
-                    <h5 className='text-[16px] text-center font-Open font-semibold'>{`NRI/Management Quota Admissions`}</h5>
-                    <p className='text-[14px] text-center'>{` NRI Quota | Management Quota | IP Quota`}</p>
+                <div onClick={handleForm1Model} className='bg-[#1b5fc1] cursor-pointer lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-center items-center gap-5 py-10 px-7'>
+                    <span className='bg-white text-[#1b5fc1] p-2 rounded-md'>2</span>
+                    <h5 className='text-[16px] text-center text-white font-Open font-semibold'>{`NRI/Management Quota Admissions`}</h5>
+                    <p className='text-[14px] text-white text-center'>{` NRI Quota | Management Quota | IP Quota`}</p>
                 </div>
                 <div onClick={handleForm1Model} className='bg-white cursor-pointer lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-center items-center gap-5 py-10 px-7'>
                     <span className='bg-[#1b5fc1] text-white p-2 rounded-md'>3</span>
                     <h5 className='text-[16px] text-center font-Open font-semibold'>{`Low Budget MD/MS Admission`}</h5>
                     <p className='text-[14px] text-center'>{` Good Stipend | Pay Hostel Fees Only*`}</p>
                 </div>
+               </div>
             </div>
-        </div>
-        <div className='flex justify-center items-center gap-5 mt-7'>
-<button className='bg-[#1b5fc1] hover:bg-[#28bd86] px-7 py-2 rounded-full text-white'>Register Now</button>
-<button className='bg-[#28bd86] hover:bg-[#1b5fc1] px-7 py-2 rounded-full text-white'>Get Call Back</button>
-        </div>
+        </motion.div>
+     
         <CountrySlider/>
         {/* <div className='flex justify-center items-center'>
         <div className='lg:w-[1024px] md:w-[768px] xl:w-[1280px] w-full overflow-hidden mx-auto'>
@@ -105,7 +134,12 @@ NEET PG Counselling Assistance</h3>
           </Slider>
         </div>
       </div> */}
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-5 py-10'>
+        <motion.div
+        variants={fadeIn('up', 0.4)}
+        initial='hidden' 
+       whileInView={'show'}
+       viewport={{once: false, amount: 0.3}}
+        className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-6 gap-5 py-10'>
             <div className= ' h-[350px] bg-transparent shadow-2xl hover:shadow-[#1b5fc1] rounded-lg flex flex-col justify-center items-center gap-5 p-5'>
 <div>
     <Image src={C1} alt='' className='w-full h-[100px] object-cover'/>
@@ -149,42 +183,84 @@ NEET PG Counselling Assistance</h3>
 <h5 className='text-[15px] text-[#28bd86] text-center font-Open font-semibold'>{`ALERTS & NOTIFICATION`}</h5>
 <p className='text-[14px] text-center'>{`Date, Time & Other NEET Updates & Notification on SMS & Email`}</p>
             </div>
-            </div>
+            </motion.div>
       </div>
     </div>
 <div className='bg-[#F7FDFB] py-20'>
     <div className='container mx-auto'>
-        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
+       <motion.div 
+       variants={fadeIn('up', 0.4)}
+       initial='hidden' 
+      whileInView={'show'}
+      viewport={{once: false, amount: 0.3}}
+       className="flex justify-center items-center gap-10">
+        <div className="w-full lg:w-[50%]">
+            <Image src={A} alt="" className="w-full h-full object-cover slow-bounce "/>
+        </div>
+        <div className='w-full lg:w-[50%] '>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
             <div className='p-5 bg-white rounded-md flex flex-col justify-center items-center gap-6 '>
-                <h3 className='text-[18px] text-center font-semibold font-Open'>{`Low Budget MD/MS College Admission`}</h3>
-                <p className='text-[16px] text-center'>{`Filter your search for colleges and courses according to your budget`}</p>
+                <h3 className='text-[32px] font-medium  font-Open'>{`Low Budget MD/MS College Admission`}</h3>
+                <p className='text-[20px] leading-7 text-center'>{`Filter your search for colleges and courses according to your budget`}</p>
                 <div onClick={handleForm1Model} className='text-[#28bd86]'>Choose Now</div>
             </div>
             <div className='p-5 bg-[#28bd86] text-white rounded-md flex flex-col justify-center items-center gap-6 '>
-                <h3 className='text-[18px] text-center font-semibold font-Open'>{`MD/MS Counselling Assistance`}</h3>
+                <h3 className='text-[32px] font-medium font-Open'>{`MD/MS Counselling Assistance`}</h3>
                 <p className='text-[16px] text-center'>{`Not just by helping students, we also help parents to understand the ongoing trend in the medical profession & filter out the most suitable course as-well as colleges in your preferred budget. This will help them to choose the right course.
 
 Get Consultation`}</p>
                 <div onClick={handleForm1Model} className='text-[#fff]'>Get Consultation</div>
             </div>
+            </div>
             <div className='p-5 bg-[#1b5fc1] text-white rounded-md flex flex-col justify-center items-center gap-6 '>
-                <h3 className='text-[18px] text-center font-semibold font-Open'>{`NRI/Management Quota PG Admission`}</h3>
-                <p className='text-[16px] text-center'>{`Get proper guidance and documentation support required for NRI/Management quota PG counselling. Enroll now to get India’s best MD/MS admission assistance
+                <h3 className='text-[32px] font-medium font-Open'>{`NRI/Management Quota PG Admission`}</h3>
+                <p className='text-[22px] leading-8 text-start'>{`Get proper guidance and documentation support required for NRI/Management quota PG counselling. Enroll now to get India’s best MD/MS admission assistance
 
 Get Consultation`}</p>
-                <div onClick={handleForm1Model} className='text-[#fff]'>Register</div>
-            </div>
-        </div>
+<div className="flex gap-10 justify-start items-center mt-16">
+<div className=" ">
+<button onClick={handleForm1Model} className='bg-[#1b5fc1] border-2 border-white hover:bg-white hover:text-[#1b5fc1] py-2 px-7 rounded-md text-white'>Register</button>
+</div>
+<div className="flex justify-center items-center gap-4">
+    <div>
+        <Image src={C} alt="" className="w-full h-full object-cover rounded-full"/>
+    </div>
+    <div className="flex flex-col justify-start items-start gap-1">
+    <p className="text-[17px]">Call Our Experts Today</p>
+        <h3 className="text-[20px] font-bold">+917742727811</h3>
+   
     </div>
 </div>
-
+</div>
+            </div>
+        </div>
+       </motion.div>
+    </div>
+</div>
+<motion.div
+variants={fadeIn('up', 0.4)}
+initial='hidden' 
+whileInView={'show'}
+viewport={{once: false, amount: 0.3}}
+className="bg-[#d1e4dd] flex justify-center items-center h-[230px]">
+    <div className="container mx-auto">
+        <div className="flex justify-center items-center">
+            <Image src={B} alt="" className="w-[700px] h-full object-contain"/>
+        </div>
+    </div>
+</motion.div>
     <div className='bg-white py-20'>
 <div className='container mx-auto'>
     <div className='flex flex-col justify-center items-center gap-2'>
-        <h3 className='text-[25px] font-Open font-semibold'>{`NEET PG 2024 COUNSELLING PROCESS`}</h3>
-        <p className='text-center text-[18px] font-Jost font-[500]'>{`PG medical counseling begins with basic registration and choice filling /choice locking with the concerned counselling authorities which is followed by seat allotment and reporting to the allotted institute.`}</p>
+        <h3 className='text-[32px] font-Open font-medium'>{`NEET PG 2024 COUNSELLING PROCESS`}</h3>
+        <p className='text-center text-[20px] font-Jost font-[400]'>{`PG medical counseling begins with basic registration and choice filling /choice locking with the concerned counselling authorities which is followed by seat allotment and reporting to the allotted institute.`}</p>
     </div>
-    <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-start items-start gap-5 pt-10 '>
+    <motion.div
+    variants={fadeIn('up', 0.4)}
+    initial='hidden' 
+   whileInView={'show'}
+   viewport={{once: false, amount: 0.3}}
+    className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-start items-start gap-5 pt-10 '>
                 <div className='bg-[#28bd86] lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-start items-center gap-5 py-10 px-7'>
                     <span className='bg-white p-3 rounded-md'>1</span>
                     <h5 className='text-[18px]  text-white text-center font-Open font-semibold'>{`Registration`}</h5>
@@ -205,11 +281,11 @@ Get Consultation`}</p>
                     <h5 className='text-[18px] text-white text-center font-Open font-semibold'>{`Reporting`}</h5>
                     <p className='text-[16px] text-white text-center'>{`Report to the allotted medical institute along with the required documents and DD and complete the joining formalities.`}</p>
                 </div>
-            </div>
+            </motion.div>
 </div>
     </div>
 
-    <div className='bg-[#d1e4dd] py-20'>
+    <div className='bg-[#d1e4dd] pt-20'>
         <div className='container mx-auto'>
             <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                 <div className='w-full lg:w-[50%] flex flex-col justify-start items-start gap-3'>
@@ -377,48 +453,74 @@ Get Consultation`}</p>
           </div>
          <div className='bg-[#d1d1e4]/30 py-20'>
          <div className='container mx-auto'>
-          <div className='flex justify-center items-center flex-col gap-3'>
-          <h3 className='text-black text-center text-[40px] font-Poppins font-medium'>{`Why Us for your MD/MS/MBBS ?`}</h3>
-            <h4 className='text-[20px] text-center text-[#28BD86] font-bold font-Poppins'>{`You choose what you dream and with us you get what you have chosen.
+         <div className="flex justify-start h-full items-center gap-10">
+            <div className="lg:w-[30%]  h-full w-full">
+              <div className="h-full w-full">
+                <div className="flex flex-col gap-28">
+<motion.div
+ variants={fadeIn('up', 0.4)}
+ initial='hidden' 
+whileInView={'show'}
+viewport={{once: false, amount: 0.3}}
+className="">
+    <Image src={A2} alt="" className="w-full h-full object-cover"/>
+</motion.div>
+<div >
+    <button onClick={handleForm2Model} className="flex justify-center items-center hover:bg-green-500 gap-1 bg-blue-600 py-3 px-5 rounded-md text-white"><IoCall className="text-[33px] font-bold"/><p className="text-[16px]">Talk With Expert</p></button>
+</div>
+                </div>
+              </div>
+            </div>
+         <motion.div
+         variants={fadeIn('up', 0.4)}
+         initial='hidden' 
+        whileInView={'show'}
+        viewport={{once: false, amount: 0.3}}
+         className="lg:w-[70%] w-full">
+         <div className='flex justify-center items-start flex-col gap-3'>
+          <h3 className='text-black text-start text-[50px] font-Open font-medium'>{`Why Us for your MD/MS/MBBS ?`}</h3>
+            <h4 className='text-[20px] text-start text-[#28BD86] font-bold font-Poppins'>{`You choose what you dream and with us you get what you have chosen.
 
 `}</h4>
-<p className='text-[15px] text-center'>{`With presence for over a decade in medical education we have fulfilled dreams of many parents and students. We are one of India’s Top education consultancies providing you with invaluable information, counselling and guidance to help you choose your career path wisely.`}</p>
+<p className='text-[20px] leading-7 text-start'>{`With presence for over a decade in medical education we have fulfilled dreams of many parents and students. We are one of India’s Top education consultancies providing you with invaluable information, counselling and guidance to help you choose your career path wisely.`}</p>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-10'>
-            <div className='bg-[#1B5FC1] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
-<div className='p-4 bg-green-500 rounded-full'>
-
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-7 my-10'>
+            <div className='h-[350px] p-5 rounded-xl flex flex-col justify-start items-start gap-4'>
+<div className=''>
+<Image src={G1} alt="" className="w-full h-full object-cover"/>
 </div>
-<h4 className='text-[18px] text-center text-white font-bold'>{`Wide Choice`}</h4>
-<p className='text-[16px] text-center text-white'>{`On choosing Your Chanakya college mapping and data analytics services, students will get a surprisingly wide choice of colleges and course selection options within prescribed budget.`}</p>
+<h4 className='text-[32px] text-start  font-medium font-Open'>{`Wide Choice`}</h4>
+<p className='text-[22px] leading-7 text-start '>{`On choosing Your Chanakya college mapping and data analytics services, students will get a surprisingly wide choice of colleges and course selection options within prescribed budget.`}</p>
             </div>
-            <div className='bg-[#e68845] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
-<div className='p-4 bg-green-500 rounded-full'>
-
+            <div className='h-[350px] p-5 rounded-xl flex flex-col justify-start items-start gap-4'>
+            <div className=''>
+<Image src={G2} alt="" className="w-full h-full object-cover"/>
 </div>
-<h4 className='text-[18px] text-center text-white font-bold'>{`Unmatched Expertise
+<h4 className='text-[32px] text-start  font-medium font-Open'>{`Unmatched Expertise
 `}</h4>
-<p className='text-[16px] text-center text-white'>{`With a plethora of experienced counselors and senior academicians' guidance, Students can get all their queries resolved satisfactorily.`}</p>
+<p className='text-[22px] leading-7 text-start '>{`With a plethora of experienced counselors and senior academicians' guidance, Students can get all their queries resolved satisfactorily.`}</p>
             </div>
-            <div className='bg-[#1B5FC1] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
-<div className='p-4 bg-green-500 rounded-full'>
-
+            <div className=' h-[350px] p-5 rounded-xl flex flex-col justify-start items-start gap-4'>
+            <div className=''>
+<Image src={G3} alt="" className="w-full h-full object-cover"/>
 </div>
-<h4 className='text-[18px] text-center text-white font-bold'>{`Safe and Transparent`}</h4>
-<p className='text-[16px] text-white text-center'>{`NEET counseling is all about marks and affordability so the process of choosing the right course and college is discussed thoroughly and well documented. No involuntary promises. Honest review of Individual profile and probability.`}</p>
+<h4 className='text-[32px] text-start  font-medium font-Open'>{`Safe and Transparent`}</h4>
+<p className='text-[22px] leading-7 text-start'>{`NEET counseling is all about marks and affordability so the process of choosing the right course and college is discussed thoroughly and well documented. No involuntary promises. Honest review of Individual profile and probability.`}</p>
             </div>
-            <div className='bg-[#e68845] h-[350px] p-5 rounded-xl flex flex-col justify-start items-center gap-4'>
-<div className='p-4 bg-green-500 rounded-full'>
-
+            <div className=' h-[350px] p-5 rounded-xl flex flex-col justify-start items-start gap-4'>
+            <div className=''>
+<Image src={G4} alt="" className="w-full h-full object-cover"/>
 </div>
-<h4 className='text-[18px] text-center text-white font-bold'>{`Personalized Guidance`}</h4>
-<p className='text-[16px] text-center text-white'>{`Each Individual has his own perceptions about counseling, college and course selection. Your Chanakya provides the right platform to discuss the
+<h4 className='text-[32px] text-start  font-medium font-Open'>{`Personalized Guidance`}</h4>
+<p className='text-[22px] leading-7 text-start'>{`Each Individual has his own perceptions about counseling, college and course selection. Your Chanakya provides the right platform to discuss the
 - Right college based on rank
 -Proper financials planning for each course and colleges
 -One on one strategy session of each counseling`}</p>
             </div>
 
           </div>
+         </motion.div>
+         </div>
           </div>  
          </div>
         <div className='bg-[#f5f5f5]'>
@@ -487,8 +589,7 @@ Thank you for your support for my journey to MD -  Radiology 😇 `}</p>
                        <div>
                        <Image src={P17} alt='' className='w-full h-[150px] object-cover rounded-full'/>
                        </div>
-                       <p className='text-[20px] font-Jost'>	
-DHARMENDER GUPTA</p>
+                       <p className='text-[20px] font-Jost'>Dr Preksha Agrawal</p>
                     </div>
                 </div>
             </div>
@@ -606,8 +707,8 @@ Through MD MS Counselling`}</h2>
         <div className='container mx-auto'>
 <div className='flex justify-center items-center gap-5 py-20'>
     <div className='lg:w-[50%] w-full flex justify-start gap-3 items-center'>
-        <div className='bg-green-500 p-5 rounded-full'>
-
+        <div className=''>
+<Image src={S} alt="" className="w-full h-full object-cover rounded-full"/>
         </div>
         <div className='flex flex-col justify-start items-start gap-1'>
         <h3 className='text-white text-[35px] font-Jost'>Subsribe To Our Newsletter</h3>
@@ -624,7 +725,33 @@ Stay in touch with us to get latest news and special offers.</p>
 </div>
         </div>
        </div>
+      
+<div className="bg-[#1B5FC1]/90 py-10">
+    <div className="container mx-auto">
+        <div className="flex md:flex-row flex-col justify-center items-center ">
+            <div className="md:last:w-[50%] w-full flex justify-start items-start gap-4  ">
+                <div>
+<FaPhone className="text-[30px] font-bold text-green-500"/>
+                </div>
+                <div className="flex flex-col justify-start items-start gap-1">
+                    <h3 className="text-[25px] font-bold text-white">Call Us</h3>
+                    <p className="text-white">+917742727811</p>
+                </div>
+            </div>
+            <div className="md:last:w-[50%] w-full flex justify-start items-center gap-4 ">
+            <div>
+<IoMail className="text-[30px] font-bold text-green-500"/>
+                </div>
+                <div className="flex flex-col justify-start items-start gap-1">
+                    <h3 className="text-[30px] font-bold text-white">Email Us</h3>
+                    <p className="text-white">Nscxinfo@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
        {form1 && <EnquryForm1 handleCloseForm1Model={handleCloseForm1Model} handleForm1Model={handleForm1Model}/>}
+       {form2 && <EnquryForm2 handleCloseForm2Model={handleCloseForm2Model} handleForm2Model={handleForm2Model}/>}
     </div>
     </>
   )

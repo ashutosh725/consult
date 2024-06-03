@@ -112,7 +112,7 @@
          ],
        };
    return (
-     <div className={`bg-transparent rounded-[20px] shadow-2xl my-10 `}>
+     <div className={`bg-transparent rounded-[20px] shadow-2xl my-16 `}>
      <div className='container py-4 mx-auto'>
        <div className='flex justify-center items-center'>
          <div className='lg:w-[1024px] md:w-[768px] xl:w-[1280px] w-full overflow-hidden mx-auto'>
