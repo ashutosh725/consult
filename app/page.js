@@ -6,6 +6,7 @@ import HeroSection from "@/components/home/HeroSection";
 import Offer from "@/components/home/Offer";
 
 import Why from "@/components/home/Why";
+import Latest from "@/components/news/Latest";
 
 
 export default function Home() {
@@ -13,7 +14,7 @@ export default function Home() {
    <>
 
 <HeroSection/>
-
+<Latest/>
 <FeaturedSection/>
 <Box/>
 <Why/>

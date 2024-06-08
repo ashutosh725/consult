@@ -56,7 +56,7 @@ const Premium = () => {
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
 <div><IoCloseSharp className='text-[16px] font-bold text-red-600'/></div>
-<p className='text-[16px] font-Jost font-medium text-[#666666]'>{` Complete Choice Filling from team Career Media.`}</p>
+<p className='text-[16px] font-Jost font-medium text-[#666666]'>{` Complete Choice Filling from team nscx education.`}</p>
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
 <div><IoCloseSharp className='text-[16px] font-bold text-red-600'/></div>
@@ -125,7 +125,7 @@ const Premium = () => {
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
 <div><RiVerifiedBadgeFill className='text-[16px] font-bold text-green-600'/></div>
-<p className='text-[16px] font-Jost font-medium text-[#666666]'>{` Complete Choice Filling from team Career Media.`}</p>
+<p className='text-[16px] font-Jost font-medium text-[#666666]'>{` Complete Choice Filling from team nscx education.`}</p>
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
 <div><RiVerifiedBadgeFill className='text-[16px] font-bold text-green-600'/></div>
@@ -147,7 +147,7 @@ const Premium = () => {
 
 <div className='bg-[#4caf502e] p-4'>
 <div className='flex justify-center items-center gap-3 flex-col border-b border-b-black py-2'>
-<h3 className=' text-[#072f60] text-[20px] font-Poppins text-center font-semibold'>{`Personalized Counselling - Government College + Career Media Advanced Package`}</h3>
+<h3 className=' text-[#072f60] text-[20px] font-Poppins text-center font-semibold'>{`Personalized Counselling - Government College + nscx education Advanced Package`}</h3>
 <p className=' text-[#072f60] text-[20px] font-Poppins font-semibold'>{`₹ 14999/-`}</p>
 </div>
 
@@ -213,7 +213,7 @@ const Premium = () => {
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
 <div><RiVerifiedBadgeFill className='text-[16px] font-bold text-green-600'/></div>
-<p className='text-[16px] font-Jost font-medium text-[#666666]'>{`Exclusive Webinars by Gulshan Jha"
+<p className='text-[16px] font-Jost font-medium text-[#666666]'>{`Exclusive Webinars by  Manish Pingoliya"
 `}</p>
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
@@ -318,7 +318,7 @@ All In One`}</h3>
  </div>
  <div className='flex justify-start items-center gap-3 py-2 border-b border-dashed border-b-black'>
 <div><RiVerifiedBadgeFill className='text-[16px] font-bold text-green-600'/></div>
-<p className='text-[16px] font-Jost font-medium text-[#666666]'>{` Exclusive Webinars by Gulshan Jha
+<p className='text-[16px] font-Jost font-medium text-[#666666]'>{` Exclusive Webinars by  Manish Pingoliya
 
 `}</p>
  </div>

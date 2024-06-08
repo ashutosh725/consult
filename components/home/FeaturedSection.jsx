@@ -6,6 +6,8 @@ import Link from 'next/link'
  import Pg3 from '../../public/franchise-icon.png'
  import Pg4 from '../../public/ui-ux-icon.png'
 import Image from 'next/image'
+import {motion} from 'framer-motion'
+import { fadeIn } from "@/variants";
 import ContactModel from '../common/ContactModel';
 const FeaturedSection = () => {
   const [contactmodel, setContactModel] = useState(false);
@@ -20,7 +22,12 @@ const FeaturedSection = () => {
   return (
     <div className={`py-20`}>
     <div className='container mx-auto'>
-       <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
+       <motion.div
+        variants={fadeIn('up', 0.4)}
+        initial='hidden' 
+       whileInView={'show'}
+       viewport={{once: false, amount: 0.3}}
+       className='flex flex-col lg:flex-row justify-center items-center gap-10'>
      <div className='lg:w-[40%] w-full flex flex-col lg:justify-start lg:items-start justify-center items-center'>
       <h3 className='text-[#4a1e75] font-Jost font-[600] md:text-[36px] text-[22px]'>Welcome to Nscx Education </h3>
       <p className='md:text-[16px] text-[14px] font-[400px] font-Poppins text-[#4a1e75] pt-5'>Nscx Education  is a <span className='font-bold'>Medical Education Consultancy</span> providing a professional platform for students seeking career assistance, guidance and support. We assist students seeking admission to Medical PG courses and Medical UG courses like <span className='font-bold'>MBBS, MS, MD, BDS, MDS</span> etc. in India and Abroad. </p>
@@ -66,7 +73,7 @@ const FeaturedSection = () => {
 </div>
       </div>
      </div>
-       </div>
+       </motion.div>
     </div>
     {contactmodel && <ContactModel handleCloseContactModel={handleCloseContactModel} handleOpenContactModel={handleOpenContactModel}/>}
     </div>

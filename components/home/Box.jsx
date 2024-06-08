@@ -8,6 +8,8 @@ import Box4 from '../../public/Transparent-process-01.png'
 import Box5 from '../../public/Personalised-Guidence.png'
 import Box6 from '../../public/Alert-and-Notification-01.png'
 import Image from 'next/image'
+import {motion} from 'framer-motion'
+import { fadeIn } from "@/variants";
 
 const listData = [
   {
@@ -70,7 +72,12 @@ const Box = () => {
   return (
     <div className=' pt-16 pb-20'>
       <div className='container mx-auto'>
-        <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5'>
+        <motion.div
+         variants={fadeIn('up', 0.4)}
+         initial='hidden' 
+        whileInView={'show'}
+        viewport={{once: false, amount: 0.3}}
+        className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-5'>
          {
           listData.map((item,index)=>{
             return <div key={index} className=' flex flex-col justify-start h-[300px] items-center gap-5 border-[1px] rounded-[15px] py-[20px] px-[15px] shadow-xl'>
@@ -83,7 +90,7 @@ const Box = () => {
                       </div>
           })
          }
-        </div>
+        </motion.div>
       </div>
     </div>
   )

@@ -25,7 +25,7 @@ const MainHeader = () => {
   };
 
   return (
-    <div className="border-b-2 border-b-secondary">
+    <div className="border-2 border-secondary">
       <div className="container mx-auto">
         <div className="flex justify-between items-center lg:h-20 h-[70px]">
           <div>
@@ -39,7 +39,7 @@ const MainHeader = () => {
             <li>
               <Link
                 href={"/"}
-                className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/' ? 'text-secondary' : ''}`}
+                className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-semibold hover:text-secondary duration-300 transition-all ${activeLink === '/' ? 'text-secondary' : ''}`}
                 onClick={() => handleSetActiveLink('/')}
               >
                 Home
@@ -48,7 +48,7 @@ const MainHeader = () => {
             <li>
               <Link
                 href={"/about"}
-                className={`hidden lg:flex text-[15px] font-Roboto text-secondary tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/about' ? 'text-secondary' : ''}`}
+                className={`hidden lg:flex text-[15px] font-Roboto text-secondary font-semibold tracking-wide  hover:text-secondary duration-300 transition-all ${activeLink === '/about' ? 'text-secondary' : ''}`}
                 onClick={() => handleSetActiveLink('/about')}
               >
                 About Us
@@ -59,7 +59,7 @@ const MainHeader = () => {
                 <div className="flex justify-center items-center space-x-3">
                   <div
                   
-                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide text-secondary font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-semibold text-secondary  hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
                  
                   >
                     Services
@@ -111,7 +111,7 @@ const MainHeader = () => {
                 <div className="flex justify-center items-center space-x-3">
                   <div
                   
-                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide text-secondary font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide text-secondary font-semibold  hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
                  
                   >
                     Courses
@@ -172,7 +172,7 @@ const MainHeader = () => {
 <div className="flex justify-center items-center space-x-3">
   <Link
     href={"/md-ms-in-india"}
-    className={`hidden lg:flex text-[15px] text-secondary font-Roboto tracking-wide font-[700] hover:text-secondary duration-300 transition-all ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
+    className={`hidden lg:flex text-[15px] text-secondary font-Roboto  font-semibold tracking-wide hover:text-secondary duration-300 transition-all ${activeLink === '/md-ms-in-india' ? 'text-secondary' : ''}`}
     onClick={() => handleSetActiveLink('/md-ms-in-india')}
   >
    Medical In India
@@ -282,6 +282,65 @@ Study Medical Abroad
 </div>
 </div>
             </li> */}
+              <li>
+              <div className="hidden lg:flex relative group px-3 py-2">
+                <div className="flex justify-center items-center space-x-3">
+                  <div
+                  
+                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-semibold text-secondary  hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                 
+                  >
+                    Ebook
+                  </div>
+                  <svg
+                    className="w-2.5 h-2.5 ms-2.5 text-secondary"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </div>
+                <div
+                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform `}
+                >
+                  <div className="relative top-8  bg-gray-200  rounded-ss-[20px] rounded-br-[20px] shadow-md  w-full">
+                    <div className="relative z-10 ">
+                      <div className="">
+                        <Link
+                          href={"/ebook/ini-cet"}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/ebook/ini-cet' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/ebook/ini-cet')}
+                        >
+                       INI-CET
+                        </Link>
+                        <Link
+                          href={"/ebook/neet-pg"}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary  hover:bg-secondary hover:text-white ${activeLink === '/ebook/neet-pg' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/ebook/neet-pg')}
+                        >
+                     NEET-PG
+                        </Link>
+                        <Link
+                          href={"/ebook/neet-ug"}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary hover:rounded-br-[20px] hover:bg-secondary hover:text-white ${activeLink === '/ebook/neet-ug' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/ebook/neet-ug')}
+                        >
+                    NEET-UG
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
             
 
           </ul>

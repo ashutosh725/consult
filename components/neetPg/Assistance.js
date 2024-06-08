@@ -367,7 +367,7 @@ className="bg-[#d1e4dd] flex justify-center items-center h-[230px]">
           <div className='flex flex-col lg:flex-row justify-center items-center gap-10'>
                 <div className='w-full lg:w-[50%]'>
                     <h1 className='text-[#2C5476] leading-[49px] font-bold font-Open text-[48px]'>TOP MD/MS SPECIALIZATIONS IN INDIA</h1>
-                    <p className='text-[18px] font-Jost text-[#60748A] pt-5'>{`It is a dream for every MBBS graduate to study MD/MS in India since the postgraduate medical qualification not only boosts their career to the next level but it also helps them to be financially vigilant. Securing PG medical seats in India is not an easy nut to crack since more than 1.6 lakhs students appear in NEET-PG for 35 thousand (approx.) PG medical seats, student and seat ratio is very uneven so the competition is very high to secure PG medical seat which is further followed by complicated counselling and admission procedures. Here at Your Chanakya, we help you out to know the college and course prediction, cut-off and quota-based seat availability, MCC and State Counselling, eligibility, admission procedure, fees and documentation etc`}</p>
+                    <p className='text-[18px] font-Jost text-[#60748A] pt-5'>{`It is a dream for every MBBS graduate to study MD/MS in India since the postgraduate medical qualification not only boosts their career to the next level but it also helps them to be financially vigilant. Securing PG medical seats in India is not an easy nut to crack since more than 1.6 lakhs students appear in NEET-PG for 35 thousand (approx.) PG medical seats, student and seat ratio is very uneven so the competition is very high to secure PG medical seat which is further followed by complicated counselling and admission procedures. Here at Nscx Education, we help you out to know the college and course prediction, cut-off and quota-based seat availability, MCC and State Counselling, eligibility, admission procedure, fees and documentation etc`}</p>
                 </div>
                 <div className='w-full lg:w-[50%] flex flex-col lg:flex-row justify-start items-center gap-7'>
                   <div className='flex flex-col justify-center items-start'>
@@ -490,7 +490,7 @@ className="">
 <Image src={G1} alt="" className="w-full h-full object-cover"/>
 </div>
 <h4 className='text-[32px] text-start  font-medium font-Open'>{`Wide Choice`}</h4>
-<p className='text-[22px] leading-7 text-start '>{`On choosing Your Chanakya college mapping and data analytics services, students will get a surprisingly wide choice of colleges and course selection options within prescribed budget.`}</p>
+<p className='text-[22px] leading-7 text-start '>{`On choosing Nscx Education college mapping and data analytics services, students will get a surprisingly wide choice of colleges and course selection options within prescribed budget.`}</p>
             </div>
             <div className='h-[350px] p-5 rounded-xl flex flex-col justify-start items-start gap-4'>
             <div className=''>
@@ -512,7 +512,7 @@ className="">
 <Image src={G4} alt="" className="w-full h-full object-cover"/>
 </div>
 <h4 className='text-[32px] text-start  font-medium font-Open'>{`Personalized Guidance`}</h4>
-<p className='text-[22px] leading-7 text-start'>{`Each Individual has his own perceptions about counseling, college and course selection. Your Chanakya provides the right platform to discuss the
+<p className='text-[22px] leading-7 text-start'>{`Each Individual has his own perceptions about counseling, college and course selection. Nscx Education provides the right platform to discuss the
 - Right college based on rank
 -Proper financials planning for each course and colleges
 -One on one strategy session of each counseling`}</p>

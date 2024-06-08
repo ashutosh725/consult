@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 import Hero from '../../public/herosection1.png'
 import Image from 'next/image'
+
 const HeroSection = () => {
   return (
     <div className='bg-secondary text-white lg:h-[580px] h-full py-10 flex justify-center items-center' >
@@ -29,6 +30,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+     
     </div>
   )
 }
