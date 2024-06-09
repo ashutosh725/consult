@@ -11,10 +11,11 @@ module.exports = {
         center: true,
         padding: {
           DEFAULT: '1rem',
-        sm: '',
+        sm: '1rem',
+        md: '1rem',
         lg: '',
-        xl: '3rem',
-        '2xl': '4rem',
+        xl: '',
+        '2xl': '',
          
         },  
       },
