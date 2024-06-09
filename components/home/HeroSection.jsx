@@ -5,13 +5,13 @@ import Image from 'next/image'
 
 const HeroSection = () => {
   return (
-    <div className='bg-secondary text-white lg:h-[580px] h-full py-10 flex justify-center items-center' >
+    <div className='bg-secondary text-white sm:h-[580px] h-full py-10 flex justify-center items-center' >
       <div className='container mx-auto'>
-        <div className='flex flex-col lg:flex-row gap-10 justify-center items-center'>
-          <div className='w-full lg:w-[50%] '>
+        <div className='flex flex-col sm:flex-row gap-10 justify-center items-center'>
+          <div className='w-full sm:w-[50%] '>
 <div className='flex flex-col justify-center lg:items-start items-center gap-5'>
-<h5 className='text-primary text-[20px] font-Poppins text-center lg:text-start font-semibold tracking-wide'>{`India's No 1 Smartest Counselling Platform`}</h5>
-            <h1 className='text-[40px] font-Jost text-center lg:text-start  font-bold leading-[45px]'>{`Study MBBS, MD/MS, BDS, MDS And Other Medical Courses`}</h1>
+<h5 className='text-primary text-[20px] font-Poppins text-center sm:text-start font-semibold tracking-wide'>{`India's No 1 Smartest Counselling Platform`}</h5>
+            <h1 className='text-[40px] font-Jost text-center sm:text-start  font-bold leading-[45px]'>{`Study MBBS, MD/MS, BDS, MDS And Other Medical Courses`}</h1>
             <h2 className=' text-[20px] font-Poppins font-bold tracking-wide'>{`Build Career In Medical Profession`}</h2>
 </div>
 <div className='flex lg:justify-start justify-center items-center gap-3 my-16'>
@@ -23,7 +23,7 @@ const HeroSection = () => {
       </div>
 </div>
           </div>
-          <div className='w-full lg:w-[50%]'>
+          <div className='w-full sm:w-[50%]'>
            <div className='bg-primary rounded-full flex justify-center items-center px-4'>
             <Image src={Hero} alt='hero' className='w-full h-full object-cover '/>
            </div>

@@ -5,8 +5,10 @@ import Link from 'next/link';
 import React from 'react'
 import { IoClose } from "react-icons/io5";
 
-const StockModel = ({handleCloseStockModel, handleOpenStockModel, item}) => {
-
+const StockModel = ({handleCloseStockModel, handleOpenStockModel, item, pdfUrl }) => {
+  const handleDownload = () => {
+    window.open(pdfUrl, '_blank');
+};
   return (
     <div>
        <div
@@ -30,7 +32,7 @@ const StockModel = ({handleCloseStockModel, handleOpenStockModel, item}) => {
     <p className='py-3 font-medium text-secondary'>₹  {item.price}</p>
     <div className='flex justify-center items-center mt-6 gap-10'>
       <button  className='py-2 px-5 lg:w-[200px] w-full bg-primary  font-medium text-secondary rounded-md'>Buy Now</button>
-      <button  className='py-2 px-5 lg:w-[200px] w-full bg-secondary font-medium text-white rounded-md'>Download E-Book</button>
+      <button   onClick={handleDownload} className='py-2 px-5 lg:w-[200px] w-full bg-secondary font-medium text-white rounded-md'>Download E-Book</button>
     </div>
   </div>
 
