@@ -17,7 +17,7 @@ const StockModel = ({handleCloseStockModel, handleOpenStockModel, item}) => {
       >
        <div className='relative   bg-white md:p-12 p-8 rounded-md shadow-md'>
        
-    <div className='flex   justify-center items-center pt-5 gap-10'>
+    <div className='flex flex-col h-[500px] md:h-full overflow-y-scroll lg:overflow-y-hidden  lg:flex-row lg:w-[850px] w-full   pt-5 gap-10'>
    
   <div  className='w-full lg:w-[50%]'>
     <div>
@@ -25,12 +25,12 @@ const StockModel = ({handleCloseStockModel, handleOpenStockModel, item}) => {
     </div>
   </div>
   <div  className='w-full lg:w-[50%]'>
-    <h4 className='text-[25px] font-semibold font-Jost'>Neet UG 2024 {item.Title} Counselling Guidance E-Book</h4>
-    <p>{item.description}</p>
-    <p className='py-3'>{item.price}</p>
+    <h4 className='text-[20px] font-semibold font-Jost'>Neet UG 2024 {item.Title} Counselling Guidance E-Book</h4>
+    <p className='text-[15px] font-Jost text-justify'>{item.description}</p>
+    <p className='py-3 font-medium text-secondary'>₹  {item.price}</p>
     <div className='flex justify-center items-center mt-6 gap-10'>
-      <button  className='py-2 px-5 bg-black text-white rounded-md'>Add To Cart</button>
-      <button  className='py-2 px-5 bg-black text-white rounded-md'>Download E-Book</button>
+      <button  className='py-2 px-5 lg:w-[200px] w-full bg-primary  font-medium text-secondary rounded-md'>Buy Now</button>
+      <button  className='py-2 px-5 lg:w-[200px] w-full bg-secondary font-medium text-white rounded-md'>Download E-Book</button>
     </div>
   </div>
 
