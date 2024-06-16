@@ -322,9 +322,9 @@ Study Medical Abroad
                        INI-CET
                         </Link>
                         <Link
-                          href={"/ebook/ini-cet"}
-                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary  hover:bg-secondary hover:text-white ${activeLink === '/ebook/ini-cet' ? 'text-secondary' : ''}`}
-                          onClick={() => handleSetActiveLink('/ebook/ini-cet')}
+                          href={"/ebook/"}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary  hover:bg-secondary hover:text-white ${activeLink === '/ebook/' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/ebook/')}
                         >
                      NEET-PG
                         </Link>
