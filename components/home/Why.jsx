@@ -12,8 +12,7 @@ import Box8 from '../../public/m8-removebg-preview.png'
 import Box9 from '../../public/m9-removebg-preview.png'
 import Box10 from '../../public/m10-removebg-preview.png'
 import Image from 'next/image'
-import {motion} from 'framer-motion'
-import { fadeIn } from "@/variants";
+
 import Link from 'next/link'
 
 const Why = () => {
@@ -26,11 +25,8 @@ const Why = () => {
           <h2 className='text-[#2a2131] md:text-[36px] text-[24px] text-center font-Jost font-[500]'>Browse Popular Medical PG Courses</h2>
           <span className='w-[150px] h-[5px] bg-[#ffda00]'></span>
         </div>
-        <motion.div
-          variants={fadeIn('up', 0.4)}
-          initial='hidden' 
-         whileInView={'show'}
-         viewport={{once: false, amount: 0.3}}
+        <div
+          
         className='grid grid-cols-1 lg:grid-cols-5 md:grid-cols-2 gap-4 mt-16'>
         <div className='relative group bg-[#5a1e91] pt-[50px] pb-[30px] pl-[50px] pr-[50px] border-[1px] border-[#f5f5f5] rounded-t-[20px] border-solid flex flex-col justify-center gap-5 transition-all duration-500 ease-in-out  hover:bg-[#ffda00]'>
     <div>
@@ -130,7 +126,7 @@ const Why = () => {
         <Link href={'/ms-general-surgery'}  className='py-[14px] px-[30px] text-[17px] font-Poppins font-[500] bg-[#ffda00] text-[#5a1e91] rounded-[5px]'>Details</Link >
     </div>
 </div>
-        </motion.div>
+        </div>
         <div className='flex justify-center items-center mt-12'>
         <Link  href={'/contact'} className='text-[18px] font-Jost tracking-wide bg-[#5a1e91] rounded-ss-[20px] rounded-br-[20px] font-bold   py-[20px] px-[40px]  text-white hover:bg-[#ffda00] shadow-xl'>Contact Us</Link >
       </div>

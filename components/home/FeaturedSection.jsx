@@ -6,8 +6,7 @@ import Link from 'next/link'
  import Pg3 from '../../public/franchise-icon.png'
  import Pg4 from '../../public/ui-ux-icon.png'
 import Image from 'next/image'
-import {motion} from 'framer-motion'
-import { fadeIn } from "@/variants";
+
 import ContactModel from '../common/ContactModel';
 const FeaturedSection = () => {
   const [contactmodel, setContactModel] = useState(false);
@@ -22,11 +21,8 @@ const FeaturedSection = () => {
   return (
     <div className={`py-20`}>
     <div className='container mx-auto'>
-       <motion.div
-        variants={fadeIn('up', 0.4)}
-        initial='hidden' 
-       whileInView={'show'}
-       viewport={{once: false, amount: 0.3}}
+       <div
+      
        className='flex flex-col lg:flex-row justify-center items-center gap-10'>
      <div className='lg:w-[40%] w-full flex flex-col lg:justify-start lg:items-start justify-center items-center'>
       <h3 className='text-[#4a1e75] font-Jost font-[600] md:text-[36px] text-[22px]'>Welcome to Nscx Education </h3>
@@ -73,7 +69,7 @@ const FeaturedSection = () => {
 </div>
       </div>
      </div>
-       </motion.div>
+       </div>
     </div>
     {contactmodel && <ContactModel handleCloseContactModel={handleCloseContactModel} handleOpenContactModel={handleOpenContactModel}/>}
     </div>
