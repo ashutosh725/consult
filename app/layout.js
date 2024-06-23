@@ -9,7 +9,7 @@ import Chat from "@/components/common/Chat";
 
 export const metadata = {
   title: "Nscx Education India",
-  description: "created by ashutosh (8769206069)",
+  description: "MD MS, MBBS admission in India and Abroad | Rank Based Course & College Prediction | Confirm Admission under NRI/Management/IP Quota | NEET Counselling 2024",
 };
 
 export default function RootLayout({ children }) {

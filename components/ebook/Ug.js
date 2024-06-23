@@ -111,7 +111,7 @@ const listitems = [
         description: `JKBOPEE conducts counseling for NEET UG in Jammu and Kashmir. This e-book provides the government colleges' cutoffs for the academic year 2023-24, offering the latest insights and updates to effectively guide your NEET UG journey. Gain essential information to confidently navigate the NEET UG admissions process with this resource. Stay informed and make informed decisions about your medical education in Jammu and Kashmir.`,
         img: H11,
         pdf: "/UG_E-BOOK_JK_23-24.pdf",
-        price: 499,
+        price: 1,
     },
 
     {
@@ -120,7 +120,7 @@ const listitems = [
         description: `Explore the annual counseling conducted by Andhra Pradesh Dr. YSR University of Health Sciences (dr.ysruhs) for NEET UG, specifically focusing on private colleges' management quota (MQ) seat cutoffs for the 2023-24 academic year. Stay informed about the latest updates and official notifications regarding seat availability and cutoff scores. It's crucial to seek expert guidance to navigate through the counseling process effectively. Make informed decisions about your NEET UG admissions by staying updated with the latest information and seeking advice from knowledgeable sources.`,
         img: H12,
         pdf: "/AP-MBBSNEETUG_CUTOFF_23-24.pdf",
-        price: 499,
+        price: 19,
     },{
         id: 13,
         Title: ` Pondicherry State`,
