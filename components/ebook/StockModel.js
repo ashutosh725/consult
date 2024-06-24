@@ -3,6 +3,8 @@ import Script from "next/script";
 import Image from 'next/image';
 import React, { useState, useEffect } from 'react';
 import { IoClose } from "react-icons/io5";
+import { useRouter } from "next/navigation";
+
 
 const StockModel = ({ handleCloseStockModel, item, pdfUrl }) => {
   const [formData, setFormData] = useState({
@@ -13,6 +15,7 @@ const StockModel = ({ handleCloseStockModel, item, pdfUrl }) => {
   });
   const [formValid, setFormValid] = useState(false);
   const [isProcessingPayment, setIsProcessingPayment] = useState(false);
+  const router = useRouter(); // Using useRouter
 
   useEffect(() => {
     validateForm();
@@ -63,16 +66,20 @@ const StockModel = ({ handleCloseStockModel, item, pdfUrl }) => {
           contact: formData.mobile,
         },
         handler: function (response) {
-          alert("Payment successful");
-          handleDownload();
-          console.log("payment successfully")
+          
+        
+          console.log("payment successfully");
           setIsProcessingPayment(false);
+          router.push('/payment-success'); 
+          handleDownload();
+          // Redirect to success-payment page
         },
         modal: {
           ondismiss: function () {
             alert("Payment failed. Please try again. Contact support for help");
-            console.log("payment failed")
+            console.log("payment failed");
             setIsProcessingPayment(false);
+            router.push('/payment-failure');
           }
         }
       };
@@ -85,7 +92,6 @@ const StockModel = ({ handleCloseStockModel, item, pdfUrl }) => {
       setIsProcessingPayment(false);
     }
   };
-  
 
   return (
     <div>
@@ -98,7 +104,7 @@ const StockModel = ({ handleCloseStockModel, item, pdfUrl }) => {
         className={`flex overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] bg-[rgba(0,0,0,0.40)] max-h-full`}
       >
         <div className='relative bg-white md:p-12 p-8 rounded-md shadow-md'>
-          <div className='flex flex-col h-[500px] md:h-full overflow-y-scroll lg:overflow-y-hidden lg:flex-row lg:w-[900px] w-full pt-5 gap-10'>
+          <div className='flex flex-col h-[500px]  overflow-y-scroll  lg:flex-row lg:w-[900px] w-full pt-5 gap-10'>
             <div className='w-full lg:w-[50%]'>
               <div>
                 <Image src={item.img} alt='' className='w-full h-full object-cover' />
@@ -108,7 +114,8 @@ const StockModel = ({ handleCloseStockModel, item, pdfUrl }) => {
               <p className='py-3 font-medium text-secondary'>₹ {item.price}</p>
             </div>
             <div className='w-full lg:w-[50%] '>
-              <form className="flex flex-col gap-3">
+              <h4 className="text-[32px] font-Jost text-center text-secondary font-semibold">Get E-Book</h4>
+              <form className="flex flex-col gap-3 pt-6">
                 <div>
                   <input
                     type="text"
