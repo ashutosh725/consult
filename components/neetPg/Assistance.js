@@ -188,11 +188,8 @@ NEET PG Counselling Assistance</h3>
     </div>
 <div className='bg-[#F7FDFB] py-20'>
     <div className='container mx-auto'>
-       <motion.div 
-       variants={fadeIn('up', 0.4)}
-       initial='hidden' 
-      whileInView={'show'}
-      viewport={{once: false, amount: 0.3}}
+       <div 
+      
        className="flex justify-center items-center gap-10">
         <div className="w-full lg:w-[50%]">
             <Image src={A} alt="" className="w-full h-full object-cover slow-bounce "/>
@@ -234,7 +231,7 @@ Get Consultation`}</p>
 </div>
             </div>
         </div>
-       </motion.div>
+       </div>
     </div>
 </div>
 <motion.div
@@ -255,11 +252,8 @@ className="bg-[#d1e4dd] flex justify-center items-center h-[230px]">
         <h3 className='text-[32px] font-Open font-medium'>{`NEET PG 2024 COUNSELLING PROCESS`}</h3>
         <p className='text-center text-[20px] font-Jost font-[400]'>{`PG medical counseling begins with basic registration and choice filling /choice locking with the concerned counselling authorities which is followed by seat allotment and reporting to the allotted institute.`}</p>
     </div>
-    <motion.div
-    variants={fadeIn('up', 0.4)}
-    initial='hidden' 
-   whileInView={'show'}
-   viewport={{once: false, amount: 0.3}}
+    <div
+  
     className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  justify-start items-start gap-5 pt-10 '>
                 <div className='bg-[#28bd86] lg:h-[300px] h-full rounded-lg shadow-lg flex flex-col justify-start items-center gap-5 py-10 px-7'>
                     <span className='bg-white p-3 rounded-md'>1</span>
@@ -281,7 +275,7 @@ className="bg-[#d1e4dd] flex justify-center items-center h-[230px]">
                     <h5 className='text-[18px] text-white text-center font-Open font-semibold'>{`Reporting`}</h5>
                     <p className='text-[16px] text-white text-center'>{`Report to the allotted medical institute along with the required documents and DD and complete the joining formalities.`}</p>
                 </div>
-            </motion.div>
+            </div>
 </div>
     </div>
 
@@ -525,7 +519,7 @@ className="">
          </div>
         <div className='bg-[#f5f5f5]'>
         <div className='container mx-auto py-20'>
-            <div className='flex items-center'>
+            <div className='flex flex-col lg:flex-row items-center'>
                 <div className='lg:w-[33%] w-full'>
                     <h3 className='lg:text-[40px] text-[28px] font-bold font-Poppins'>What People Say About Us</h3>
                 </div>
