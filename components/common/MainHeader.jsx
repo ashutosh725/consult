@@ -353,8 +353,8 @@ Study Medical Abroad
                 neet result 2023
               </Link>
             </div>
-            <div className="lg:hidden flex" onClick={toggleMobileNav}>
-              <GiHamburgerMenu className="text-[28px] cursor-pointer" />
+            <div className="lg:hidden bg-secondary rounded-md hover:bg-primary text-white p-1 flex" onClick={toggleMobileNav}>
+              <GiHamburgerMenu className="text-[25px] cursor-pointer" />
             </div>
           </div>
         </div>

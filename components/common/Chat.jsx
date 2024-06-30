@@ -30,13 +30,13 @@ const Chat = () => {
 
   return (
     <div>
-      <div className='bg-[#000000] fixed cursor-pointer left-0 md:top-[32%] top-[40%] z-50  px-[8px]   py-2' onClick={handleArrowClick}>
+      <div className='bg-[#000000] hidden lg:flex  fixed cursor-pointer left-0 md:top-[32%] top-[40%] z-50  px-[8px]   py-2' onClick={handleArrowClick}>
         <FaLongArrowAltRight className='text-white  font-bold text-[20px]' />
       </div>
 
       {/* Buttons that toggle visibility */}
       {isVisible && (
-        <div className="fixed left-0 md:top-[70%] top-[75%] z-50">
+        <div className="hidden lg:flex fixed left-0 md:top-[70%] top-[75%] z-50">
           <ul className='list-none flex flex-col justify-center items-center gap-0 m-0 p-0'>
             <li className="flex flex-col items-center gap-0">
               <button onClick={handleOpenContactModel} className='bg-[#7761DF] px-6 py-[7px] tracking-wider text-[14px] text-white transform -rotate-90 origin-top-left' >
