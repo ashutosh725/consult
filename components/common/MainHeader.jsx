@@ -341,16 +341,68 @@ Study Medical Abroad
                 </div>
               </div>
             </li>
-            
+            <li>
+              <div className="hidden lg:flex relative group px-3 py-2">
+                <div className="flex justify-center items-center space-x-3">
+                  <div
+                  
+                    className={`hidden lg:flex text-[15px] font-Roboto tracking-wide font-semibold text-secondary  hover:text-secondary duration-300 transition-all ${activeLink === '/mbbs' ? 'text-secondary' : ''}`}
+                 
+                  >
+                  Neet Result
+                  </div>
+                  <svg
+                    className="w-2.5 h-2.5 ms-2.5 text-secondary"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 10 6"
+                  >
+                    <path
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="m1 1 4 4 4-4"
+                    />
+                  </svg>
+                </div>
+                <div
+                  className={`absolute top-0 -left-7 transition group-hover:translate-y-5 translate-y-0 opacity-0 invisible group-hover:opacity-100 group-hover:visible duration-500 ease-in-out group-hover:transform z-50 min-w-[200px] transform `}
+                >
+                  <div className="relative top-8  bg-gray-200  rounded-ss-[20px] rounded-br-[20px] shadow-md  w-full">
+                    <div className="relative z-10 ">
+                      <div className="">
+                        <Link
+                          href={"/"}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b hover:rounded-ss-[20px]   border-b-secondary hover:bg-secondary hover:text-white ${activeLink === '/' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/')}
+                        >
+                      NEET UG Result
+                        </Link>
+                        <Link
+                          href={"/"}
+                          className={`block py-2 font-medium font-Jost text-secondary  text-center border-b  border-b-secondary  hover:bg-secondary hover:text-white ${activeLink === '/' ? 'text-secondary' : ''}`}
+                          onClick={() => handleSetActiveLink('/')}
+                        >
+                     NEET-PG Result
+                        </Link>
+                        
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </li>
 
           </ul>
           <div className="flex justify-center items-center gap-3">
             <div className="hidden lg:flex">
               <Link
-                href={"/neet-result-2023"}
+                href={"/"}
                 className="hover:text-secondary border hover:bg-transparent hover:border-secondary border-white bg-secondary text-white duration-500 transition-all font-bold shadow-md rounded-full lg:text-[14px] text-[12px] px-6 py-3 text-center flex justify-center uppercase items-start "
               >
-                neet result 2023
+                Login / Register
               </Link>
             </div>
             <div className="lg:hidden bg-secondary rounded-md hover:bg-primary text-white p-1 flex" onClick={toggleMobileNav}>

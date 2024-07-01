@@ -10,13 +10,13 @@ const HeroSection = () => {
         <div className='flex flex-col md:flex-row gap-10 justify-center items-center'>
           <div className='w-full md:w-[50%] '>
 <div className='flex flex-col justify-center lg:items-start items-center gap-5'>
-<h5 className='text-primary text-[20px] font-Poppins text-center md:text-start font-semibold tracking-wide'>{`India's No 1 Smartest Counselling Platform`}</h5>
-            <h1 className='text-[40px] font-Jost text-center md:text-start  font-bold leading-[45px]'>{`Study MBBS, MD/MS, BDS, MDS And Other Medical Courses`}</h1>
-            <h2 className=' text-[20px] font-Poppins font-bold tracking-wide'>{`Build Career In Medical Profession`}</h2>
+<h5 className='text-primary md:text-[20px] text-[18px] font-Poppins text-start font-semibold tracking-wide'>{`India's No 1 Smartest Counselling Platform`}</h5>
+            <h1 className='md:text-[40px] text-[25px] font-Jost text-start  font-bold leading-[45px]'>{`Study MBBS, MD/MS, BDS, MDS And Other Medical Courses`}</h1>
+            <h2 className=' text-[20px] font-Poppins md:font-bold font-medium tracking-wide'>{`Build Career In Medical Profession`}</h2>
 </div>
-<div className='flex lg:justify-start justify-center items-center gap-3 my-16'>
+<div className='flex justify-start flex-col lg:flex-row  lg:items-center gap-7 my-16'>
   <div>
-    <input type='text' placeholder='Enter your email' className='placeholder:text-primary bg-transparent outline-none border-b-2 border-b-primary py-3'/>
+    <input type='text' placeholder='Enter your email' className='placeholder:text-primary bg-transparent outline-none w-full border-b-2 border-b-primary py-3'/>
   </div>
   <div >
         <Link href={'/contact'} className='text-[18px] font-Jost tracking-wide rounded-ss-[20px] rounded-br-[20px] font-bold text-[#4a1e75] border-[1px] border-[#4a1e75] md:py-[20px] md:px-[40px] py-[16px] px-[32px] bg-primary hover:bg-transparent hover:border-primary hover:text-white shadow-xl'>Contact Us</Link>
